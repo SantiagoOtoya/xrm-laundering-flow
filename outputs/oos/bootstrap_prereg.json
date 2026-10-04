@@ -1,0 +1,19 @@
+{
+  "rows": 9716,
+  "calendar_hours": 16864,
+  "blocks_per_resample": 101,
+  "statistic": "mean(market per-row log loss - presence per-row log loss); positive favors presence",
+  "observed_mean_difference": 0.0003843239475932596,
+  "one_sided_p": 0.1312,
+  "percentile_95": [
+    -0.0002481817369354997,
+    0.0010747863008555914
+  ],
+  "block_hours": 168,
+  "resamples": 10000,
+  "seed": 20261004,
+  "rng": "Python random.Random (Mersenne Twister)",
+  "method": "Circular block bootstrap over contiguous calendar hours; block starts uniform over the pooled span; hours without an eligible row contribute nothing; no refitting.",
+  "supported": false,
+  "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/predictions.csv"
+}

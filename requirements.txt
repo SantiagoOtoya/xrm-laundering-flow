@@ -1,3 +1,4 @@
-# Python 3.12+ (TBD: confirm with the model code).
-# Final package list is set once the model code is added.
-numpy
+# Python 3.12 (recorded environment of the data build).
+# Data build (scripts/build_combined_xmr_hourly.py) needs numpy and pandas; model packages are added with the model code.
+numpy==2.3.5
+pandas==2.2.3

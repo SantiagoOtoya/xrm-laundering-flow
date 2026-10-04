@@ -1,0 +1,160 @@
+{
+  "dev_fold_1_presence": {
+    "days": 474,
+    "net_return": 0.0,
+    "annualized_return": 0.0,
+    "annualized_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": 0.0,
+    "max_drawdown_observed": 0.0,
+    "completed_trades": 0,
+    "turnover_per_year": 0.0,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_presence.json"
+  },
+  "dev_fold_1_presence_2x": {
+    "days": 474,
+    "net_return": 0.0,
+    "annualized_return": 0.0,
+    "annualized_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": 0.0,
+    "max_drawdown_observed": 0.0,
+    "completed_trades": 0,
+    "turnover_per_year": 0.0,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_presence_double_cost.json"
+  },
+  "dev_fold_1_buy_hold": {
+    "days": 474,
+    "net_return": 0.3973391691949486,
+    "annualized_return": 0.29386374064713805,
+    "annualized_volatility": 1.1697413771063452,
+    "sharpe": 0.7852773001394776,
+    "max_drawdown": null,
+    "max_drawdown_observed": 0.7430869759416054,
+    "completed_trades": 1,
+    "turnover_per_year": 1.86145315771341,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_buy_hold.json"
+  },
+  "dev_fold_2_presence": {
+    "days": 474,
+    "net_return": 0.0,
+    "annualized_return": 0.0,
+    "annualized_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": 0.0,
+    "max_drawdown_observed": 0.0,
+    "completed_trades": 0,
+    "turnover_per_year": 0.0,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_presence.json"
+  },
+  "dev_fold_2_presence_2x": {
+    "days": 474,
+    "net_return": 0.0,
+    "annualized_return": 0.0,
+    "annualized_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": 0.0,
+    "max_drawdown_observed": 0.0,
+    "completed_trades": 0,
+    "turnover_per_year": 0.0,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_presence_double_cost.json"
+  },
+  "dev_fold_2_buy_hold": {
+    "days": 474,
+    "net_return": -0.12942105263157888,
+    "annualized_return": -0.10122756565151314,
+    "annualized_volatility": 0.6602522694163009,
+    "sharpe": 0.1686351848643807,
+    "max_drawdown": null,
+    "max_drawdown_observed": 0.6632071488882634,
+    "completed_trades": 1,
+    "turnover_per_year": 1.4558255607372863,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_buy_hold.json"
+  },
+  "dev_fold_3_presence": {
+    "days": 474,
+    "net_return": 0.0,
+    "annualized_return": 0.0,
+    "annualized_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": 0.0,
+    "max_drawdown_observed": 0.0,
+    "completed_trades": 0,
+    "turnover_per_year": 0.0,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_presence.json"
+  },
+  "dev_fold_3_presence_2x": {
+    "days": 474,
+    "net_return": 0.0,
+    "annualized_return": 0.0,
+    "annualized_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": 0.0,
+    "max_drawdown_observed": 0.0,
+    "completed_trades": 0,
+    "turnover_per_year": 0.0,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_presence_double_cost.json"
+  },
+  "dev_fold_3_buy_hold": {
+    "days": 474,
+    "net_return": -0.07408666215948201,
+    "annualized_return": -0.05755123122311745,
+    "annualized_volatility": 0.524849247448189,
+    "sharpe": 0.22871672421881206,
+    "max_drawdown": null,
+    "max_drawdown_observed": 0.42275670595656667,
+    "completed_trades": 1,
+    "turnover_per_year": 1.498435376185209,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_buy_hold.json"
+  },
+  "oos_presence": {
+    "days": 713,
+    "net_return": 0.0069173967459323915,
+    "annualized_return": 0.0035352063587146265,
+    "annualized_volatility": 0.005540529956054106,
+    "sharpe": 0.6397058458440936,
+    "max_drawdown": 0.0073848778734521,
+    "max_drawdown_observed": 0.0073848778734521,
+    "completed_trades": 1,
+    "turnover_per_year": 0.10694929847442541,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/presence.json"
+  },
+  "oos_presence_2x": {
+    "days": 713,
+    "net_return": 0.00491739674593239,
+    "annualized_return": 0.0025143073802174065,
+    "annualized_volatility": 0.005881523056154933,
+    "sharpe": 0.4298940192692355,
+    "max_drawdown": 0.007399507711914111,
+    "max_drawdown_observed": 0.007399507711914111,
+    "completed_trades": 1,
+    "turnover_per_year": 0.10694929847442541,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/presence_double_cost.json"
+  },
+  "oos_buy_hold": {
+    "days": 713,
+    "net_return": 2.343347655520269,
+    "annualized_return": 0.8549823337499174,
+    "annualized_volatility": 0.7679499246762476,
+    "sharpe": 1.2656735193482136,
+    "max_drawdown": null,
+    "max_drawdown_observed": 0.6429848306989249,
+    "completed_trades": 1,
+    "turnover_per_year": 2.2336912963042046,
+    "source": "hourly_models/docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/buy_and_hold.json"
+  },
+  "binance_hourly_volume_usd": {
+    "outer_1": {
+      "hours": 11365,
+      "median_usd": 463894.57125
+    },
+    "outer_2": {
+      "hours": 11389,
+      "median_usd": 185606.74835999997
+    },
+    "outer_3_to_delisting": {
+      "hours": 5557,
+      "median_usd": 137552.0627028002
+    }
+  }
+}
