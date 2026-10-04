@@ -1,0 +1,3 @@
+# Python 3.12+ (TBD: confirm with the model code).
+# Final package list is set once the model code is added.
+numpy

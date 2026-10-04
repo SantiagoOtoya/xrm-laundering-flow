@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS
+.DS_Store
+
+# Raw or licensed data (never committed)
+data/raw/**
+!data/raw/**/
+!data/raw/binance/official_verification.json
+data/**/*.csv.gz
+data/**/*.zip
+
+# Interrupted runs
+outputs/**/*.tmp-*

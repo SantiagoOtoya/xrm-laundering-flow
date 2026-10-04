@@ -1,0 +1,32 @@
+{
+  "local_archive_candle_omissions": 0,
+  "local_stored_trade_stream_minute_omissions": 0,
+  "archive_candles_reconciled": 1959131,
+  "api_minutes_reconciled": 94255,
+  "archive_absent_minutes": 3033349,
+  "api_absent_minutes": 41105,
+  "raw_archive_sha256": "1a441be26533de214cb0870fd51890fc90223ef8b25a6701a66816ce4404d993",
+  "normalized_minute_sha256": "fc59f062a11123e4b98e1aa760feacea2c8a1c3b9a3d21b07dbbcb1af1ef20e0",
+  "api_tail_audit": {
+    "api_pages": 763,
+    "unique_trades_in_requested_tail": 761308,
+    "duplicate_trades_removed": 762,
+    "missing_trade_ids_between_observed_ids": 0,
+    "tail_complete_to_cutoff": true,
+    "all_page_hashes_verified": true,
+    "cursor_chain_verified": true,
+    "last_api_cursor": "1791012790206971200",
+    "first_tail_trade_at_utc": "2026-07-01T00:00:16Z"
+  },
+  "archive_interpretation": "Kraken explicitly publishes only intervals containing trades; absent source candles report no trades, not local collection loss",
+  "archive_completeness_limit": "Agreement proves faithful import of the published archive, not independently audited exchange trade history",
+  "api_interpretation": "Saved cursor chain reaches cutoff with contiguous included trade IDs; absent minute buckets contain no trades in that verified stream",
+  "binance_interpretation": "All 76 supplied monthly CSVs exactly match official ZIP payloads; explicit zero-trade candles show sparse trading, missing source timestamps remain upstream gaps of unknown cause",
+  "market_scope": "No trades on a particular venue/pair does not imply no Monero trading elsewhere",
+  "sources": [
+    "https://support.kraken.com/articles/360047124832-downloadable-historical-ohlcvt-open-high-low-close-volume-trades-data",
+    "https://blog.kraken.com/news/system-upgrade",
+    "https://blog.kraken.com/news/kraken-returns-with-free-trading",
+    "https://github.com/binance/binance-public-data"
+  ]
+}

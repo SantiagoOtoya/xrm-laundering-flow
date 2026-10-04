@@ -1,0 +1,102 @@
+{
+  "pair": "BTC/USD",
+  "venue": "Kraken spot",
+  "bar_seconds": 3600,
+  "requested_start_utc": "2017-01-02T00:00:00Z",
+  "requested_end_exclusive_utc": "2026-10-03T00:00:00Z",
+  "hour_timestamp": "UTC interval start; the full candle is available only after the hour ends",
+  "forward_filled": false,
+  "cross_exchange_aggregate": false,
+  "source_path": "data/prices/btc_usd_1m.csv.gz",
+  "source_sha256_csv_gz": "af2130d776262732718623e5b6bd38f0e6c548e60d78e903e15a53c9f2aa2466",
+  "builder_sha256": "abd03fbcd017bebf2f5eaf603df759a5068d029a4f34717da5f4ee9567f309fe",
+  "sha256_csv": "fdbbfb377438eff77c3d98e56b66094b0782506d997be5a679a73533bf16deaf",
+  "first_observed_hour_utc": "2017-01-02T00:00:00Z",
+  "last_observed_hour_utc": "2026-10-02T23:00:00Z",
+  "calendar_hours": 85464,
+  "observed_hours": 85382,
+  "empty_hours": 82,
+  "partially_observed_hours": 34353,
+  "hours_with_60_observed_minutes": 51029,
+  "observed_minutes": 4852295,
+  "trade_count": 109461794,
+  "volume_method": "sum_minute_close_times_base_volume_estimate",
+  "empty_hour_policy": "blank OHLC and volumes; zero observed minutes and trade count",
+  "open_delay_seconds": "first observed minute start minus hour start",
+  "close_age_seconds": "hour end minus last observed minute start; not the exact last-trade age",
+  "yearly": {
+    "2017": {
+      "calendar_hours": 8736,
+      "partially_observed_hours": 6522,
+      "observed_minutes": 429790,
+      "hours_with_60_observed_minutes": 2214
+    },
+    "2018": {
+      "calendar_hours": 8760,
+      "partially_observed_hours": 6548,
+      "observed_minutes": 455046,
+      "hours_with_60_observed_minutes": 2161,
+      "empty_hours": 51
+    },
+    "2019": {
+      "calendar_hours": 8760,
+      "partially_observed_hours": 6974,
+      "observed_minutes": 466937,
+      "hours_with_60_observed_minutes": 1783,
+      "empty_hours": 3
+    },
+    "2020": {
+      "calendar_hours": 8784,
+      "partially_observed_hours": 5749,
+      "observed_minutes": 496855,
+      "hours_with_60_observed_minutes": 3034,
+      "empty_hours": 1
+    },
+    "2021": {
+      "calendar_hours": 8760,
+      "partially_observed_hours": 1872,
+      "observed_minutes": 520026,
+      "hours_with_60_observed_minutes": 6882,
+      "empty_hours": 6
+    },
+    "2022": {
+      "calendar_hours": 8760,
+      "partially_observed_hours": 2167,
+      "observed_minutes": 520793,
+      "hours_with_60_observed_minutes": 6593
+    },
+    "2023": {
+      "calendar_hours": 8760,
+      "hours_with_60_observed_minutes": 7505,
+      "observed_minutes": 522946,
+      "partially_observed_hours": 1254,
+      "empty_hours": 1
+    },
+    "2024": {
+      "calendar_hours": 8784,
+      "partially_observed_hours": 2319,
+      "observed_minutes": 520917,
+      "hours_with_60_observed_minutes": 6454,
+      "empty_hours": 11
+    },
+    "2025": {
+      "calendar_hours": 8760,
+      "hours_with_60_observed_minutes": 7913,
+      "observed_minutes": 523238,
+      "partially_observed_hours": 838,
+      "empty_hours": 9
+    },
+    "2026": {
+      "calendar_hours": 6600,
+      "hours_with_60_observed_minutes": 6490,
+      "observed_minutes": 395747,
+      "partially_observed_hours": 110
+    }
+  },
+  "limitations": [
+    "An unobserved minute may mean no trades or missing source records; it does not prove exchange downtime.",
+    "60 observed minutes does not certify complete exchange records or historical bid/ask coverage.",
+    "USD volume is an estimate using minute close times base volume, not exact traded dollar notional.",
+    "Hourly rows do not increase the independent incident count or establish a predictive advantage."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "calendar_rows_checked": 85464,
+  "usd_closes_independently_recalculated": 84399,
+  "xmr_btc_closes_independently_recalculated": 84270,
+  "native_binance_ohlcvt_hours_checked": 54542,
+  "coverage_classes_reconciled": true,
+  "source_inputs_and_original_hourly_files_unchanged": true,
+  "csv_sha256": "daec6f4c098c7c8267a705973afbd0f51e4ba5f18338f0524242420a4d1e4c45"
+}

@@ -1,0 +1,19 @@
+{
+  "pair": "BTC/USD",
+  "source_sha256_csv_gz": "af2130d776262732718623e5b6bd38f0e6c548e60d78e903e15a53c9f2aa2466",
+  "hourly_sha256_csv": "fdbbfb377438eff77c3d98e56b66094b0782506d997be5a679a73533bf16deaf",
+  "daily_sha256_csv": "438c7c6159d615d1be15e914e7853f4774774e38529fb13107b401796e9040fe",
+  "independent_validator_sha256": "686d74fafe556a4859274b018f26118eadcec99f8eebd5d6c64a4f340512f0d2",
+  "hours": 85464,
+  "observed_hours": 85382,
+  "empty_hours": 82,
+  "observed_minutes": 4852295,
+  "trades": 109461794,
+  "daily_rows_reconciled": 3561,
+  "all_hourly_ohlc_volumes_counts_and_timestamps_match_source_minutes": true,
+  "empty_hours_are_blank_and_not_forward_filled": true,
+  "daily_close_and_minute_counts_reconciled_exactly": true,
+  "daily_estimated_usd_volume_tolerance": "1E-8",
+  "maximum_daily_estimated_usd_volume_difference": "2.4E-19",
+  "no_incident_outcomes_computed": true
+}

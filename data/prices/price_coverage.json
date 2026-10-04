@@ -1,0 +1,264 @@
+{
+  "venue": "Kraken spot",
+  "cross_exchange_aggregate": false,
+  "bar_seconds": 60,
+  "requested_start_utc": "2017-01-02T00:00:00Z",
+  "requested_end_exclusive_utc": "2026-10-03T00:00:00Z",
+  "archive_end_exclusive_utc": "2026-07-01T00:00:00Z",
+  "forward_filled": false,
+  "coins": {
+    "XMR": {
+      "pair": "XMR/USD",
+      "kraken_api_pair": "XMRUSD",
+      "requested_start_utc": "2017-01-02T00:00:00Z",
+      "requested_end_exclusive_utc": "2026-10-03T00:00:00Z",
+      "first_observed_minute_utc": "2017-01-02T19:14:00Z",
+      "last_observed_minute_utc": "2026-10-02T23:57:00Z",
+      "observed_candles": 2053386,
+      "source_counts": {
+        "kraken_official_ohlcvt_2026q2": 1959131,
+        "kraken_public_trades_api": 94255
+      },
+      "observed_days": 3560,
+      "missing_days": [
+        "2018-01-12"
+      ],
+      "missing_days_count": 1,
+      "missing_days_inside_observed_span": [
+        "2018-01-12"
+      ],
+      "missing_intervals_inside_observed_span": 842532,
+      "missing_minutes_inside_observed_span": 3073298,
+      "largest_internal_gap_minutes": 2807,
+      "missing_minutes_in_requested_window": 3074454,
+      "longest_gap_in_requested_window": {
+        "start_utc_inclusive": "2018-01-11T12:36:00Z",
+        "end_utc_exclusive": "2018-01-13T11:23:00Z",
+        "missing_minutes": 2807
+      },
+      "leading_missing_minutes": 1154,
+      "trailing_missing_minutes": 2,
+      "forward_filled": false,
+      "sha256_csv_gz": "fc59f062a11123e4b98e1aa760feacea2c8a1c3b9a3d21b07dbbcb1af1ef20e0",
+      "tail_audit": {
+        "api_pages": 763,
+        "unique_trades_in_requested_tail": 761308,
+        "duplicate_trades_removed": 762,
+        "missing_trade_ids_between_observed_ids": 0,
+        "tail_complete_to_cutoff": true,
+        "all_page_hashes_verified": true,
+        "cursor_chain_verified": true,
+        "last_api_cursor": "1791012790206971200",
+        "first_tail_trade_at_utc": "2026-07-01T00:00:16Z"
+      },
+      "archive_member": "XMRUSD_1.csv"
+    },
+    "LTC": {
+      "pair": "LTC/USD",
+      "kraken_api_pair": "LTCUSD",
+      "requested_start_utc": "2017-01-02T00:00:00Z",
+      "requested_end_exclusive_utc": "2026-10-03T00:00:00Z",
+      "first_observed_minute_utc": "2017-01-02T00:28:00Z",
+      "last_observed_minute_utc": "2026-10-02T23:59:00Z",
+      "observed_candles": 3105699,
+      "source_counts": {
+        "kraken_official_ohlcvt_2026q2": 2980508,
+        "kraken_public_trades_api": 125191
+      },
+      "observed_days": 3560,
+      "missing_days": [
+        "2018-01-12"
+      ],
+      "missing_days_count": 1,
+      "missing_days_inside_observed_span": [
+        "2018-01-12"
+      ],
+      "missing_intervals_inside_observed_span": 804201,
+      "missing_minutes_inside_observed_span": 2022113,
+      "largest_internal_gap_minutes": 3164,
+      "missing_minutes_in_requested_window": 2022141,
+      "longest_gap_in_requested_window": {
+        "start_utc_inclusive": "2018-01-11T06:43:00Z",
+        "end_utc_exclusive": "2018-01-13T11:27:00Z",
+        "missing_minutes": 3164
+      },
+      "leading_missing_minutes": 28,
+      "trailing_missing_minutes": 0,
+      "forward_filled": false,
+      "sha256_csv_gz": "ac31b566a9f58a10b6647bca4cf884fc5a0e9b03f93dcbc08d67fd8279032dc3",
+      "tail_audit": {
+        "api_pages": 976,
+        "unique_trades_in_requested_tail": 974566,
+        "duplicate_trades_removed": 975,
+        "missing_trade_ids_between_observed_ids": 0,
+        "tail_complete_to_cutoff": true,
+        "all_page_hashes_verified": true,
+        "cursor_chain_verified": true,
+        "last_api_cursor": "1790986962069474886",
+        "first_tail_trade_at_utc": "2026-07-01T00:00:06Z"
+      },
+      "archive_member": "LTCUSD_1.csv"
+    },
+    "ZEC": {
+      "pair": "ZEC/USD",
+      "kraken_api_pair": "ZECUSD",
+      "requested_start_utc": "2017-01-02T00:00:00Z",
+      "requested_end_exclusive_utc": "2026-10-03T00:00:00Z",
+      "first_observed_minute_utc": "2017-01-02T01:01:00Z",
+      "last_observed_minute_utc": "2026-10-02T23:59:00Z",
+      "observed_candles": 1296546,
+      "source_counts": {
+        "kraken_official_ohlcvt_2026q2": 1190324,
+        "kraken_public_trades_api": 106222
+      },
+      "observed_days": 3560,
+      "missing_days": [
+        "2018-01-12"
+      ],
+      "missing_days_count": 1,
+      "missing_days_inside_observed_span": [
+        "2018-01-12"
+      ],
+      "missing_intervals_inside_observed_span": 548755,
+      "missing_minutes_inside_observed_span": 3831233,
+      "largest_internal_gap_minutes": 3161,
+      "missing_minutes_in_requested_window": 3831294,
+      "longest_gap_in_requested_window": {
+        "start_utc_inclusive": "2018-01-11T06:42:00Z",
+        "end_utc_exclusive": "2018-01-13T11:23:00Z",
+        "missing_minutes": 3161
+      },
+      "leading_missing_minutes": 61,
+      "trailing_missing_minutes": 0,
+      "forward_filled": false,
+      "sha256_csv_gz": "34daf978590b24ac7a5b5f96ef2d884c0e5f711392f313ddaeee85271a66441a",
+      "tail_audit": {
+        "api_pages": 2032,
+        "unique_trades_in_requested_tail": 2029242,
+        "duplicate_trades_removed": 2031,
+        "missing_trade_ids_between_observed_ids": 0,
+        "tail_complete_to_cutoff": true,
+        "all_page_hashes_verified": true,
+        "cursor_chain_verified": true,
+        "last_api_cursor": "1790988107481038364",
+        "first_tail_trade_at_utc": "2026-07-01T00:00:01Z",
+        "raw_page_missing_trade_ids": 2,
+        "recovered_trades_from_api_rechecks": 2,
+        "trade_recoveries": [
+          {
+            "left_id": 10657424,
+            "right_id": 10657427,
+            "recovered_ids": [
+              10657425,
+              10657426
+            ],
+            "sources": [
+              {
+                "file": "data/raw/kraken/validation/zec/trade-id-gap-recheck-10657425-10657426.json",
+                "sha256": "d53911b88d41ec3b3619f81f2605316ec9a5a53c55e3a599325a6956c0dea3b0"
+              }
+            ],
+            "interpretation": "Actual trades recovered from stored Kraken API rechecks; original pages retained"
+          }
+        ]
+      },
+      "archive_member": "ZECUSD_1.csv"
+    },
+    "BTC": {
+      "pair": "BTC/USD",
+      "kraken_api_pair": "XBTUSD",
+      "requested_start_utc": "2017-01-02T00:00:00Z",
+      "requested_end_exclusive_utc": "2026-10-03T00:00:00Z",
+      "first_observed_minute_utc": "2017-01-02T00:00:00Z",
+      "last_observed_minute_utc": "2026-10-02T23:59:00Z",
+      "observed_candles": 4852295,
+      "source_counts": {
+        "kraken_official_ohlcvt_2026q2": 4717026,
+        "kraken_public_trades_api": 135269
+      },
+      "observed_days": 3561,
+      "missing_days": [],
+      "missing_days_count": 0,
+      "missing_days_inside_observed_span": [],
+      "missing_intervals_inside_observed_span": 167920,
+      "missing_minutes_inside_observed_span": 275545,
+      "largest_internal_gap_minutes": 1438,
+      "missing_minutes_in_requested_window": 275545,
+      "longest_gap_in_requested_window": {
+        "start_utc_inclusive": "2018-01-11T15:50:00Z",
+        "end_utc_exclusive": "2018-01-12T15:48:00Z",
+        "missing_minutes": 1438
+      },
+      "leading_missing_minutes": 0,
+      "trailing_missing_minutes": 0,
+      "forward_filled": false,
+      "sha256_csv_gz": "af2130d776262732718623e5b6bd38f0e6c548e60d78e903e15a53c9f2aa2466",
+      "tail_audit": {
+        "api_pages": 6955,
+        "unique_trades_in_requested_tail": 6947554,
+        "duplicate_trades_removed": 6954,
+        "missing_trade_ids_between_observed_ids": 0,
+        "tail_complete_to_cutoff": true,
+        "all_page_hashes_verified": true,
+        "cursor_chain_verified": true,
+        "last_api_cursor": "1790986233288447492",
+        "first_tail_trade_at_utc": "2026-07-01T00:00:00Z",
+        "raw_page_missing_trade_ids": 23,
+        "recovered_trades_from_api_rechecks": 23,
+        "trade_recoveries": [
+          {
+            "left_id": 107318168,
+            "right_id": 107318192,
+            "recovered_ids": [
+              107318169,
+              107318170,
+              107318171,
+              107318172,
+              107318173,
+              107318174,
+              107318175,
+              107318176,
+              107318177,
+              107318178,
+              107318179,
+              107318180,
+              107318181,
+              107318182,
+              107318183,
+              107318184,
+              107318185,
+              107318186,
+              107318187,
+              107318188,
+              107318189,
+              107318190,
+              107318191
+            ],
+            "sources": [
+              {
+                "file": "data/raw/kraken/validation/btc/trade-id-gap-107318169-107318191.json",
+                "sha256": "06cd605cca733d70aecd6c69417ee150dd00c7c82702467c67f3fb53ec4e9740"
+              }
+            ],
+            "interpretation": "Actual trades recovered from stored Kraken API rechecks; original pages retained"
+          }
+        ]
+      },
+      "archive_member": "XBTUSD_1.csv"
+    }
+  },
+  "limitations": [
+    "Observed trade minutes only; gaps may reflect no trades or missing source records.",
+    "No historical bid/ask or executable spread.",
+    "USD volume is an estimate: sum of minute close times base volume, not actual traded notional.",
+    "Daily close is the last observed minute close, not necessarily a 23:59 trade."
+  ],
+  "daily": {
+    "path": "data/analysis/prices_daily.csv",
+    "sha256": "438c7c6159d615d1be15e914e7853f4774774e38529fb13107b401796e9040fe",
+    "rows": 14244,
+    "volume_method": "sum_minute_close_times_base_volume_estimate",
+    "close_method": "last_observed_minute_close_in_UTC_day",
+    "empty_day_policy": "empty_close_and_volume; zero_observed_minutes"
+  }
+}
