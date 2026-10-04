@@ -1,0 +1,314 @@
+[
+  {
+    "incident_a": "inc_b5ffd2a4ee8e1add",
+    "name_a": "Verge",
+    "date_a": "2018-05-22",
+    "incident_b": "inc_39eb478bfc6c5523",
+    "name_b": "Verge",
+    "date_b": "2018-05-29",
+    "name_similarity": "1.0",
+    "disposition": "unresolved_possible_repeat_report",
+    "review_note": "Verge: distinct May 22/May 29 catalog dates and valuations do not establish distinct attacks. Both referenced pages failed capture; leave identity unresolved.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [],
+    "reference_urls": [
+      "https://cloud.tencent.com/developer/article/1197040",
+      "https://defillama.com/hacks",
+      "https://paper.seebug.org/609/"
+    ]
+  },
+  {
+    "incident_a": "inc_5e2b3788665fe25b",
+    "name_a": "Yearn Finance",
+    "date_a": "2021-02-05",
+    "incident_b": "inc_8a29388c1710fa33",
+    "name_b": "BT Finance",
+    "date_b": "2021-02-12",
+    "name_similarity": "0.667",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "Yearn/BT: the issuer posts identify different vault operators and public announcements on February 4 and February 9. Similar Curve strategies do not establish one incident.",
+    "verification_level": "primary_posts_for_both_targets",
+    "primary_report_ids": [
+      "review_v1:009d7d462d490a63aa7d2d6f",
+      "review_v1:2dae4f01b305a7a5a6d9df7a"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://rekt.news/yearn-rekt",
+      "https://twitter.com/btdotfinance/status/1358989066814033920",
+      "https://twitter.com/iearnfinance/status/1357451290561937408"
+    ]
+  },
+  {
+    "incident_a": "inc_8a29388c1710fa33",
+    "name_a": "BT Finance",
+    "date_a": "2021-02-12",
+    "incident_b": "inc_c94368462dd6105b",
+    "name_b": "Alpha Finance",
+    "date_b": "2021-02-13",
+    "name_similarity": "0.667",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "BT/Alpha: BT identifies its own ETH/USDC/USDT vaults; Alpha is a separately named lending exploit. BT catalog day conflicts with its earlier issuer post. Full Alpha primary reconstruction remains outstanding.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [
+      "review_v1:2dae4f01b305a7a5a6d9df7a"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://medium.com/cream-finance/alpha-homora-v2-exploit-post-mortem-344d277bdea6",
+      "https://rekt.news/alpha-finance-rekt",
+      "https://twitter.com/btdotfinance/status/1358989066814033920"
+    ]
+  },
+  {
+    "incident_a": "inc_9cf0648393b09aa0",
+    "name_a": "ValueDefi",
+    "date_a": "2021-05-05",
+    "incident_b": "inc_1912bf25f9b2811c",
+    "name_b": "ValueDefi",
+    "date_b": "2021-05-07",
+    "name_similarity": "1.0",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "ValueDeFi: May 5 vStake reinitialization and May 7 vSwap invariant failure are separately described in retained reports. Located issuer/researcher pages are unavailable; do not claim full primary verification.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [],
+    "reference_urls": [
+      "http://www.togater.com/584.html",
+      "https://defillama.com/hacks",
+      "https://medium.com/valuedefi/vstake-pool-incident-post-mortem-4550407c9714",
+      "https://rekt.news/value-rekt2",
+      "https://rekt.news/value-rekt3"
+    ]
+  },
+  {
+    "incident_a": "inc_e01659e425efed51",
+    "name_a": "Bogged Finance",
+    "date_a": "2021-05-23",
+    "incident_b": "inc_513ba7a819b6712f",
+    "name_b": "Belt Finance",
+    "date_b": "2021-05-29",
+    "name_similarity": "0.75",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "Bogged/Belt: separate named token/protocol attacks and mechanisms. Belt researcher report discusses 3eps valuation; Bogged issuer post could not be captured. Similar Finance names are not identity evidence.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [
+      "review_v1:4bbd1f14d6877a3350a9f627"
+    ],
+    "reference_urls": [
+      "https://boggedfinance.medium.com/bog-flash-loan-attack-what-happened-and-whats-next-token-migration-192a9d96b9b7",
+      "https://defillama.com/hacks",
+      "https://twitter.com/Mudit__Gupta/status/1398885049987043329"
+    ]
+  },
+  {
+    "incident_a": "inc_9e64f0c131b2213f",
+    "name_a": "THORChain DEX",
+    "date_a": "2021-07-15",
+    "incident_b": "inc_19de2ffb68cf1943",
+    "name_b": "THORChain DEX",
+    "date_b": "2021-07-22",
+    "name_similarity": "1.0",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "THORChain: two issuer posts and the combined issuer postmortem distinguish successive ETH-router exploits. Reattacks are separate; estimates and subsidies are not additional incidents.",
+    "verification_level": "primary_posts_for_both_targets",
+    "primary_report_ids": [
+      "review_v1:5a7d5750767adde4b39169c8",
+      "review_v1:68a9b00aa60989aa42cba172"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://rekt.news/thorchain-rekt",
+      "https://rekt.news/thorchain-rekt2",
+      "https://twitter.com/THORChain/status/1415813696857591813",
+      "https://twitter.com/THORChain/status/1418360743523618825"
+    ]
+  },
+  {
+    "incident_a": "inc_5420f1ef0f98b270",
+    "name_a": "Fantasm Finance",
+    "date_a": "2022-03-09",
+    "incident_b": "inc_fbc568fc0b9b550a",
+    "name_b": "DEUS Finance",
+    "date_b": "2022-03-15",
+    "name_similarity": "0.64",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "Fantasm/DEUS: issuer Fantasm alert concerns FTM collateral; DEUS researcher alert concerns a different named protocol. Remaining FTM and DEUS attacker proceeds are not comparable gross losses.",
+    "verification_level": "primary_posts_for_both_targets",
+    "primary_report_ids": [
+      "review_v1:fd51be3dbef971750cb3bd1c",
+      "review_v1:0f23c2d6b2c2c840f4678efb"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://twitter.com/fantasm_finance/status/1501569232881995785",
+      "https://twitter.com/peckshield/status/1503632734299701250"
+    ]
+  },
+  {
+    "incident_a": "inc_fbc568fc0b9b550a",
+    "name_a": "DEUS Finance",
+    "date_a": "2022-03-15",
+    "incident_b": "inc_6324fb0185dca0c5",
+    "name_b": "Hundred Finance",
+    "date_b": "2022-03-15",
+    "name_similarity": "0.72",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "DEUS/Hundred: direct posts identify different named protocols. Hundred explicitly lists separate Hundred and Agave transactions; do not merge based on the same incident day.",
+    "verification_level": "primary_posts_for_both_targets",
+    "primary_report_ids": [
+      "review_v1:0f23c2d6b2c2c840f4678efb",
+      "review_v1:6a8d7fd776f715e7bd0363c6"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://twitter.com/HundredFinance/status/1503754916300476420",
+      "https://twitter.com/peckshield/status/1503632734299701250"
+    ]
+  },
+  {
+    "incident_a": "inc_fbc568fc0b9b550a",
+    "name_a": "DEUS Finance",
+    "date_a": "2022-03-15",
+    "incident_b": "inc_6fdf0c1eb3b57bb6",
+    "name_b": "One Ring Finance",
+    "date_b": "2022-03-21",
+    "name_similarity": "0.64",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "DEUS/OneRing: different target attribution and catalog mechanisms. OneRing primary postmortem failed capture; retain separately with that evidence gap explicit.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [
+      "review_v1:0f23c2d6b2c2c840f4678efb"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://medium.com/oneringfinance/onering-finance-exploit-post-mortem-after-oshare-hack-602a529db99b",
+      "https://twitter.com/peckshield/status/1503632734299701250"
+    ]
+  },
+  {
+    "incident_a": "inc_6324fb0185dca0c5",
+    "name_a": "Hundred Finance",
+    "date_a": "2022-03-15",
+    "incident_b": "inc_6fdf0c1eb3b57bb6",
+    "name_b": "One Ring Finance",
+    "date_b": "2022-03-21",
+    "name_similarity": "0.643",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "Hundred/OneRing: Hundred names its Gnosis deployment; OneRing is separately attributed. OneRing primary postmortem failed capture; proximity alone is not a merge reason.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [
+      "review_v1:6a8d7fd776f715e7bd0363c6"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://medium.com/oneringfinance/onering-finance-exploit-post-mortem-after-oshare-hack-602a529db99b",
+      "https://twitter.com/HundredFinance/status/1503754916300476420"
+    ]
+  },
+  {
+    "incident_a": "inc_46f8b38d7abbbd43",
+    "name_a": "DEUS Finance",
+    "date_a": "2022-04-28",
+    "incident_b": "inc_4ceac39df24c4888",
+    "name_b": "Saddle Finance",
+    "date_b": "2022-04-30",
+    "name_similarity": "0.75",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "DEUS/Saddle: researcher and issuer posts concern different targets and dates. DEUS attacker gain and Saddle secured funds/proposed reward must not be compared as gross theft.",
+    "verification_level": "primary_posts_for_both_targets",
+    "primary_report_ids": [
+      "review_v1:eecdc87d4331dbf531cc3b90",
+      "review_v1:d366239d2c798b87a9f2bb9e"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://twitter.com/peckshield/status/1519530463337250817",
+      "https://twitter.com/saddlefinance/status/1520451021725741056"
+    ]
+  },
+  {
+    "incident_a": "inc_2ef5e1cfa3409a56",
+    "name_a": "Fortress Protocol",
+    "date_a": "2022-05-08",
+    "incident_b": "inc_1994ddc0a3bd6108",
+    "name_b": "Venus Protocol",
+    "date_b": "2022-05-12",
+    "name_similarity": "0.69",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "Fortress/Venus: Fortress governance attack and Venus LUNA stale-oracle incident are separately attributed. The Fortress page lacks the requested post payload and Venus issuer page failed capture; primary confirmation remains incomplete.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [],
+    "reference_urls": [
+      "https://blog.venus.io/venus-protocol-official-statement-regarding-luna-6eb45c3cb058",
+      "https://defillama.com/hacks",
+      "https://rekt.news/fortress-rekt",
+      "https://twitter.com/Fortressloans/status/1523495202115051520"
+    ]
+  },
+  {
+    "incident_a": "inc_68dbe67d50fab838",
+    "name_a": "Mango Markets V3",
+    "date_a": "2022-10-11",
+    "incident_b": "inc_292d1102a8387a5f",
+    "name_b": "Moola Market",
+    "date_b": "2022-10-18",
+    "name_similarity": "0.64",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "Mango/Moola: different named targets and chain deployments in catalog context. Moola issuer update concerns recovery; Mango primary post could not be captured. Do not equate recovered funds with another attack.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [
+      "review_v1:ddf95a5ad505bb013ec514ac"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://rekt.news/mango-markets-rekt",
+      "https://rekt.news/moola-markets-rekt",
+      "https://twitter.com/Moola_Market/status/1582588102790434816",
+      "https://twitter.com/mangomarkets/status/1580053208130801664"
+    ]
+  },
+  {
+    "incident_a": "inc_95bcf403f8ecb114",
+    "name_a": "Team Finance",
+    "date_a": "2022-10-27",
+    "incident_b": "inc_01d2e82557d728f4",
+    "name_b": "Skyward Finance",
+    "date_b": "2022-11-02",
+    "name_similarity": "0.64",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "Team/Skyward: Team issuer acknowledges its own exploit; Skyward is separately named in retained reports. Similar Finance names and close dates do not establish a shared incident.",
+    "verification_level": "catalog_context_with_capture_gaps",
+    "primary_report_ids": [
+      "review_v1:e859b61a190a5e862aca8cbb"
+    ],
+    "reference_urls": [
+      "https://cointelegraph.com/news/skyward-finance-exploit-allegedly-results-in-3-million-loss",
+      "https://defillama.com/hacks",
+      "https://rekt.news/skyward-rekt",
+      "https://rekt.news/teamfinance-rekt",
+      "https://twitter.com/TeamFinance_/status/1585562380591063043"
+    ]
+  },
+  {
+    "incident_a": "inc_26e6baf03f231caf",
+    "name_a": "UwU Lend",
+    "date_a": "2024-06-10",
+    "incident_b": "inc_0cc82309d24bfc53",
+    "name_b": "UwU Lend",
+    "date_b": "2024-06-13",
+    "name_similarity": "1.0",
+    "disposition": "retain_separate_incident_groups",
+    "review_note": "UwU: June 10 researcher alert and June 13 post explicitly describing another loss support separate reattacks. Different reports of each individual attack must share its canonical identity.",
+    "verification_level": "primary_posts_for_both_targets",
+    "primary_report_ids": [
+      "review_v1:09c33618d6863f51c166a69b",
+      "review_v1:6d5e7a248d02dafef565d1b8"
+    ],
+    "reference_urls": [
+      "https://defillama.com/hacks",
+      "https://rekt.news/uwulend-rekt",
+      "https://x.com/SlowMist_Team/status/1800181916857155761",
+      "https://x.com/SlowMist_Team/status/1801161421138600443"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "source_id": "defillama_catalog",
+    "start_utc": "2017-01-02T00:00:00Z",
+    "end_exclusive_utc": "2026-10-03T00:00:00Z",
+    "status": "unknown_historical_reporting_coverage",
+    "available_at_utc": null,
+    "evidence_sha256": null,
+    "scope": "configured_source_reports; not all attacks globally",
+    "note": "Current catalog snapshots and selected incident references do not establish historical monitored coverage."
+  },
+  {
+    "source_id": "slowmist_catalog",
+    "start_utc": "2017-01-02T00:00:00Z",
+    "end_exclusive_utc": "2026-10-03T00:00:00Z",
+    "status": "unknown_historical_reporting_coverage",
+    "available_at_utc": null,
+    "evidence_sha256": null,
+    "scope": "configured_source_reports; not all attacks globally",
+    "note": "Current catalog snapshots and selected incident references do not establish historical monitored coverage."
+  }
+]
