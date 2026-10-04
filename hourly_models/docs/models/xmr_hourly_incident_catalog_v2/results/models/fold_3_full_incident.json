@@ -1,0 +1,58 @@
+{
+  "coefficients": [
+    -0.007114729913409988,
+    -0.009003674965473062,
+    -0.0035914551590056232,
+    0.0005429151306567981,
+    0.025854614428996996,
+    -0.0005854775313256782,
+    0.0005229128257830522,
+    0.00133040931314197
+  ],
+  "constant_training_features": [],
+  "convergence": {
+    "gradient_linf": 6.253904477615535e-10,
+    "iterations": 3,
+    "objective": 0.6608604768028298
+  },
+  "feature_names": [
+    "xmr_return_24h",
+    "xmr_return_preceding_6d",
+    "btc_return_24h",
+    "btc_return_preceding_6d",
+    "xmr_realized_volatility_24h",
+    "incident_present_24h",
+    "incident_catalog_loss_log",
+    "incident_age_hours"
+  ],
+  "hurdle": 0.03,
+  "incident_mode": "retrospective_catalog_date",
+  "incident_predictors_are_retrospective": true,
+  "intercept": -0.5124093991042971,
+  "l2_lambda": 1.0,
+  "model_name": "full_incident",
+  "objective": "mean BCE + lambda/2 * sum(beta squared); unpenalized intercept; natural hourly prevalence",
+  "scaler_mean": [
+    0.0004598232580560807,
+    0.00042113504093339285,
+    0.0014099666490356867,
+    0.0043291707721867774,
+    0.04570605734983069,
+    0.0750078718906032,
+    0.24574408625652092,
+    0.8642886060006297
+  ],
+  "scaler_scale": [
+    0.048663242406376914,
+    0.11839423481351395,
+    0.03797844182191499,
+    0.09497683782141397,
+    0.026426557402360096,
+    0.2634040452328514,
+    0.9295291800963156,
+    3.5807171957608577
+  ],
+  "training_end_exclusive": "2023-07-03T08:00:00Z",
+  "training_prevalence": 0.3746570104808601,
+  "training_rows": 44462
+}

@@ -1,0 +1,59 @@
+{
+  "calendar_development_hours": 68352,
+  "common_feature_eligible_hours": 0,
+  "common_label_eligible_hours": 0,
+  "development_proxy_closes": 35371,
+  "development_source_switches": 20843,
+  "exclusion_counts": {
+    "btc_feature_missing_boundary_price": 193,
+    "btc_feature_stale_boundary_price": 1076,
+    "incomplete_7day_feature_history": 168,
+    "missing_or_stale_btc_feature_price": 1264,
+    "missing_or_stale_target_endpoint": 7060,
+    "missing_or_stale_xmr_feature_price": 16070,
+    "target_crosses_development_boundary": 119,
+    "unknown_incident_reporting_coverage": 68352,
+    "xmr_feature_missing_boundary_price": 4041,
+    "xmr_feature_stale_boundary_price": 15205,
+    "xmr_feature_unresolved_price_review": 978,
+    "xmr_target_missing_boundary_price": 1690,
+    "xmr_target_stale_boundary_price": 5997,
+    "xmr_target_unresolved_price_review": 268
+  },
+  "explanation": "Initial selection must remain inside A. Unknown incident coverage or unresolved losses cannot become ordinary negative hours. No hurdle or fallback is selected until the data gate passes.",
+  "incident_dataset": {
+    "catalog_incident_groups": 588,
+    "historical_availability_verified": 0,
+    "hourly_ready_incidents": 0,
+    "original_loss_known_at_detection_verified": 0
+  },
+  "incident_eligible_hours": 0,
+  "initial_selection_folds": [
+    {
+      "training_end": "2018-12-15T00:00:00Z",
+      "training_rows": 0,
+      "validation_end": "2019-08-09T08:00:00Z",
+      "validation_rows": 0
+    },
+    {
+      "training_end": "2019-08-09T08:00:00Z",
+      "training_rows": 0,
+      "validation_end": "2020-04-02T16:00:00Z",
+      "validation_rows": 0
+    },
+    {
+      "training_end": "2020-04-02T16:00:00Z",
+      "training_rows": 0,
+      "validation_end": "2020-11-26T00:00:00Z",
+      "validation_rows": 0
+    }
+  ],
+  "initial_selection_ready": false,
+  "outcomes_calculated": false,
+  "prior_inspection_disclosure": "Reserved historical outcomes were inspected earlier in the project; this is not an untouched historical holdout. Stronger confirmation requires future observations after a full policy freeze.",
+  "reserved_calendar_hours": 17112,
+  "reserved_numeric_prices_parsed": false,
+  "reserved_start": "2024-10-20T00:00:00Z",
+  "status": "blocked_by_data_readiness",
+  "unresolved_price_review_hours": 134
+}

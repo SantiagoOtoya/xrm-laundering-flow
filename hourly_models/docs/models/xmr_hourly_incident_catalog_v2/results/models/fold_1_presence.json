@@ -1,0 +1,50 @@
+{
+  "coefficients": [
+    0.004541012822072252,
+    -0.005352789576419109,
+    0.008018844458599485,
+    0.0016369182813634265,
+    0.00025689775636512474,
+    -0.0028322705252214705
+  ],
+  "constant_training_features": [],
+  "convergence": {
+    "gradient_linf": 1.2524233412827298e-11,
+    "iterations": 3,
+    "objective": 0.6630032733256077
+  },
+  "feature_names": [
+    "xmr_return_24h",
+    "xmr_return_preceding_6d",
+    "btc_return_24h",
+    "btc_return_preceding_6d",
+    "xmr_realized_volatility_24h",
+    "incident_present_24h"
+  ],
+  "hurdle": 0.03,
+  "incident_mode": "retrospective_catalog_date",
+  "incident_predictors_are_retrospective": true,
+  "intercept": -0.4979950791846521,
+  "l2_lambda": 1.0,
+  "model_name": "presence",
+  "objective": "mean BCE + lambda/2 * sum(beta squared); unpenalized intercept; natural hourly prevalence",
+  "scaler_mean": [
+    0.00034976836455263133,
+    -0.0020000233938087704,
+    0.0018962673189462814,
+    0.00494177377273678,
+    0.04737396846168101,
+    0.032514260640631856
+  ],
+  "scaler_scale": [
+    0.050365625958307764,
+    0.12506502862046426,
+    0.03940394011089175,
+    0.09913453304679926,
+    0.02739246921682548,
+    0.1773614487300528
+  ],
+  "training_end_exclusive": "2020-11-26T00:00:00Z",
+  "training_prevalence": 0.3780166739798157,
+  "training_rows": 22790
+}

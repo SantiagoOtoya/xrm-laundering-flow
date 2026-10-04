@@ -1,0 +1,24 @@
+{
+  "evaluation_freeze_sha256": "7d2e8328dbd351901bd6b88ed1034e4e8e6c6d009b882e81dea1a59b0426d0df",
+  "final_frozen_sha256": "5294dc1f4a122dc9beb35eeeabd3e071d6ee3d1ad2e657c7f62cd0d187adb56a",
+  "output_sha256": {
+    "RESULTS.md": "68f8eceb3f28ec9020f6fa35171d0b33a1b9243f260a114bb6471d93e53605db",
+    "calibration.svg": "185ca7e8b09eaaded149884a38ce943f54c2b327245331603e0988a0ee885da4",
+    "paper/buy_and_hold.json": "55035cbca3ce3c14c6e5d02bc53f980fd1ff7ac0dbe2bd32e37f0c5d7175d9ca",
+    "paper/full_incident.json": "215427e2e2bcbe0ca8a06f4e1f2c6abb202f7fc029dcb74a5ea103122cfb6b0a",
+    "paper/full_incident_double_cost.json": "46dbcbc1a9f9195385a81838cfe31a521bfdc2f80b3155ce00ebf6d2ee514bba",
+    "paper/market.json": "215427e2e2bcbe0ca8a06f4e1f2c6abb202f7fc029dcb74a5ea103122cfb6b0a",
+    "paper/market_double_cost.json": "46dbcbc1a9f9195385a81838cfe31a521bfdc2f80b3155ce00ebf6d2ee514bba",
+    "paper/presence.json": "215427e2e2bcbe0ca8a06f4e1f2c6abb202f7fc029dcb74a5ea103122cfb6b0a",
+    "paper/presence_double_cost.json": "46dbcbc1a9f9195385a81838cfe31a521bfdc2f80b3155ce00ebf6d2ee514bba",
+    "policy_signals.csv": "e428a842ec7791905255a6d9326e2b536f11d9659147e123f7ba567ade892a17",
+    "predictions.csv": "af1406d0b8334ccf8f8d006e96adad3d74a04ef62a29005f3e94fa9ccf0a7f39",
+    "summary.json": "a196782fd92728c02e259dc8027fc4847b1cd1883eaaf9d3a06ff010dea09835"
+  },
+  "preparation_sha256": "b194a2c4249368eaadf0de51958ffdb85a4ca5c2cc71967373ccee3b2a063333",
+  "reserved_outcomes_scored": true,
+  "runtime": {
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  }
+}

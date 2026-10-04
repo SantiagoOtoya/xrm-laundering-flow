@@ -1,0 +1,1201 @@
+{
+  "candidates": [
+    {
+      "folds": [
+        {
+          "convergence": {
+            "gradient_linf": 2.8840343856844936e-11,
+            "iterations": 4,
+            "objective": 0.6481761258024596
+          },
+          "end": "2020-06-20T18:00:00Z",
+          "metrics": {
+            "accuracy": 0.6445103020039514,
+            "auc": 0.4739083469246601,
+            "available": true,
+            "brier": 0.2317475478764958,
+            "calibration_bins": [
+              {
+                "lower": 0.1,
+                "mean_probability": 0.18530501178289202,
+                "observed_frequency": 0.4,
+                "rows": 5,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "mean_probability": 0.27776675161505104,
+                "observed_frequency": 0.5940054495912807,
+                "rows": 367,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "mean_probability": 0.34873989684708745,
+                "observed_frequency": 0.33556597454789017,
+                "rows": 5972,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "mean_probability": 0.4252168499761639,
+                "observed_frequency": 0.3975741239892183,
+                "rows": 742,
+                "upper": 0.5
+              }
+            ],
+            "log_loss": 0.6567366476710966,
+            "negative_rows": 4567,
+            "positive_rows": 2519,
+            "prevalence": 0.35548969799604857,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 5,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 367,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 5972,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 742,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 0,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.1809699159060912,
+              "0.1": 0.3120773236840727,
+              "0.5": 0.3499794638132111,
+              "0.9": 0.4014933496081696,
+              "1": 0.4841031320907228
+            },
+            "rows": 7086
+          },
+          "start": "2019-08-09T08:00:00Z",
+          "training_rows": 11984
+        },
+        {
+          "convergence": {
+            "gradient_linf": 1.0677828373150408e-10,
+            "iterations": 4,
+            "objective": 0.6497302873254561
+          },
+          "end": "2021-05-03T05:00:00Z",
+          "metrics": {
+            "accuracy": 0.4712027103331451,
+            "auc": 0.4963727421487594,
+            "available": true,
+            "brier": 0.28137470576352314,
+            "calibration_bins": [
+              {
+                "lower": 0.2,
+                "mean_probability": 0.2645282393887185,
+                "observed_frequency": 0.5186440677966102,
+                "rows": 590,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "mean_probability": 0.35025638417290395,
+                "observed_frequency": 0.5201985621362547,
+                "rows": 5842,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "mean_probability": 0.4296340492255745,
+                "observed_frequency": 0.5996810207336523,
+                "rows": 627,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "mean_probability": 0.5573739324310752,
+                "observed_frequency": 0.0,
+                "rows": 25,
+                "upper": 0.6
+              }
+            ],
+            "log_loss": 0.7598426415909167,
+            "negative_rows": 3363,
+            "positive_rows": 3721,
+            "prevalence": 0.5252682100508187,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 0,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 590,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 5842,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 627,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 25,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.2020392699226175,
+              "0.1": 0.3092722334496233,
+              "0.5": 0.3480281615930959,
+              "0.9": 0.3970843460630698,
+              "1": 0.5669758203517694
+            },
+            "rows": 7084
+          },
+          "start": "2020-06-20T18:00:00Z",
+          "training_rows": 19189
+        },
+        {
+          "convergence": {
+            "gradient_linf": 2.62832290653936e-15,
+            "iterations": 4,
+            "objective": 0.6726418653379382
+          },
+          "end": "2022-03-15T16:00:00Z",
+          "metrics": {
+            "accuracy": 0.6455767869780609,
+            "auc": 0.5432673212883504,
+            "available": true,
+            "brier": 0.23013408024383605,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "mean_probability": 0.3880580882553701,
+                "observed_frequency": 0.32920400632577757,
+                "rows": 3794,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "mean_probability": 0.41428105921718134,
+                "observed_frequency": 0.3836747172118618,
+                "rows": 3271,
+                "upper": 0.5
+              }
+            ],
+            "log_loss": 0.6529451419832695,
+            "negative_rows": 4561,
+            "positive_rows": 2504,
+            "prevalence": 0.35442321302193913,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 0,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 0,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 3794,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 3271,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 0,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.32932850208172043,
+              "0.1": 0.3821412903729193,
+              "0.5": 0.398491867423612,
+              "0.9": 0.4211408501662679,
+              "1": 0.48932717326647457
+            },
+            "rows": 7065
+          },
+          "start": "2021-05-03T05:00:00Z",
+          "training_rows": 26392
+        }
+      ],
+      "l2_lambda": 0.01,
+      "pooled": {
+        "accuracy": 0.5870496821285613,
+        "auc": 0.4713699902356046,
+        "available": true,
+        "brier": 0.24776636763853774,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "mean_probability": 0.18530501178289202,
+            "observed_frequency": 0.4,
+            "rows": 5,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": 0.26960507741072903,
+            "observed_frequency": 0.5475444096133751,
+            "rows": 957,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.358864995332508,
+            "observed_frequency": 0.40312660174269604,
+            "rows": 15608,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4181044819496011,
+            "observed_frequency": 0.41508620689655173,
+            "rows": 4640,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5573739324310752,
+            "observed_frequency": 0.0,
+            "rows": 25,
+            "upper": 0.6
+          }
+        ],
+        "log_loss": 0.6898713720997995,
+        "negative_rows": 12491,
+        "positive_rows": 8744,
+        "prevalence": 0.41177301624676244,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 5,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 957,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 15608,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 4640,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 25,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.1809699159060912,
+          "0.1": 0.3218338272022836,
+          "0.5": 0.36793531845371963,
+          "0.9": 0.41389763208130603,
+          "1": 0.5669758203517694
+        },
+        "rows": 21235
+      }
+    },
+    {
+      "folds": [
+        {
+          "convergence": {
+            "gradient_linf": 9.295515746021721e-15,
+            "iterations": 4,
+            "objective": 0.6516281127069659
+          },
+          "end": "2020-06-20T18:00:00Z",
+          "metrics": {
+            "accuracy": 0.6445103020039514,
+            "auc": 0.4900352243031785,
+            "available": true,
+            "brier": 0.22987545433002757,
+            "calibration_bins": [
+              {
+                "lower": 0.2,
+                "mean_probability": 0.2775776013471862,
+                "observed_frequency": 0.45,
+                "rows": 20,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "mean_probability": 0.3586319689833578,
+                "observed_frequency": 0.35682756656699416,
+                "rows": 7023,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "mean_probability": 0.4061519121669196,
+                "observed_frequency": 0.09302325581395349,
+                "rows": 43,
+                "upper": 0.5
+              }
+            ],
+            "log_loss": 0.6524635747262947,
+            "negative_rows": 4567,
+            "positive_rows": 2519,
+            "prevalence": 0.35548969799604857,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 0,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 20,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 7023,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 43,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 0,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.2485435441421452,
+              "0.1": 0.3435375661923619,
+              "0.5": 0.3584887640118403,
+              "0.9": 0.37519549242774203,
+              "1": 0.4255283181522653
+            },
+            "rows": 7086
+          },
+          "start": "2019-08-09T08:00:00Z",
+          "training_rows": 11984
+        },
+        {
+          "convergence": {
+            "gradient_linf": 6.095714211173942e-13,
+            "iterations": 4,
+            "objective": 0.6509741527155654
+          },
+          "end": "2021-05-03T05:00:00Z",
+          "metrics": {
+            "accuracy": 0.47473178994918125,
+            "auc": 0.5016345655086021,
+            "available": true,
+            "brier": 0.2790865631133948,
+            "calibration_bins": [
+              {
+                "lower": 0.2,
+                "mean_probability": 0.2925434521859607,
+                "observed_frequency": 0.6212121212121212,
+                "rows": 198,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "mean_probability": 0.3542881691564313,
+                "observed_frequency": 0.5204996326230713,
+                "rows": 6805,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "mean_probability": 0.4056150048906744,
+                "observed_frequency": 0.691358024691358,
+                "rows": 81,
+                "upper": 0.5
+              }
+            ],
+            "log_loss": 0.7539982829637917,
+            "negative_rows": 3363,
+            "positive_rows": 3721,
+            "prevalence": 0.5252682100508187,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 0,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 198,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 6805,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 81,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 0,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.2769723168331048,
+              "0.1": 0.338460613600729,
+              "0.5": 0.35371779709867335,
+              "0.9": 0.37086390113851475,
+              "1": 0.41625759035240373
+            },
+            "rows": 7084
+          },
+          "start": "2020-06-20T18:00:00Z",
+          "training_rows": 19189
+        },
+        {
+          "convergence": {
+            "gradient_linf": 1.9310385859783175e-09,
+            "iterations": 3,
+            "objective": 0.6730077812831717
+          },
+          "end": "2022-03-15T16:00:00Z",
+          "metrics": {
+            "accuracy": 0.6455767869780609,
+            "auc": 0.5214673404814958,
+            "available": true,
+            "brier": 0.23069131897217085,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "mean_probability": 0.3940114411324065,
+                "observed_frequency": 0.3371996685998343,
+                "rows": 3621,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "mean_probability": 0.4078270058893279,
+                "observed_frequency": 0.37253193960511033,
+                "rows": 3444,
+                "upper": 0.5
+              }
+            ],
+            "log_loss": 0.6541252876789848,
+            "negative_rows": 4561,
+            "positive_rows": 2504,
+            "prevalence": 0.35442321302193913,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 0,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 0,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 3621,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 3444,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 0,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.3746446812854479,
+              "0.1": 0.39075081574078524,
+              "0.5": 0.3997356531984752,
+              "0.9": 0.4117844890191633,
+              "1": 0.443892045391253
+            },
+            "rows": 7065
+          },
+          "start": "2021-05-03T05:00:00Z",
+          "training_rows": 26392
+        }
+      ],
+      "l2_lambda": 0.1,
+      "pooled": {
+        "accuracy": 0.5882269837532376,
+        "auc": 0.45319366448875215,
+        "available": true,
+        "brier": 0.24656373209400756,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.29117043834754097,
+            "observed_frequency": 0.6055045871559633,
+            "rows": 218,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.36427982908018114,
+            "observed_frequency": 0.4165854776778039,
+            "rows": 17449,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4077566019905178,
+            "observed_frequency": 0.37640134529147984,
+            "rows": 3568,
+            "upper": 0.5
+          }
+        ],
+        "log_loss": 0.6868884334578785,
+        "negative_rows": 12491,
+        "positive_rows": 8744,
+        "prevalence": 0.41177301624676244,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 218,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 17449,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 3568,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 0,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.2485435441421452,
+          "0.1": 0.3449466838807488,
+          "0.5": 0.3642754166451145,
+          "0.9": 0.4043332583676276,
+          "1": 0.443892045391253
+        },
+        "rows": 21235
+      }
+    },
+    {
+      "folds": [
+        {
+          "convergence": {
+            "gradient_linf": 2.1735652470586397e-10,
+            "iterations": 3,
+            "objective": 0.6531268462638924
+          },
+          "end": "2020-06-20T18:00:00Z",
+          "metrics": {
+            "accuracy": 0.6445103020039514,
+            "auc": 0.5056567242449828,
+            "available": true,
+            "brier": 0.22926020270393002,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "mean_probability": 0.36021672877439403,
+                "observed_frequency": 0.35548969799604857,
+                "rows": 7086,
+                "upper": 0.4
+              }
+            ],
+            "log_loss": 0.6510924281165523,
+            "negative_rows": 4567,
+            "positive_rows": 2519,
+            "prevalence": 0.35548969799604857,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 0,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 0,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 7086,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 0,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 0,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.3191488377829889,
+              "0.1": 0.35617075164264445,
+              "0.5": 0.36064913897628115,
+              "0.9": 0.3640670695756092,
+              "1": 0.37986163271234763
+            },
+            "rows": 7086
+          },
+          "start": "2019-08-09T08:00:00Z",
+          "training_rows": 11984
+        },
+        {
+          "convergence": {
+            "gradient_linf": 1.9387829891873154e-09,
+            "iterations": 3,
+            "objective": 0.6516567076882438
+          },
+          "end": "2021-05-03T05:00:00Z",
+          "metrics": {
+            "accuracy": 0.47473178994918125,
+            "auc": 0.5118386430640985,
+            "available": true,
+            "brier": 0.2780294702788523,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "mean_probability": 0.3557700072567891,
+                "observed_frequency": 0.5252682100508187,
+                "rows": 7084,
+                "upper": 0.4
+              }
+            ],
+            "log_loss": 0.7514760657051185,
+            "negative_rows": 3363,
+            "positive_rows": 3721,
+            "prevalence": 0.5252682100508187,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 0,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 0,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 7084,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 0,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 0,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.3244612165028357,
+              "0.1": 0.3533548192255728,
+              "0.5": 0.3568110865057028,
+              "0.9": 0.36050112949400503,
+              "1": 0.3733628365440962
+            },
+            "rows": 7084
+          },
+          "start": "2020-06-20T18:00:00Z",
+          "training_rows": 19189
+        },
+        {
+          "convergence": {
+            "gradient_linf": 5.546253236408237e-12,
+            "iterations": 3,
+            "objective": 0.6733643578827112
+          },
+          "end": "2022-03-15T16:00:00Z",
+          "metrics": {
+            "accuracy": 0.6455767869780609,
+            "auc": 0.4918301294556642,
+            "available": true,
+            "brier": 0.2310017762014103,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "mean_probability": 0.3988779906406469,
+                "observed_frequency": 0.32920495405513384,
+                "rows": 2503,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "mean_probability": 0.402257009786487,
+                "observed_frequency": 0.3682595352915388,
+                "rows": 4562,
+                "upper": 0.5
+              }
+            ],
+            "log_loss": 0.6547754495372242,
+            "negative_rows": 4561,
+            "positive_rows": 2504,
+            "prevalence": 0.35442321302193913,
+            "probability_histogram": [
+              {
+                "lower": 0.0,
+                "rows": 0,
+                "upper": 0.1
+              },
+              {
+                "lower": 0.1,
+                "rows": 0,
+                "upper": 0.2
+              },
+              {
+                "lower": 0.2,
+                "rows": 0,
+                "upper": 0.3
+              },
+              {
+                "lower": 0.3,
+                "rows": 2503,
+                "upper": 0.4
+              },
+              {
+                "lower": 0.4,
+                "rows": 4562,
+                "upper": 0.5
+              },
+              {
+                "lower": 0.5,
+                "rows": 0,
+                "upper": 0.6
+              },
+              {
+                "lower": 0.6,
+                "rows": 0,
+                "upper": 0.7
+              },
+              {
+                "lower": 0.7,
+                "rows": 0,
+                "upper": 0.8
+              },
+              {
+                "lower": 0.8,
+                "rows": 0,
+                "upper": 0.9
+              },
+              {
+                "lower": 0.9,
+                "rows": 0,
+                "upper": 1.0
+              }
+            ],
+            "probability_quantiles": {
+              "0": 0.3955288976803028,
+              "0.1": 0.3985185828865396,
+              "0.5": 0.40079843566659634,
+              "0.9": 0.4039552083990902,
+              "1": 0.41173981730722775
+            },
+            "rows": 7065
+          },
+          "start": "2021-05-03T05:00:00Z",
+          "training_rows": 26392
+        }
+      ],
+      "l2_lambda": 1.0,
+      "pooled": {
+        "accuracy": 0.5882269837532376,
+        "auc": 0.4370594037221896,
+        "available": true,
+        "brier": 0.2461090705287686,
+        "calibration_bins": [
+          {
+            "lower": 0.3,
+            "mean_probability": 0.36413135500965566,
+            "observed_frequency": 0.4236790019792479,
+            "rows": 16673,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.402257009786487,
+            "observed_frequency": 0.3682595352915388,
+            "rows": 4562,
+            "upper": 0.5
+          }
+        ],
+        "log_loss": 0.6858057897842919,
+        "negative_rows": 12491,
+        "positive_rows": 8744,
+        "prevalence": 0.41177301624676244,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 0,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 16673,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 4562,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 0,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.3191488377829889,
+          "0.1": 0.35517339305083684,
+          "0.5": 0.3610963205286543,
+          "0.9": 0.4018771516712307,
+          "1": 0.41173981730722775
+        },
+        "rows": 21235
+      }
+    }
+  ],
+  "model_name": "full_incident",
+  "selected_l2_lambda": 1.0,
+  "tie_rule": "exact ties prefer stronger L2",
+  "training_end": "2022-03-15T16:00:00Z"
+}

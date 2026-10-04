@@ -1,0 +1,16 @@
+{
+  "model_fitted": false,
+  "outcomes_calculated": false,
+  "output_sha256": {
+    "PAIRED_COHORT_CHECK.json": "f1c78426bf98e016b17e67c34889c5ff06331c0b3b90395b5138905875e6a4bc",
+    "READINESS.json": "311c50818a96eef1a6f4ad11f631bb8a0b4e29ffb9a8335c32912fa8923888c5",
+    "READINESS.md": "44c38a45facb30193291db125cd277b573cf7220d7cf683799001e3f8f45d16c",
+    "boundary_exclusions.csv": "83fb124ffaedf35418d4b0e564e3a4649f0fc8243227539c9142d9f1d44f7fc9",
+    "catalog_mapping.csv": "54ff26def759274b82d25449ee12e2383a673922f94cd8a95a4c629df1c3a3c9",
+    "exclusions.csv": "1467b0cc080a264f555df24a58b34a4b9a1bb253e10b93308c459faac01aaaaa",
+    "joined_features.csv": "2a8df460ed4678f50ea5ac845333c68c767c6feeefc5e63d3ef16ef44790cd5d",
+    "price_review.csv": "ca071ed240dedc7307e54b15e2d5c81605e6645035df6a54ad2b0b2e517a7420",
+    "reserved_exclusion.json": "14de2422f8af7528be28c146d742887821b5dc8195f968705230009ef414edbb"
+  },
+  "pre_run_sha256": "9638a9c64cb52d44f8f0dfcf0008abce698755e72272368be82142e878d57ae3"
+}

@@ -1,0 +1,37 @@
+{
+  "freeze_sha256": "82e02109722f7083559e748573a3d5bd1e060d4edbd32b9ddbceab6aa498a112",
+  "heldout_outcomes_evaluated": false,
+  "output_sha256": {
+    "FINAL_FROZEN.json": "7c2f3a8debcd539b7abfe8fd9a61d03586740c76cab7456b1c9192988d2fd7cc",
+    "RESULTS.md": "5e159a1917fdf335ccca9ec64a65781a8d0a3c408b669cbb8365bbfc103b79e0",
+    "calibration_curve.csv": "0e9097c4be3374cf3b1b78db1b41a8efaf9cc59f1a5ce4477e216efa7c0be660",
+    "cohort.csv": "9e7c508bb5713e353bb6b1253a2fc78989a3de24223ad5018b632efbb7f11e4a",
+    "exclusions.csv": "34a219bb48ead459f341cb6b7e62c6910f897d03ffbe53b89af6e19007d97d29",
+    "hurdle_selection.json": "ca61f86654cb3244d22e88554eaaafa9c8455f71a4e29059d1318d994ee13c10",
+    "inner/final.json": "02c4bf8c911ecebcee5369cc25b4e75cec285ae5b07d69e14f382da62b870252",
+    "inner/fold_1.json": "e5384fe71be63488c8b614fcead52d82ce97560f3f89a285f3e3e400d3804c09",
+    "inner/fold_2.json": "c97ab440e4d41d89019879d4fb4a8dfddbdd40039433e34ff3ab4b91287b0a63",
+    "inner/fold_3.json": "7cecbc85fb9f11a5299417a81e29825202ea4cecaea0ed3d26b960e6dd5d78ee",
+    "models/final_development.json": "c8bcd10f24d0661957a66b1786c47f947da974cc177902fdb8a7d20656c039f2",
+    "models/fold_1.json": "767f8bce09ae42039d6107b35b062bf494d682e87da617508ffe82b012c5805d",
+    "models/fold_2.json": "4a29dfaee8c4af9a61c75ee70f82577583714d81e8be23660575170f3228601e",
+    "models/fold_3.json": "76d431e3b3465c221931172647ad9dbdcc0f3e087d3d5d58d613a3d20066d785",
+    "outer_predictions.csv": "6f38c942c0d2b361a31ccad9a70fd593e138e5be000c485add9082a9f0786cef",
+    "paper/fold_1_buy_hold_equity.json": "d53bd387e168a646ef05093c99d71f1e60cd5a56dce94f9f92ab74251b6a303d",
+    "paper/fold_1_equity.json": "63cc73ec808159aed6a80d27f38e4cc6489cf1c59f9f8120ad67715d305ad9cc",
+    "paper/fold_1_trades.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "paper/fold_2_buy_hold_equity.json": "f1e957f72c67a6a131c02b651781e2a9f8ea0110d783e3aee20faa3cce3e551f",
+    "paper/fold_2_equity.json": "68c1516dd6401ac2cf65aa28336bf55c76e09a4a370ddd07d452c8402d703e5b",
+    "paper/fold_2_trades.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "paper/fold_3_buy_hold_equity.json": "e20ff73071d189c638590153f8a24b0e1aa403ee8a114d87ee9e7c041236611f",
+    "paper/fold_3_equity.json": "e6dc77029131d2a8df6f205492d9e60ac4eb5654d788b3f20ca5563e5c28a39a",
+    "paper/fold_3_trades.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "probability_distribution.csv": "3e514bae0e16f3a0c99fdddc01bfa93f85940390ecb1585a6b993259ce365762",
+    "summary.json": "a7ae995a1be98dc6a896932150a611b9aaf27b523bb921043a61219979b7d0f6"
+  },
+  "runtime": {
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "selected_sha256": "1b481f3fb61ef23a7350e1b5758a7588e65f635c74160da5b8a7f60727d00e41"
+}

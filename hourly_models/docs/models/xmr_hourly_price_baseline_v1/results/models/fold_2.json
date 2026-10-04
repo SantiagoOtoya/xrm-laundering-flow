@@ -1,0 +1,45 @@
+{
+  "coefficients": [
+    -0.0031594984599987324,
+    -0.009664918203509175,
+    0.0015753157221773564,
+    0.006408830012412981,
+    0.01035850591061419
+  ],
+  "constant_training_features": [],
+  "convergence": {
+    "gradient_linf": 1.1603600025278382e-11,
+    "iterations": 3,
+    "objective": 0.6689121327869345
+  },
+  "feature_names": [
+    "xmr_return_24h",
+    "xmr_return_preceding_6d",
+    "btc_return_24h",
+    "btc_return_preceding_6d",
+    "xmr_realized_volatility_24h"
+  ],
+  "hurdle": 0.03,
+  "incident_inputs_used": false,
+  "intercept": -0.4444057371810044,
+  "l2_lambda": 1.0,
+  "objective": "mean BCE + lambda/2 * sum(beta squared); intercept unpenalized",
+  "scaler_mean": [
+    0.0005764448142793808,
+    0.0011373705101540852,
+    0.0019400906660432867,
+    0.00697858134226433,
+    0.0492791235984797
+  ],
+  "scaler_scale": [
+    0.051912905921066684,
+    0.12572217587180629,
+    0.040076477576363866,
+    0.09881156225113491,
+    0.02693737294469472
+  ],
+  "target": "Completed-close gross XMR/USD 120-hour simple return strictly greater than hurdle",
+  "training_end_exclusive": "2022-03-15T16:00:00Z",
+  "training_prevalence": 0.3906957350488444,
+  "training_rows": 33576
+}

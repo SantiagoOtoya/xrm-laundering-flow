@@ -1,0 +1,20 @@
+{
+  "feature_names": [
+    "xmr_return_24h",
+    "xmr_return_preceding_6d",
+    "btc_return_24h",
+    "btc_return_preceding_6d",
+    "xmr_realized_volatility_24h"
+  ],
+  "fitted_model_sha256": "c8bcd10f24d0661957a66b1786c47f947da974cc177902fdb8a7d20656c039f2",
+  "model_and_scaler_fixed": true,
+  "policy_fixed": true,
+  "pre_run_freeze_sha256": "82e02109722f7083559e748573a3d5bd1e060d4edbd32b9ddbceab6aa498a112",
+  "prior_inspection_disclosure": "Reserved historical outcomes were inspected previously; this is not a pristine holdout.",
+  "reserved_oos_evaluated": false,
+  "selected_hurdle": 0.03,
+  "selected_l2": 0.01,
+  "selected_policy_sha256": "1b481f3fb61ef23a7350e1b5758a7588e65f635c74160da5b8a7f60727d00e41",
+  "study_id": "xmr_hourly_price_baseline_v1",
+  "training_end_exclusive": "2024-10-20T00:00:00Z"
+}

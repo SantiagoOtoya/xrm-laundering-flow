@@ -1,0 +1,46 @@
+{
+  "coefficients": [
+    -0.024301123208859132,
+    -0.03915018103759838,
+    0.0034778978910653484,
+    0.029416079038292544,
+    0.0938833015679046
+  ],
+  "constant_training_features": [],
+  "convergence": {
+    "gradient_linf": 1.6297320901627236e-15,
+    "iterations": 4,
+    "objective": 0.6595307608686612
+  },
+  "feature_names": [
+    "xmr_return_24h",
+    "xmr_return_preceding_6d",
+    "btc_return_24h",
+    "btc_return_preceding_6d",
+    "xmr_realized_volatility_24h"
+  ],
+  "hurdle": 0.03,
+  "incident_mode": "retrospective_catalog_date",
+  "incident_predictors_are_retrospective": true,
+  "intercept": -0.5134025523962639,
+  "l2_lambda": 0.1,
+  "model_name": "market",
+  "objective": "mean BCE + lambda/2 * sum(beta squared); unpenalized intercept; natural hourly prevalence",
+  "scaler_mean": [
+    0.0004598232580560807,
+    0.00042113504093339285,
+    0.0014099666490356867,
+    0.0043291707721867774,
+    0.04570605734983069
+  ],
+  "scaler_scale": [
+    0.048663242406376914,
+    0.11839423481351395,
+    0.03797844182191499,
+    0.09497683782141397,
+    0.026426557402360096
+  ],
+  "training_end_exclusive": "2023-07-03T08:00:00Z",
+  "training_prevalence": 0.3746570104808601,
+  "training_rows": 44462
+}

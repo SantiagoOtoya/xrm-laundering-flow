@@ -1,0 +1,889 @@
+{
+  "comparison_warning": "Future incident models must use the same eligible comparison rows and frozen hurdle; this unrestricted baseline alone does not test incident value.",
+  "economically_supported_hurdle": false,
+  "final_l2": 0.01,
+  "final_training_in_sample": {
+    "model": {
+      "accuracy": 0.6482925413562929,
+      "auc": 0.565254007010625,
+      "brier": 0.2257951545008871,
+      "calibration_bins": [
+        {
+          "lower": 0.2,
+          "mean_probability": 0.2958757203364028,
+          "observed_frequency": 0.17954419121734297,
+          "rows": 1799,
+          "upper": 0.3
+        },
+        {
+          "lower": 0.3,
+          "mean_probability": 0.3409490729647714,
+          "observed_frequency": 0.3466850194998853,
+          "rows": 43590,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.43261056517472884,
+          "observed_frequency": 0.43086529884032115,
+          "rows": 5605,
+          "upper": 0.5
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.534243390350635,
+          "observed_frequency": 0.45542635658914726,
+          "rows": 516,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": 0.6421925327076597,
+          "observed_frequency": 0.7049180327868853,
+          "rows": 122,
+          "upper": 0.7
+        },
+        {
+          "lower": 0.7,
+          "mean_probability": 0.7297064516740785,
+          "observed_frequency": 0.9285714285714286,
+          "rows": 42,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8456837660587421,
+          "observed_frequency": 0.2727272727272727,
+          "rows": 11,
+          "upper": 0.9
+        }
+      ],
+      "log_loss": 0.6436013036723605,
+      "positive_rows": 18213,
+      "prevalence": 0.3523846377092,
+      "probability_histogram": {
+        "counts": [
+          0,
+          0,
+          1799,
+          43590,
+          5605,
+          516,
+          122,
+          42,
+          11,
+          0
+        ],
+        "edges": [
+          0.0,
+          0.1,
+          0.2,
+          0.30000000000000004,
+          0.4,
+          0.5,
+          0.6000000000000001,
+          0.7000000000000001,
+          0.8,
+          0.9,
+          1.0
+        ]
+      },
+      "probability_quantiles": {
+        "0": 0.2799944308790921,
+        "0.1": 0.3081614056554975,
+        "0.5": 0.3416677205803058,
+        "0.9": 0.40861801754361404,
+        "1": 0.8534980921018572
+      },
+      "rows": 51685
+    },
+    "training_prevalence_baseline": {
+      "accuracy": 0.6476153622908001,
+      "auc": 0.5,
+      "brier": 0.2282097048157559,
+      "calibration_bins": [
+        {
+          "lower": 0.3,
+          "mean_probability": 0.3523846377092,
+          "observed_frequency": 0.3523846377092,
+          "rows": 51685,
+          "upper": 0.4
+        }
+      ],
+      "log_loss": 0.6489103385065242,
+      "positive_rows": 18213,
+      "prevalence": 0.3523846377092,
+      "probability_histogram": {
+        "counts": [
+          0,
+          0,
+          0,
+          51685,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edges": [
+          0.0,
+          0.1,
+          0.2,
+          0.30000000000000004,
+          0.4,
+          0.5,
+          0.6000000000000001,
+          0.7000000000000001,
+          0.8,
+          0.9,
+          1.0
+        ]
+      },
+      "probability_quantiles": {
+        "0": 0.3523846377092,
+        "0.1": 0.3523846377092,
+        "0.5": 0.3523846377092,
+        "0.9": 0.3523846377092,
+        "1": 0.3523846377092
+      },
+      "rows": 51685
+    }
+  },
+  "heldout_outcomes_evaluated": false,
+  "incident_hypothesis_tested": false,
+  "independent_hourly_trials": false,
+  "outer_folds": [
+    {
+      "buy_and_hold": {
+        "annualized_daily_volatility": null,
+        "annualized_return": 0.2905946358328884,
+        "annualized_turnover": 1.5357718091602417,
+        "complete": true,
+        "completed_trades": 1,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.7392888036274852,
+        "mean_daily_log_return": 0.0006989125210275765,
+        "missing_hourly_marks": 40,
+        "net_return": 0.3934051180148006,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": false,
+        "round_trip_cost": 0.02,
+        "time_invested": 0.9999122191011236,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "cash_benchmark": {
+        "maximum_drawdown": 0.0,
+        "net_return": 0.0,
+        "sharpe": null,
+        "volatility": 0.0
+      },
+      "classification": {
+        "model": {
+          "accuracy": 0.578177727784027,
+          "auc": 0.484124009223231,
+          "brier": 0.24587555336321076,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "mean_probability": 0.37797265390995255,
+              "observed_frequency": 0.421822272215973,
+              "rows": 10668,
+              "upper": 0.4
+            }
+          ],
+          "log_loss": 0.6850458993735579,
+          "positive_rows": 4500,
+          "prevalence": 0.421822272215973,
+          "probability_histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              10668,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ]
+          },
+          "probability_quantiles": {
+            "0": 0.3634234346986309,
+            "0.1": 0.3741661458959352,
+            "0.5": 0.3780443116428059,
+            "0.9": 0.3815833173130196,
+            "1": 0.3955875064981956
+          },
+          "rows": 10668
+        },
+        "training_prevalence_baseline": {
+          "accuracy": 0.578177727784027,
+          "auc": 0.5,
+          "brier": 0.24580717331535426,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "mean_probability": 0.3780166739798157,
+              "observed_frequency": 0.421822272215973,
+              "rows": 10668,
+              "upper": 0.4
+            }
+          ],
+          "log_loss": 0.6848989310596613,
+          "positive_rows": 4500,
+          "prevalence": 0.421822272215973,
+          "probability_histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              10668,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ]
+          },
+          "probability_quantiles": {
+            "0": 0.3780166739798157,
+            "0.1": 0.3780166739798157,
+            "0.5": 0.3780166739798157,
+            "0.9": 0.3780166739798157,
+            "1": 0.3780166739798157
+          },
+          "rows": 10668
+        }
+      },
+      "double_cost_policy": {
+        "annualized_daily_volatility": 0.0,
+        "annualized_return": 0.0,
+        "annualized_turnover": 0.0,
+        "complete": true,
+        "completed_trades": 0,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.0,
+        "mean_daily_log_return": 0.0,
+        "missing_hourly_marks": 0,
+        "net_return": 0.0,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": true,
+        "round_trip_cost": 0.04,
+        "time_invested": 0.0,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "end": "2022-03-15T16:00:00Z",
+      "fold": 1,
+      "paper_policy": {
+        "annualized_daily_volatility": 0.0,
+        "annualized_return": 0.0,
+        "annualized_turnover": 0.0,
+        "complete": true,
+        "completed_trades": 0,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.0,
+        "mean_daily_log_return": 0.0,
+        "missing_hourly_marks": 0,
+        "net_return": 0.0,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": true,
+        "round_trip_cost": 0.02,
+        "time_invested": 0.0,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "selected_l2": 1.0,
+      "start": "2020-11-26T00:00:00Z",
+      "training_rows": 22790
+    },
+    {
+      "buy_and_hold": {
+        "annualized_daily_volatility": null,
+        "annualized_return": -0.10007560056742756,
+        "annualized_turnover": 1.5390403207430643,
+        "complete": true,
+        "completed_trades": 1,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.6544577142063603,
+        "mean_daily_log_return": -0.00028888909538781344,
+        "missing_hourly_marks": 21,
+        "net_return": -0.1281396560708702,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": false,
+        "round_trip_cost": 0.02,
+        "time_invested": 0.9999122191011236,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "cash_benchmark": {
+        "maximum_drawdown": 0.0,
+        "net_return": 0.0,
+        "sharpe": null,
+        "volatility": 0.0
+      },
+      "classification": {
+        "model": {
+          "accuracy": 0.6799479892263397,
+          "auc": 0.5822330089313666,
+          "brier": 0.22210894013391513,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "mean_probability": 0.38913103638180174,
+              "observed_frequency": 0.316886272310999,
+              "rows": 10701,
+              "upper": 0.4
+            },
+            {
+              "lower": 0.4,
+              "mean_probability": 0.4057710708172379,
+              "observed_frequency": 0.8333333333333334,
+              "rows": 66,
+              "upper": 0.5
+            }
+          ],
+          "log_loss": 0.6366143942085276,
+          "positive_rows": 3446,
+          "prevalence": 0.32005201077366024,
+          "probability_histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              10701,
+              66,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ]
+          },
+          "probability_quantiles": {
+            "0": 0.38548938751513545,
+            "0.1": 0.3871724970342139,
+            "0.5": 0.3886882868812129,
+            "0.9": 0.3916776936957314,
+            "1": 0.41342149771810643
+          },
+          "rows": 10767
+        },
+        "training_prevalence_baseline": {
+          "accuracy": 0.6799479892263397,
+          "auc": 0.5,
+          "brier": 0.22260925695286535,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "mean_probability": 0.3906957350488445,
+              "observed_frequency": 0.32005201077366024,
+              "rows": 10767,
+              "upper": 0.4
+            }
+          ],
+          "log_loss": 0.6376650097673141,
+          "positive_rows": 3446,
+          "prevalence": 0.32005201077366024,
+          "probability_histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              10767,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ]
+          },
+          "probability_quantiles": {
+            "0": 0.3906957350488444,
+            "0.1": 0.3906957350488444,
+            "0.5": 0.3906957350488444,
+            "0.9": 0.3906957350488444,
+            "1": 0.3906957350488444
+          },
+          "rows": 10767
+        }
+      },
+      "double_cost_policy": {
+        "annualized_daily_volatility": 0.0,
+        "annualized_return": 0.0,
+        "annualized_turnover": 0.0,
+        "complete": true,
+        "completed_trades": 0,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.0,
+        "mean_daily_log_return": 0.0,
+        "missing_hourly_marks": 0,
+        "net_return": 0.0,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": true,
+        "round_trip_cost": 0.04,
+        "time_invested": 0.0,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "end": "2023-07-03T08:00:00Z",
+      "fold": 2,
+      "paper_policy": {
+        "annualized_daily_volatility": 0.0,
+        "annualized_return": 0.0,
+        "annualized_turnover": 0.0,
+        "complete": true,
+        "completed_trades": 0,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.0,
+        "mean_daily_log_return": 0.0,
+        "missing_hourly_marks": 0,
+        "net_return": 0.0,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": true,
+        "round_trip_cost": 0.02,
+        "time_invested": 0.0,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "selected_l2": 1.0,
+      "start": "2022-03-15T16:00:00Z",
+      "training_rows": 33576
+    },
+    {
+      "buy_and_hold": {
+        "annualized_daily_volatility": null,
+        "annualized_return": -0.056898644261579034,
+        "annualized_turnover": 1.5385240288264679,
+        "complete": true,
+        "completed_trades": 1,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.4147583614917213,
+        "mean_daily_log_return": -0.00016049731479238148,
+        "missing_hourly_marks": 345,
+        "net_return": -0.07335313085097239,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": false,
+        "round_trip_cost": 0.02,
+        "time_invested": 0.9999122191011236,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "cash_benchmark": {
+        "maximum_drawdown": 0.0,
+        "net_return": 0.0,
+        "sharpe": null,
+        "volatility": 0.0
+      },
+      "classification": {
+        "model": {
+          "accuracy": 0.7823761261261262,
+          "auc": 0.6403804964884015,
+          "brier": 0.18914372893325881,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "mean_probability": 0.35947352644978514,
+              "observed_frequency": 0.21408939678865904,
+              "rows": 6913,
+              "upper": 0.4
+            },
+            {
+              "lower": 0.4,
+              "mean_probability": 0.4163487700915764,
+              "observed_frequency": 0.34554973821989526,
+              "rows": 191,
+              "upper": 0.5
+            }
+          ],
+          "log_loss": 0.5684120506961606,
+          "positive_rows": 1546,
+          "prevalence": 0.21762387387387389,
+          "probability_histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              6913,
+              191,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ]
+          },
+          "probability_quantiles": {
+            "0": 0.34050891348617873,
+            "0.1": 0.3473147615728673,
+            "0.5": 0.35658637034318574,
+            "0.9": 0.37885143066339,
+            "1": 0.4743344718017718
+          },
+          "rows": 7104
+        },
+        "training_prevalence_baseline": {
+          "accuracy": 0.7823761261261262,
+          "auc": 0.5,
+          "brier": 0.1949231293866305,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "mean_probability": 0.3746570104808601,
+              "observed_frequency": 0.21762387387387389,
+              "rows": 7104,
+              "upper": 0.4
+            }
+          ],
+          "log_loss": 0.5809413815386028,
+          "positive_rows": 1546,
+          "prevalence": 0.21762387387387389,
+          "probability_histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              7104,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ]
+          },
+          "probability_quantiles": {
+            "0": 0.3746570104808601,
+            "0.1": 0.3746570104808601,
+            "0.5": 0.3746570104808601,
+            "0.9": 0.3746570104808601,
+            "1": 0.3746570104808601
+          },
+          "rows": 7104
+        }
+      },
+      "double_cost_policy": {
+        "annualized_daily_volatility": 0.0,
+        "annualized_return": 0.0,
+        "annualized_turnover": 0.0,
+        "complete": true,
+        "completed_trades": 0,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.0,
+        "mean_daily_log_return": 0.0,
+        "missing_hourly_marks": 0,
+        "net_return": 0.0,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": true,
+        "round_trip_cost": 0.04,
+        "time_invested": 0.0,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "end": "2024-10-20T00:00:00Z",
+      "fold": 3,
+      "paper_policy": {
+        "annualized_daily_volatility": 0.0,
+        "annualized_return": 0.0,
+        "annualized_turnover": 0.0,
+        "complete": true,
+        "completed_trades": 0,
+        "daily_sampling": "24-hour intervals from block start; final partial interval retained",
+        "daily_sharpe": null,
+        "fill_delay_hours": 1,
+        "maximum_drawdown_observed": 0.0,
+        "mean_daily_log_return": 0.0,
+        "missing_hourly_marks": 0,
+        "net_return": 0.0,
+        "return_clock": "120 hours from delayed fill; differs from completed-close forecast target",
+        "risk_complete": true,
+        "round_trip_cost": 0.02,
+        "time_invested": 0.0,
+        "unfilled_orders": 0,
+        "unresolved_trades": 0
+      },
+      "selected_l2": 0.1,
+      "start": "2023-07-03T08:00:00Z",
+      "training_rows": 44462
+    }
+  ],
+  "pooled_outer": {
+    "model": {
+      "accuracy": 0.6674025018395879,
+      "auc": 0.5438024412784566,
+      "brier": 0.22278721791381853,
+      "calibration_bins": [
+        {
+          "lower": 0.3,
+          "mean_probability": 0.37767286544729506,
+          "observed_frequency": 0.33134148928647195,
+          "rows": 28282,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.4136323181378552,
+          "observed_frequency": 0.4708171206225681,
+          "rows": 257,
+          "upper": 0.5
+        }
+      ],
+      "log_loss": 0.6377411978382515,
+      "positive_rows": 9492,
+      "prevalence": 0.33259749816041206,
+      "probability_histogram": {
+        "counts": [
+          0,
+          0,
+          0,
+          28282,
+          257,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edges": [
+          0.0,
+          0.1,
+          0.2,
+          0.30000000000000004,
+          0.4,
+          0.5,
+          0.6000000000000001,
+          0.7000000000000001,
+          0.8,
+          0.9,
+          1.0
+        ]
+      },
+      "probability_quantiles": {
+        "0": 0.34050891348617873,
+        "0.1": 0.35401977345641983,
+        "0.5": 0.3796703895716915,
+        "0.9": 0.3900808269172379,
+        "1": 0.4743344718017718
+      },
+      "rows": 28539
+    },
+    "training_prevalence_baseline": {
+      "accuracy": 0.6674025018395879,
+      "auc": 0.5321368353763533,
+      "brier": 0.22438903625573162,
+      "calibration_bins": [
+        {
+          "lower": 0.3,
+          "mean_probability": 0.3819638480585729,
+          "observed_frequency": 0.33259749816041206,
+          "rows": 28539,
+          "upper": 0.4
+        }
+      ],
+      "log_loss": 0.6412014622502321,
+      "positive_rows": 9492,
+      "prevalence": 0.33259749816041206,
+      "probability_histogram": {
+        "counts": [
+          0,
+          0,
+          0,
+          28539,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edges": [
+          0.0,
+          0.1,
+          0.2,
+          0.30000000000000004,
+          0.4,
+          0.5,
+          0.6000000000000001,
+          0.7000000000000001,
+          0.8,
+          0.9,
+          1.0
+        ]
+      },
+      "probability_quantiles": {
+        "0": 0.3746570104808601,
+        "0.1": 0.3746570104808601,
+        "0.5": 0.3780166739798157,
+        "0.9": 0.3906957350488444,
+        "1": 0.3906957350488444
+      },
+      "rows": 28539
+    }
+  },
+  "prior_inspection_disclosure": "Reserved historical outcomes were inspected previously; this is not a pristine holdout.",
+  "readiness": {
+    "calendar_development_hours": 68352,
+    "exclusion_counts": {
+      "crosses_development_boundary": 11,
+      "incomplete_7day_feature_history": 168,
+      "missing_or_stale_btc_feature_price": 28,
+      "missing_or_stale_target_endpoint": 390,
+      "missing_or_stale_xmr_feature_price": 16070,
+      "unresolved_or_invalid_xmr_required_price": 134
+    },
+    "feature_eligible_by_year": {
+      "2017": 574,
+      "2018": 6977,
+      "2019": 7981,
+      "2020": 8417,
+      "2021": 8322,
+      "2022": 8394,
+      "2023": 8422,
+      "2024": 2999
+    },
+    "feature_eligible_hours": 52086,
+    "incident_data_read": false,
+    "initial_selection_folds": [
+      {
+        "training_end": "2018-12-15T00:00:00Z",
+        "training_rows": 6902,
+        "validation_end": "2019-08-09T08:00:00Z",
+        "validation_rows": 4988
+      },
+      {
+        "training_end": "2019-08-09T08:00:00Z",
+        "training_rows": 11984,
+        "validation_end": "2020-04-02T16:00:00Z",
+        "validation_rows": 5218
+      },
+      {
+        "training_end": "2020-04-02T16:00:00Z",
+        "training_rows": 17321,
+        "validation_end": "2020-11-26T00:00:00Z",
+        "validation_rows": 5350
+      }
+    ],
+    "initial_selection_ready": true,
+    "labeled_development_rows": 51685,
+    "oos_prices_parsed": false,
+    "prior_inspection_disclosure": "Reserved historical outcomes were inspected previously; this is not a pristine holdout.",
+    "readiness_note": "Nonempty folds only establish technical feasibility, not sufficient independent evidence.",
+    "reserved_oos_start": "2024-10-20T00:00:00Z"
+  },
+  "selected_hurdle": 0.03,
+  "study_id": "xmr_hourly_price_baseline_v1",
+  "uncertainty": {
+    "available": true,
+    "block_hours": 168,
+    "brier_difference_95pct": [
+      -0.002402177243728475,
+      -0.0008840887725485248
+    ],
+    "calendar_blocks": 203,
+    "interpretation": "Model minus prevalence baseline; negative is better. Approximate dependence-aware intervals, not independent hourly trials.",
+    "log_loss_difference_95pct": [
+      -0.005186113664621776,
+      -0.0019135011054377234
+    ],
+    "replicates": 300
+  }
+}

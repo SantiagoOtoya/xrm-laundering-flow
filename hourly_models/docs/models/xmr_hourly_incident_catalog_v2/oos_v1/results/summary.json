@@ -1,0 +1,2095 @@
+{
+  "amendment_timing_disclosure": "The price-only outer development scores were inspected before this catalog-date amendment. These paired chronological results are exploratory retrospective evidence, not prospectively specified independent tests. Catalog dates and eventual losses can introduce look-ahead and reporting-selection bias; next-day activation does not eliminate either. No live incident-alert edge is established.",
+  "archived_training_manifest_changed": false,
+  "classification": {
+    "full_incident": {
+      "active_incident": {
+        "accuracy": 0.585058505850585,
+        "auc": 0.6342002878004583,
+        "available": true,
+        "brier": 0.24105662822783944,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.29783104842217983,
+            "observed_frequency": 0.0,
+            "rows": 6,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3495721765469338,
+            "observed_frequency": 0.375,
+            "rows": 888,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4294569274882412,
+            "observed_frequency": 0.5981308411214953,
+            "rows": 214,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5217992457172332,
+            "observed_frequency": 1.0,
+            "rows": 3,
+            "upper": 0.6
+          }
+        ],
+        "log_loss": 0.6746353075039778,
+        "negative_rows": 647,
+        "positive_rows": 464,
+        "prevalence": 0.41764176417641763,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 6,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 888,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 214,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 3,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.2946216913946803,
+          "0.1": 0.32380839247005955,
+          "0.5": 0.354714556415593,
+          "0.9": 0.41987571682161867,
+          "1": 0.5226583832932495
+        },
+        "rows": 1111
+      },
+      "incidents": {
+        "canonical_incident_ids": [
+          "inc_003895894695cbb1",
+          "inc_01c5c8dc88024400",
+          "inc_0839d290365e8ced",
+          "inc_0948a7929fb4de3c",
+          "inc_09dbb30045690790",
+          "inc_09e5e82c3ce185a4",
+          "inc_0b3a6a1ddf0e4a84",
+          "inc_0f607a4f22346b7e",
+          "inc_1230a650d75bfcd7",
+          "inc_137cc30cae7a91a5",
+          "inc_138c72b4cf8e728c",
+          "inc_146f977f3b13e466",
+          "inc_189e27deb517753a",
+          "inc_1b2bd78f83ae96d3",
+          "inc_1b869b4d63f3dd1a",
+          "inc_2771f0a2ac78dd82",
+          "inc_27aaf79739757ff5",
+          "inc_29d16577bad6ac7c",
+          "inc_2f6f4f0ef3e778f0",
+          "inc_2f73b6b4ed124fd6",
+          "inc_3309c01f0b176ddc",
+          "inc_3a24d006965b4da9",
+          "inc_3e653ce7ac8b4d65",
+          "inc_3face80f215c1cf6",
+          "inc_4203a5b69b128f9a",
+          "inc_4cdcee4a545c17d1",
+          "inc_4f2c0f7f8663f1fb",
+          "inc_58aa8ae57ce388cd",
+          "inc_5b0018a9da3fe5d0",
+          "inc_5fce57a2388cf9a4",
+          "inc_60ba8fdb4f698205",
+          "inc_7367c62fb363e346",
+          "inc_73828da26fe4b769",
+          "inc_74de54db6339f0e5",
+          "inc_7adf0f3f49200861",
+          "inc_86a615ecaa348ea1",
+          "inc_87f7d19cf44c7de3",
+          "inc_884de0564d6980ad",
+          "inc_90e75aff75d70ef6",
+          "inc_924df10f6e91ad78",
+          "inc_970e9e6171404730",
+          "inc_9d41cadc2318a7dd",
+          "inc_a521845e428cdcc9",
+          "inc_a7be3fcf7abf451d",
+          "inc_a7c12c6cdb3d72ad",
+          "inc_ab6bb76e50a6f4a1",
+          "inc_abf7026a2703453e",
+          "inc_ac9baa551f4591ea",
+          "inc_acdfe4acf814892b",
+          "inc_b304b511cb80f201",
+          "inc_b78d87c51980940a",
+          "inc_b7bb8280183a5c60",
+          "inc_bb2b5f6b8ac53fc9",
+          "inc_bcd910a113326b3e",
+          "inc_c43e2606a85f1261",
+          "inc_c62e2c0ef3756da5",
+          "inc_c68ea6b0cc381b81",
+          "inc_c7affe7b4b69f1f8",
+          "inc_c89fb4dc39bdd527",
+          "inc_cb020b4ac26d4fb8",
+          "inc_cb685b6122a9b93e",
+          "inc_d669c4e8e350076d",
+          "inc_d6ef1248c3781db9",
+          "inc_dce2123b3ed2ea70",
+          "inc_e160dc3e68f3afd5",
+          "inc_e3de1dd1519674e9",
+          "inc_e61a68602d71d131",
+          "inc_e72d79392048dd56",
+          "inc_e7b024e0d96b7990",
+          "inc_ed1a2f0ba7345521",
+          "inc_f189af6f8fd986fa",
+          "inc_faa79981a904a2e8",
+          "inc_fbcacfee0eb8c87c"
+        ],
+        "distinct_incidents": 73,
+        "identity_unit": "Existing provisional catalog group; not an independently verified attack",
+        "incident_hour_counts": {
+          "inc_003895894695cbb1": 9,
+          "inc_01c5c8dc88024400": 24,
+          "inc_0839d290365e8ced": 24,
+          "inc_0948a7929fb4de3c": 5,
+          "inc_09dbb30045690790": 24,
+          "inc_09e5e82c3ce185a4": 23,
+          "inc_0b3a6a1ddf0e4a84": 24,
+          "inc_0f607a4f22346b7e": 8,
+          "inc_1230a650d75bfcd7": 14,
+          "inc_137cc30cae7a91a5": 10,
+          "inc_138c72b4cf8e728c": 9,
+          "inc_146f977f3b13e466": 1,
+          "inc_189e27deb517753a": 12,
+          "inc_1b2bd78f83ae96d3": 9,
+          "inc_1b869b4d63f3dd1a": 17,
+          "inc_2771f0a2ac78dd82": 24,
+          "inc_27aaf79739757ff5": 10,
+          "inc_29d16577bad6ac7c": 23,
+          "inc_2f6f4f0ef3e778f0": 24,
+          "inc_2f73b6b4ed124fd6": 24,
+          "inc_3309c01f0b176ddc": 22,
+          "inc_3a24d006965b4da9": 24,
+          "inc_3e653ce7ac8b4d65": 9,
+          "inc_3face80f215c1cf6": 9,
+          "inc_4203a5b69b128f9a": 24,
+          "inc_4cdcee4a545c17d1": 8,
+          "inc_4f2c0f7f8663f1fb": 24,
+          "inc_58aa8ae57ce388cd": 21,
+          "inc_5b0018a9da3fe5d0": 24,
+          "inc_5fce57a2388cf9a4": 11,
+          "inc_60ba8fdb4f698205": 11,
+          "inc_7367c62fb363e346": 13,
+          "inc_73828da26fe4b769": 12,
+          "inc_74de54db6339f0e5": 8,
+          "inc_7adf0f3f49200861": 24,
+          "inc_86a615ecaa348ea1": 13,
+          "inc_87f7d19cf44c7de3": 11,
+          "inc_884de0564d6980ad": 23,
+          "inc_90e75aff75d70ef6": 23,
+          "inc_924df10f6e91ad78": 24,
+          "inc_970e9e6171404730": 24,
+          "inc_9d41cadc2318a7dd": 24,
+          "inc_a521845e428cdcc9": 23,
+          "inc_a7be3fcf7abf451d": 10,
+          "inc_a7c12c6cdb3d72ad": 12,
+          "inc_ab6bb76e50a6f4a1": 10,
+          "inc_abf7026a2703453e": 24,
+          "inc_ac9baa551f4591ea": 24,
+          "inc_acdfe4acf814892b": 11,
+          "inc_b304b511cb80f201": 6,
+          "inc_b78d87c51980940a": 21,
+          "inc_b7bb8280183a5c60": 24,
+          "inc_bb2b5f6b8ac53fc9": 24,
+          "inc_bcd910a113326b3e": 14,
+          "inc_c43e2606a85f1261": 24,
+          "inc_c62e2c0ef3756da5": 23,
+          "inc_c68ea6b0cc381b81": 8,
+          "inc_c7affe7b4b69f1f8": 24,
+          "inc_c89fb4dc39bdd527": 24,
+          "inc_cb020b4ac26d4fb8": 24,
+          "inc_cb685b6122a9b93e": 24,
+          "inc_d669c4e8e350076d": 24,
+          "inc_d6ef1248c3781db9": 14,
+          "inc_dce2123b3ed2ea70": 9,
+          "inc_e160dc3e68f3afd5": 23,
+          "inc_e3de1dd1519674e9": 6,
+          "inc_e61a68602d71d131": 23,
+          "inc_e72d79392048dd56": 10,
+          "inc_e7b024e0d96b7990": 10,
+          "inc_ed1a2f0ba7345521": 17,
+          "inc_f189af6f8fd986fa": 5,
+          "inc_faa79981a904a2e8": 23,
+          "inc_fbcacfee0eb8c87c": 9
+        },
+        "independent_hourly_trials": false,
+        "overlapping_active_incident_hours": 120
+      },
+      "ordinary": {
+        "accuracy": 0.6801859384079024,
+        "auc": 0.49050014274239145,
+        "available": true,
+        "brier": 0.2188822587539514,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.2952695062465407,
+            "observed_frequency": 0.6774193548387096,
+            "rows": 62,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3411831241806341,
+            "observed_frequency": 0.30419902593128867,
+            "rows": 7597,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4315082900580633,
+            "observed_frequency": 0.40401505646173147,
+            "rows": 797,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5303948859298815,
+            "observed_frequency": 0.44776119402985076,
+            "rows": 134,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.685899243999837,
+            "observed_frequency": 0.7857142857142857,
+            "rows": 14,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "mean_probability": 0.7017341650405687,
+            "observed_frequency": 1.0,
+            "rows": 1,
+            "upper": 0.8
+          }
+        ],
+        "log_loss": 0.6297701749479784,
+        "negative_rows": 5858,
+        "positive_rows": 2747,
+        "prevalence": 0.3192330040674027,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 62,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 7597,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 797,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 134,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 14,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 1,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.284798444994428,
+          "0.1": 0.3159706567637893,
+          "0.5": 0.3407530454130482,
+          "0.9": 0.4039891267995997,
+          "1": 0.7017341650405687
+        },
+        "rows": 8605
+      },
+      "overall": {
+        "accuracy": 0.6693083573487032,
+        "auc": 0.5146079088720532,
+        "available": true,
+        "brier": 0.2214178417598684,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.29549552467380297,
+            "observed_frequency": 0.6176470588235294,
+            "rows": 68,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3420610827547383,
+            "observed_frequency": 0.3116087212728344,
+            "rows": 8485,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4310740748355688,
+            "observed_frequency": 0.44510385756676557,
+            "rows": 1011,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5302066602317944,
+            "observed_frequency": 0.45985401459854014,
+            "rows": 137,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.685899243999837,
+            "observed_frequency": 0.7857142857142857,
+            "rows": 14,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "mean_probability": 0.7017341650405687,
+            "observed_frequency": 1.0,
+            "rows": 1,
+            "upper": 0.8
+          }
+        ],
+        "log_loss": 0.6349003892614525,
+        "negative_rows": 6505,
+        "positive_rows": 3211,
+        "prevalence": 0.33048579662412514,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 68,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 8485,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 1011,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 137,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 14,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 1,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.284798444994428,
+          "0.1": 0.3164557632055696,
+          "0.5": 0.3420337535485327,
+          "0.9": 0.40771994253068905,
+          "1": 0.7017341650405687
+        },
+        "rows": 9716
+      }
+    },
+    "market": {
+      "active_incident": {
+        "accuracy": 0.585058505850585,
+        "auc": 0.642311330810638,
+        "available": true,
+        "brier": 0.24208558891466353,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.2996140385287743,
+            "observed_frequency": 1.0,
+            "rows": 1,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3429347273727821,
+            "observed_frequency": 0.39895833333333336,
+            "rows": 960,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4269586335810855,
+            "observed_frequency": 0.5238095238095238,
+            "rows": 147,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5244424639249597,
+            "observed_frequency": 1.0,
+            "rows": 3,
+            "upper": 0.6
+          }
+        ],
+        "log_loss": 0.676815214115175,
+        "negative_rows": 647,
+        "positive_rows": 464,
+        "prevalence": 0.41764176417641763,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 1,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 960,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 147,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 3,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.2996140385287743,
+          "0.1": 0.31532427945130165,
+          "0.5": 0.34509174094699563,
+          "0.9": 0.4055070270329001,
+          "1": 0.5268476975065141
+        },
+        "rows": 1111
+      },
+      "incidents": {
+        "canonical_incident_ids": [
+          "inc_003895894695cbb1",
+          "inc_01c5c8dc88024400",
+          "inc_0839d290365e8ced",
+          "inc_0948a7929fb4de3c",
+          "inc_09dbb30045690790",
+          "inc_09e5e82c3ce185a4",
+          "inc_0b3a6a1ddf0e4a84",
+          "inc_0f607a4f22346b7e",
+          "inc_1230a650d75bfcd7",
+          "inc_137cc30cae7a91a5",
+          "inc_138c72b4cf8e728c",
+          "inc_146f977f3b13e466",
+          "inc_189e27deb517753a",
+          "inc_1b2bd78f83ae96d3",
+          "inc_1b869b4d63f3dd1a",
+          "inc_2771f0a2ac78dd82",
+          "inc_27aaf79739757ff5",
+          "inc_29d16577bad6ac7c",
+          "inc_2f6f4f0ef3e778f0",
+          "inc_2f73b6b4ed124fd6",
+          "inc_3309c01f0b176ddc",
+          "inc_3a24d006965b4da9",
+          "inc_3e653ce7ac8b4d65",
+          "inc_3face80f215c1cf6",
+          "inc_4203a5b69b128f9a",
+          "inc_4cdcee4a545c17d1",
+          "inc_4f2c0f7f8663f1fb",
+          "inc_58aa8ae57ce388cd",
+          "inc_5b0018a9da3fe5d0",
+          "inc_5fce57a2388cf9a4",
+          "inc_60ba8fdb4f698205",
+          "inc_7367c62fb363e346",
+          "inc_73828da26fe4b769",
+          "inc_74de54db6339f0e5",
+          "inc_7adf0f3f49200861",
+          "inc_86a615ecaa348ea1",
+          "inc_87f7d19cf44c7de3",
+          "inc_884de0564d6980ad",
+          "inc_90e75aff75d70ef6",
+          "inc_924df10f6e91ad78",
+          "inc_970e9e6171404730",
+          "inc_9d41cadc2318a7dd",
+          "inc_a521845e428cdcc9",
+          "inc_a7be3fcf7abf451d",
+          "inc_a7c12c6cdb3d72ad",
+          "inc_ab6bb76e50a6f4a1",
+          "inc_abf7026a2703453e",
+          "inc_ac9baa551f4591ea",
+          "inc_acdfe4acf814892b",
+          "inc_b304b511cb80f201",
+          "inc_b78d87c51980940a",
+          "inc_b7bb8280183a5c60",
+          "inc_bb2b5f6b8ac53fc9",
+          "inc_bcd910a113326b3e",
+          "inc_c43e2606a85f1261",
+          "inc_c62e2c0ef3756da5",
+          "inc_c68ea6b0cc381b81",
+          "inc_c7affe7b4b69f1f8",
+          "inc_c89fb4dc39bdd527",
+          "inc_cb020b4ac26d4fb8",
+          "inc_cb685b6122a9b93e",
+          "inc_d669c4e8e350076d",
+          "inc_d6ef1248c3781db9",
+          "inc_dce2123b3ed2ea70",
+          "inc_e160dc3e68f3afd5",
+          "inc_e3de1dd1519674e9",
+          "inc_e61a68602d71d131",
+          "inc_e72d79392048dd56",
+          "inc_e7b024e0d96b7990",
+          "inc_ed1a2f0ba7345521",
+          "inc_f189af6f8fd986fa",
+          "inc_faa79981a904a2e8",
+          "inc_fbcacfee0eb8c87c"
+        ],
+        "distinct_incidents": 73,
+        "identity_unit": "Existing provisional catalog group; not an independently verified attack",
+        "incident_hour_counts": {
+          "inc_003895894695cbb1": 9,
+          "inc_01c5c8dc88024400": 24,
+          "inc_0839d290365e8ced": 24,
+          "inc_0948a7929fb4de3c": 5,
+          "inc_09dbb30045690790": 24,
+          "inc_09e5e82c3ce185a4": 23,
+          "inc_0b3a6a1ddf0e4a84": 24,
+          "inc_0f607a4f22346b7e": 8,
+          "inc_1230a650d75bfcd7": 14,
+          "inc_137cc30cae7a91a5": 10,
+          "inc_138c72b4cf8e728c": 9,
+          "inc_146f977f3b13e466": 1,
+          "inc_189e27deb517753a": 12,
+          "inc_1b2bd78f83ae96d3": 9,
+          "inc_1b869b4d63f3dd1a": 17,
+          "inc_2771f0a2ac78dd82": 24,
+          "inc_27aaf79739757ff5": 10,
+          "inc_29d16577bad6ac7c": 23,
+          "inc_2f6f4f0ef3e778f0": 24,
+          "inc_2f73b6b4ed124fd6": 24,
+          "inc_3309c01f0b176ddc": 22,
+          "inc_3a24d006965b4da9": 24,
+          "inc_3e653ce7ac8b4d65": 9,
+          "inc_3face80f215c1cf6": 9,
+          "inc_4203a5b69b128f9a": 24,
+          "inc_4cdcee4a545c17d1": 8,
+          "inc_4f2c0f7f8663f1fb": 24,
+          "inc_58aa8ae57ce388cd": 21,
+          "inc_5b0018a9da3fe5d0": 24,
+          "inc_5fce57a2388cf9a4": 11,
+          "inc_60ba8fdb4f698205": 11,
+          "inc_7367c62fb363e346": 13,
+          "inc_73828da26fe4b769": 12,
+          "inc_74de54db6339f0e5": 8,
+          "inc_7adf0f3f49200861": 24,
+          "inc_86a615ecaa348ea1": 13,
+          "inc_87f7d19cf44c7de3": 11,
+          "inc_884de0564d6980ad": 23,
+          "inc_90e75aff75d70ef6": 23,
+          "inc_924df10f6e91ad78": 24,
+          "inc_970e9e6171404730": 24,
+          "inc_9d41cadc2318a7dd": 24,
+          "inc_a521845e428cdcc9": 23,
+          "inc_a7be3fcf7abf451d": 10,
+          "inc_a7c12c6cdb3d72ad": 12,
+          "inc_ab6bb76e50a6f4a1": 10,
+          "inc_abf7026a2703453e": 24,
+          "inc_ac9baa551f4591ea": 24,
+          "inc_acdfe4acf814892b": 11,
+          "inc_b304b511cb80f201": 6,
+          "inc_b78d87c51980940a": 21,
+          "inc_b7bb8280183a5c60": 24,
+          "inc_bb2b5f6b8ac53fc9": 24,
+          "inc_bcd910a113326b3e": 14,
+          "inc_c43e2606a85f1261": 24,
+          "inc_c62e2c0ef3756da5": 23,
+          "inc_c68ea6b0cc381b81": 8,
+          "inc_c7affe7b4b69f1f8": 24,
+          "inc_c89fb4dc39bdd527": 24,
+          "inc_cb020b4ac26d4fb8": 24,
+          "inc_cb685b6122a9b93e": 24,
+          "inc_d669c4e8e350076d": 24,
+          "inc_d6ef1248c3781db9": 14,
+          "inc_dce2123b3ed2ea70": 9,
+          "inc_e160dc3e68f3afd5": 23,
+          "inc_e3de1dd1519674e9": 6,
+          "inc_e61a68602d71d131": 23,
+          "inc_e72d79392048dd56": 10,
+          "inc_e7b024e0d96b7990": 10,
+          "inc_ed1a2f0ba7345521": 17,
+          "inc_f189af6f8fd986fa": 5,
+          "inc_faa79981a904a2e8": 23,
+          "inc_fbcacfee0eb8c87c": 9
+        },
+        "independent_hourly_trials": false,
+        "overlapping_active_incident_hours": 120
+      },
+      "ordinary": {
+        "accuracy": 0.6803021499128413,
+        "auc": 0.49065811016033756,
+        "available": true,
+        "brier": 0.21893241698918425,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.2951192439415491,
+            "observed_frequency": 0.7450980392156863,
+            "rows": 51,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3418829960189255,
+            "observed_frequency": 0.30388413429888084,
+            "rows": 7595,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4316069925624688,
+            "observed_frequency": 0.4052044609665427,
+            "rows": 807,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5303776156006806,
+            "observed_frequency": 0.45255474452554745,
+            "rows": 137,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.6851457927171487,
+            "observed_frequency": 0.7692307692307693,
+            "rows": 13,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "mean_probability": 0.7011888838985767,
+            "observed_frequency": 1.0,
+            "rows": 2,
+            "upper": 0.8
+          }
+        ],
+        "log_loss": 0.6298759805094704,
+        "negative_rows": 5858,
+        "positive_rows": 2747,
+        "prevalence": 0.3192330040674027,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 51,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 7595,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 807,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 137,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 13,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 2,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.28552229997871703,
+          "0.1": 0.31678101065090475,
+          "0.5": 0.3416478871731432,
+          "0.9": 0.404996155904353,
+          "1": 0.7020797432499196
+        },
+        "rows": 8605
+      },
+      "overall": {
+        "accuracy": 0.669411280362289,
+        "auc": 0.512070034046589,
+        "available": true,
+        "brier": 0.22157992357720477,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.2952056822989957,
+            "observed_frequency": 0.75,
+            "rows": 52,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3420010161357815,
+            "observed_frequency": 0.31455289304500295,
+            "rows": 8555,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4308907359898657,
+            "observed_frequency": 0.42348008385744235,
+            "rows": 954,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5302504337790579,
+            "observed_frequency": 0.4642857142857143,
+            "rows": 140,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.6851457927171487,
+            "observed_frequency": 0.7692307692307693,
+            "rows": 13,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "mean_probability": 0.7011888838985767,
+            "observed_frequency": 1.0,
+            "rows": 2,
+            "upper": 0.8
+          }
+        ],
+        "log_loss": 0.6352433630265492,
+        "negative_rows": 6505,
+        "positive_rows": 3211,
+        "prevalence": 0.33048579662412514,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 52,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 8555,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 954,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 140,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 13,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 2,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.28552229997871703,
+          "0.1": 0.3164899087230194,
+          "0.5": 0.34189703530199267,
+          "0.9": 0.405186853086753,
+          "1": 0.7020797432499196
+        },
+        "rows": 9716
+      }
+    },
+    "presence": {
+      "active_incident": {
+        "accuracy": 0.585058505850585,
+        "auc": 0.6422380482865213,
+        "available": true,
+        "brier": 0.24086514162255268,
+        "calibration_bins": [
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3501889430580712,
+            "observed_frequency": 0.3785557986870897,
+            "rows": 914,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4298359448413402,
+            "observed_frequency": 0.5927835051546392,
+            "rows": 194,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.535429207997287,
+            "observed_frequency": 1.0,
+            "rows": 3,
+            "upper": 0.6
+          }
+        ],
+        "log_loss": 0.6742697834140465,
+        "negative_rows": 647,
+        "positive_rows": 464,
+        "prevalence": 0.41764176417641763,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 0,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 914,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 194,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 3,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.30891342382674597,
+          "0.1": 0.32491691461497463,
+          "0.5": 0.3551465194229444,
+          "0.9": 0.4160537733745754,
+          "1": 0.5378317496679945
+        },
+        "rows": 1111
+      },
+      "incidents": {
+        "canonical_incident_ids": [
+          "inc_003895894695cbb1",
+          "inc_01c5c8dc88024400",
+          "inc_0839d290365e8ced",
+          "inc_0948a7929fb4de3c",
+          "inc_09dbb30045690790",
+          "inc_09e5e82c3ce185a4",
+          "inc_0b3a6a1ddf0e4a84",
+          "inc_0f607a4f22346b7e",
+          "inc_1230a650d75bfcd7",
+          "inc_137cc30cae7a91a5",
+          "inc_138c72b4cf8e728c",
+          "inc_146f977f3b13e466",
+          "inc_189e27deb517753a",
+          "inc_1b2bd78f83ae96d3",
+          "inc_1b869b4d63f3dd1a",
+          "inc_2771f0a2ac78dd82",
+          "inc_27aaf79739757ff5",
+          "inc_29d16577bad6ac7c",
+          "inc_2f6f4f0ef3e778f0",
+          "inc_2f73b6b4ed124fd6",
+          "inc_3309c01f0b176ddc",
+          "inc_3a24d006965b4da9",
+          "inc_3e653ce7ac8b4d65",
+          "inc_3face80f215c1cf6",
+          "inc_4203a5b69b128f9a",
+          "inc_4cdcee4a545c17d1",
+          "inc_4f2c0f7f8663f1fb",
+          "inc_58aa8ae57ce388cd",
+          "inc_5b0018a9da3fe5d0",
+          "inc_5fce57a2388cf9a4",
+          "inc_60ba8fdb4f698205",
+          "inc_7367c62fb363e346",
+          "inc_73828da26fe4b769",
+          "inc_74de54db6339f0e5",
+          "inc_7adf0f3f49200861",
+          "inc_86a615ecaa348ea1",
+          "inc_87f7d19cf44c7de3",
+          "inc_884de0564d6980ad",
+          "inc_90e75aff75d70ef6",
+          "inc_924df10f6e91ad78",
+          "inc_970e9e6171404730",
+          "inc_9d41cadc2318a7dd",
+          "inc_a521845e428cdcc9",
+          "inc_a7be3fcf7abf451d",
+          "inc_a7c12c6cdb3d72ad",
+          "inc_ab6bb76e50a6f4a1",
+          "inc_abf7026a2703453e",
+          "inc_ac9baa551f4591ea",
+          "inc_acdfe4acf814892b",
+          "inc_b304b511cb80f201",
+          "inc_b78d87c51980940a",
+          "inc_b7bb8280183a5c60",
+          "inc_bb2b5f6b8ac53fc9",
+          "inc_bcd910a113326b3e",
+          "inc_c43e2606a85f1261",
+          "inc_c62e2c0ef3756da5",
+          "inc_c68ea6b0cc381b81",
+          "inc_c7affe7b4b69f1f8",
+          "inc_c89fb4dc39bdd527",
+          "inc_cb020b4ac26d4fb8",
+          "inc_cb685b6122a9b93e",
+          "inc_d669c4e8e350076d",
+          "inc_d6ef1248c3781db9",
+          "inc_dce2123b3ed2ea70",
+          "inc_e160dc3e68f3afd5",
+          "inc_e3de1dd1519674e9",
+          "inc_e61a68602d71d131",
+          "inc_e72d79392048dd56",
+          "inc_e7b024e0d96b7990",
+          "inc_ed1a2f0ba7345521",
+          "inc_f189af6f8fd986fa",
+          "inc_faa79981a904a2e8",
+          "inc_fbcacfee0eb8c87c"
+        ],
+        "distinct_incidents": 73,
+        "identity_unit": "Existing provisional catalog group; not an independently verified attack",
+        "incident_hour_counts": {
+          "inc_003895894695cbb1": 9,
+          "inc_01c5c8dc88024400": 24,
+          "inc_0839d290365e8ced": 24,
+          "inc_0948a7929fb4de3c": 5,
+          "inc_09dbb30045690790": 24,
+          "inc_09e5e82c3ce185a4": 23,
+          "inc_0b3a6a1ddf0e4a84": 24,
+          "inc_0f607a4f22346b7e": 8,
+          "inc_1230a650d75bfcd7": 14,
+          "inc_137cc30cae7a91a5": 10,
+          "inc_138c72b4cf8e728c": 9,
+          "inc_146f977f3b13e466": 1,
+          "inc_189e27deb517753a": 12,
+          "inc_1b2bd78f83ae96d3": 9,
+          "inc_1b869b4d63f3dd1a": 17,
+          "inc_2771f0a2ac78dd82": 24,
+          "inc_27aaf79739757ff5": 10,
+          "inc_29d16577bad6ac7c": 23,
+          "inc_2f6f4f0ef3e778f0": 24,
+          "inc_2f73b6b4ed124fd6": 24,
+          "inc_3309c01f0b176ddc": 22,
+          "inc_3a24d006965b4da9": 24,
+          "inc_3e653ce7ac8b4d65": 9,
+          "inc_3face80f215c1cf6": 9,
+          "inc_4203a5b69b128f9a": 24,
+          "inc_4cdcee4a545c17d1": 8,
+          "inc_4f2c0f7f8663f1fb": 24,
+          "inc_58aa8ae57ce388cd": 21,
+          "inc_5b0018a9da3fe5d0": 24,
+          "inc_5fce57a2388cf9a4": 11,
+          "inc_60ba8fdb4f698205": 11,
+          "inc_7367c62fb363e346": 13,
+          "inc_73828da26fe4b769": 12,
+          "inc_74de54db6339f0e5": 8,
+          "inc_7adf0f3f49200861": 24,
+          "inc_86a615ecaa348ea1": 13,
+          "inc_87f7d19cf44c7de3": 11,
+          "inc_884de0564d6980ad": 23,
+          "inc_90e75aff75d70ef6": 23,
+          "inc_924df10f6e91ad78": 24,
+          "inc_970e9e6171404730": 24,
+          "inc_9d41cadc2318a7dd": 24,
+          "inc_a521845e428cdcc9": 23,
+          "inc_a7be3fcf7abf451d": 10,
+          "inc_a7c12c6cdb3d72ad": 12,
+          "inc_ab6bb76e50a6f4a1": 10,
+          "inc_abf7026a2703453e": 24,
+          "inc_ac9baa551f4591ea": 24,
+          "inc_acdfe4acf814892b": 11,
+          "inc_b304b511cb80f201": 6,
+          "inc_b78d87c51980940a": 21,
+          "inc_b7bb8280183a5c60": 24,
+          "inc_bb2b5f6b8ac53fc9": 24,
+          "inc_bcd910a113326b3e": 14,
+          "inc_c43e2606a85f1261": 24,
+          "inc_c62e2c0ef3756da5": 23,
+          "inc_c68ea6b0cc381b81": 8,
+          "inc_c7affe7b4b69f1f8": 24,
+          "inc_c89fb4dc39bdd527": 24,
+          "inc_cb020b4ac26d4fb8": 24,
+          "inc_cb685b6122a9b93e": 24,
+          "inc_d669c4e8e350076d": 24,
+          "inc_d6ef1248c3781db9": 14,
+          "inc_dce2123b3ed2ea70": 9,
+          "inc_e160dc3e68f3afd5": 23,
+          "inc_e3de1dd1519674e9": 6,
+          "inc_e61a68602d71d131": 23,
+          "inc_e72d79392048dd56": 10,
+          "inc_e7b024e0d96b7990": 10,
+          "inc_ed1a2f0ba7345521": 17,
+          "inc_f189af6f8fd986fa": 5,
+          "inc_faa79981a904a2e8": 23,
+          "inc_fbcacfee0eb8c87c": 9
+        },
+        "independent_hourly_trials": false,
+        "overlapping_active_incident_hours": 120
+      },
+      "ordinary": {
+        "accuracy": 0.6801859384079024,
+        "auc": 0.4905191584897917,
+        "available": true,
+        "brier": 0.218882528283313,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.2953122893918143,
+            "observed_frequency": 0.6774193548387096,
+            "rows": 62,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.34120742518486086,
+            "observed_frequency": 0.3041074249605055,
+            "rows": 7596,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4314504499960886,
+            "observed_frequency": 0.40476190476190477,
+            "rows": 798,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5302850546083252,
+            "observed_frequency": 0.44776119402985076,
+            "rows": 134,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.6857735261551154,
+            "observed_frequency": 0.7857142857142857,
+            "rows": 14,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "mean_probability": 0.7016074977958767,
+            "observed_frequency": 1.0,
+            "rows": 1,
+            "upper": 0.8
+          }
+        ],
+        "log_loss": 0.6297706791770052,
+        "negative_rows": 5858,
+        "positive_rows": 2747,
+        "prevalence": 0.3192330040674027,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 62,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 7596,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 798,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 134,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 14,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 1,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.2848274876945638,
+          "0.1": 0.3159991600636008,
+          "0.5": 0.3407995515787324,
+          "0.9": 0.4040310931834965,
+          "1": 0.7016074977958767
+        },
+        "rows": 8605
+      },
+      "overall": {
+        "accuracy": 0.6693083573487032,
+        "auc": 0.5150972911860675,
+        "available": true,
+        "brier": 0.2213961844607415,
+        "calibration_bins": [
+          {
+            "lower": 0.2,
+            "mean_probability": 0.2953122893918143,
+            "observed_frequency": 0.6774193548387096,
+            "rows": 62,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3421720676450388,
+            "observed_frequency": 0.31210340775558165,
+            "rows": 8510,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.4311347100767124,
+            "observed_frequency": 0.4415322580645161,
+            "rows": 992,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.530397700302974,
+            "observed_frequency": 0.45985401459854014,
+            "rows": 137,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.6857735261551154,
+            "observed_frequency": 0.7857142857142857,
+            "rows": 14,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "mean_probability": 0.7016074977958767,
+            "observed_frequency": 1.0,
+            "rows": 1,
+            "upper": 0.8
+          }
+        ],
+        "log_loss": 0.634859039078956,
+        "negative_rows": 6505,
+        "positive_rows": 3211,
+        "prevalence": 0.33048579662412514,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 62,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 8510,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 992,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 137,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 14,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 1,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.2848274876945638,
+          "0.1": 0.31674578193848557,
+          "0.5": 0.34198960404786366,
+          "0.9": 0.4071994405120867,
+          "1": 0.7016074977958767
+        },
+        "rows": 9716
+      }
+    },
+    "prevalence": {
+      "active_incident": {
+        "accuracy": 0.5823582358235824,
+        "auc": 0.5,
+        "available": true,
+        "brier": 0.24747561354678563,
+        "calibration_bins": [
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3523846377092,
+            "observed_frequency": 0.41764176417641763,
+            "rows": 1111,
+            "upper": 0.4
+          }
+        ],
+        "log_loss": 0.688624105733245,
+        "negative_rows": 647,
+        "positive_rows": 464,
+        "prevalence": 0.41764176417641763,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 0,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 1111,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 0,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 0,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.3523846377092,
+          "0.1": 0.3523846377092,
+          "0.5": 0.3523846377092,
+          "0.9": 0.3523846377092,
+          "1": 0.3523846377092
+        },
+        "rows": 1111
+      },
+      "incidents": {
+        "canonical_incident_ids": [
+          "inc_003895894695cbb1",
+          "inc_01c5c8dc88024400",
+          "inc_0839d290365e8ced",
+          "inc_0948a7929fb4de3c",
+          "inc_09dbb30045690790",
+          "inc_09e5e82c3ce185a4",
+          "inc_0b3a6a1ddf0e4a84",
+          "inc_0f607a4f22346b7e",
+          "inc_1230a650d75bfcd7",
+          "inc_137cc30cae7a91a5",
+          "inc_138c72b4cf8e728c",
+          "inc_146f977f3b13e466",
+          "inc_189e27deb517753a",
+          "inc_1b2bd78f83ae96d3",
+          "inc_1b869b4d63f3dd1a",
+          "inc_2771f0a2ac78dd82",
+          "inc_27aaf79739757ff5",
+          "inc_29d16577bad6ac7c",
+          "inc_2f6f4f0ef3e778f0",
+          "inc_2f73b6b4ed124fd6",
+          "inc_3309c01f0b176ddc",
+          "inc_3a24d006965b4da9",
+          "inc_3e653ce7ac8b4d65",
+          "inc_3face80f215c1cf6",
+          "inc_4203a5b69b128f9a",
+          "inc_4cdcee4a545c17d1",
+          "inc_4f2c0f7f8663f1fb",
+          "inc_58aa8ae57ce388cd",
+          "inc_5b0018a9da3fe5d0",
+          "inc_5fce57a2388cf9a4",
+          "inc_60ba8fdb4f698205",
+          "inc_7367c62fb363e346",
+          "inc_73828da26fe4b769",
+          "inc_74de54db6339f0e5",
+          "inc_7adf0f3f49200861",
+          "inc_86a615ecaa348ea1",
+          "inc_87f7d19cf44c7de3",
+          "inc_884de0564d6980ad",
+          "inc_90e75aff75d70ef6",
+          "inc_924df10f6e91ad78",
+          "inc_970e9e6171404730",
+          "inc_9d41cadc2318a7dd",
+          "inc_a521845e428cdcc9",
+          "inc_a7be3fcf7abf451d",
+          "inc_a7c12c6cdb3d72ad",
+          "inc_ab6bb76e50a6f4a1",
+          "inc_abf7026a2703453e",
+          "inc_ac9baa551f4591ea",
+          "inc_acdfe4acf814892b",
+          "inc_b304b511cb80f201",
+          "inc_b78d87c51980940a",
+          "inc_b7bb8280183a5c60",
+          "inc_bb2b5f6b8ac53fc9",
+          "inc_bcd910a113326b3e",
+          "inc_c43e2606a85f1261",
+          "inc_c62e2c0ef3756da5",
+          "inc_c68ea6b0cc381b81",
+          "inc_c7affe7b4b69f1f8",
+          "inc_c89fb4dc39bdd527",
+          "inc_cb020b4ac26d4fb8",
+          "inc_cb685b6122a9b93e",
+          "inc_d669c4e8e350076d",
+          "inc_d6ef1248c3781db9",
+          "inc_dce2123b3ed2ea70",
+          "inc_e160dc3e68f3afd5",
+          "inc_e3de1dd1519674e9",
+          "inc_e61a68602d71d131",
+          "inc_e72d79392048dd56",
+          "inc_e7b024e0d96b7990",
+          "inc_ed1a2f0ba7345521",
+          "inc_f189af6f8fd986fa",
+          "inc_faa79981a904a2e8",
+          "inc_fbcacfee0eb8c87c"
+        ],
+        "distinct_incidents": 73,
+        "identity_unit": "Existing provisional catalog group; not an independently verified attack",
+        "incident_hour_counts": {
+          "inc_003895894695cbb1": 9,
+          "inc_01c5c8dc88024400": 24,
+          "inc_0839d290365e8ced": 24,
+          "inc_0948a7929fb4de3c": 5,
+          "inc_09dbb30045690790": 24,
+          "inc_09e5e82c3ce185a4": 23,
+          "inc_0b3a6a1ddf0e4a84": 24,
+          "inc_0f607a4f22346b7e": 8,
+          "inc_1230a650d75bfcd7": 14,
+          "inc_137cc30cae7a91a5": 10,
+          "inc_138c72b4cf8e728c": 9,
+          "inc_146f977f3b13e466": 1,
+          "inc_189e27deb517753a": 12,
+          "inc_1b2bd78f83ae96d3": 9,
+          "inc_1b869b4d63f3dd1a": 17,
+          "inc_2771f0a2ac78dd82": 24,
+          "inc_27aaf79739757ff5": 10,
+          "inc_29d16577bad6ac7c": 23,
+          "inc_2f6f4f0ef3e778f0": 24,
+          "inc_2f73b6b4ed124fd6": 24,
+          "inc_3309c01f0b176ddc": 22,
+          "inc_3a24d006965b4da9": 24,
+          "inc_3e653ce7ac8b4d65": 9,
+          "inc_3face80f215c1cf6": 9,
+          "inc_4203a5b69b128f9a": 24,
+          "inc_4cdcee4a545c17d1": 8,
+          "inc_4f2c0f7f8663f1fb": 24,
+          "inc_58aa8ae57ce388cd": 21,
+          "inc_5b0018a9da3fe5d0": 24,
+          "inc_5fce57a2388cf9a4": 11,
+          "inc_60ba8fdb4f698205": 11,
+          "inc_7367c62fb363e346": 13,
+          "inc_73828da26fe4b769": 12,
+          "inc_74de54db6339f0e5": 8,
+          "inc_7adf0f3f49200861": 24,
+          "inc_86a615ecaa348ea1": 13,
+          "inc_87f7d19cf44c7de3": 11,
+          "inc_884de0564d6980ad": 23,
+          "inc_90e75aff75d70ef6": 23,
+          "inc_924df10f6e91ad78": 24,
+          "inc_970e9e6171404730": 24,
+          "inc_9d41cadc2318a7dd": 24,
+          "inc_a521845e428cdcc9": 23,
+          "inc_a7be3fcf7abf451d": 10,
+          "inc_a7c12c6cdb3d72ad": 12,
+          "inc_ab6bb76e50a6f4a1": 10,
+          "inc_abf7026a2703453e": 24,
+          "inc_ac9baa551f4591ea": 24,
+          "inc_acdfe4acf814892b": 11,
+          "inc_b304b511cb80f201": 6,
+          "inc_b78d87c51980940a": 21,
+          "inc_b7bb8280183a5c60": 24,
+          "inc_bb2b5f6b8ac53fc9": 24,
+          "inc_bcd910a113326b3e": 14,
+          "inc_c43e2606a85f1261": 24,
+          "inc_c62e2c0ef3756da5": 23,
+          "inc_c68ea6b0cc381b81": 8,
+          "inc_c7affe7b4b69f1f8": 24,
+          "inc_c89fb4dc39bdd527": 24,
+          "inc_cb020b4ac26d4fb8": 24,
+          "inc_cb685b6122a9b93e": 24,
+          "inc_d669c4e8e350076d": 24,
+          "inc_d6ef1248c3781db9": 14,
+          "inc_dce2123b3ed2ea70": 9,
+          "inc_e160dc3e68f3afd5": 23,
+          "inc_e3de1dd1519674e9": 6,
+          "inc_e61a68602d71d131": 23,
+          "inc_e72d79392048dd56": 10,
+          "inc_e7b024e0d96b7990": 10,
+          "inc_ed1a2f0ba7345521": 17,
+          "inc_f189af6f8fd986fa": 5,
+          "inc_faa79981a904a2e8": 23,
+          "inc_fbcacfee0eb8c87c": 9
+        },
+        "independent_hourly_trials": false,
+        "overlapping_active_incident_hours": 120
+      },
+      "ordinary": {
+        "accuracy": 0.6807669959325974,
+        "auc": 0.5,
+        "available": true,
+        "brier": 0.21842232399462433,
+        "calibration_bins": [
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3523846377092,
+            "observed_frequency": 0.3192330040674027,
+            "rows": 8605,
+            "upper": 0.4
+          }
+        ],
+        "log_loss": 0.6287351280289797,
+        "negative_rows": 5858,
+        "positive_rows": 2747,
+        "prevalence": 0.3192330040674027,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 0,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 8605,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 0,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 0,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.3523846377092,
+          "0.1": 0.3523846377092,
+          "0.5": 0.3523846377092,
+          "0.9": 0.3523846377092,
+          "1": 0.3523846377092
+        },
+        "rows": 8605
+      },
+      "overall": {
+        "accuracy": 0.6695142033758749,
+        "auc": 0.5,
+        "available": true,
+        "brier": 0.22174449409471195,
+        "calibration_bins": [
+          {
+            "lower": 0.3,
+            "mean_probability": 0.3523846377092,
+            "observed_frequency": 0.33048579662412514,
+            "rows": 9716,
+            "upper": 0.4
+          }
+        ],
+        "log_loss": 0.6355832809961924,
+        "negative_rows": 6505,
+        "positive_rows": 3211,
+        "prevalence": 0.33048579662412514,
+        "probability_histogram": [
+          {
+            "lower": 0.0,
+            "rows": 0,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "rows": 0,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "rows": 0,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "rows": 9716,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "rows": 0,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "rows": 0,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "rows": 0,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "rows": 0,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "rows": 0,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "rows": 0,
+            "upper": 1.0
+          }
+        ],
+        "probability_quantiles": {
+          "0": 0.3523846377092,
+          "0.1": 0.3523846377092,
+          "0.5": 0.3523846377092,
+          "0.9": 0.3523846377092,
+          "1": 0.3523846377092
+        },
+        "rows": 9716
+      }
+    }
+  },
+  "double_cost_stress": {
+    "full_incident": {
+      "complete": true,
+      "completed_trades": 1,
+      "fill_delay_hours": 1,
+      "incident_associated_entries": 0,
+      "initial_notional_fraction": 0.1,
+      "mark_cost_convention": "Reserve the full 4% round-trip cost against initial notional; deduct once on settlement.",
+      "maximum_drawdown": 0.007399507711914111,
+      "maximum_drawdown_observed": 0.007399507711914111,
+      "mean_daily_log_return": 6.87986793893816e-06,
+      "missing_hourly_marks": 0,
+      "net_return": 0.00491739674593239,
+      "return_clock": "Fill at next completed hourly close; exit 120 hours after fill (buy-and-hold: block end). Forecast labels retain decision-close clock.",
+      "risk_complete": true,
+      "round_trip_cost": 0.04,
+      "time_invested": 0.0070126227208976155,
+      "unfilled_order_ledger": [],
+      "unfilled_orders": 0,
+      "unresolved_trades": 0
+    },
+    "market": {
+      "complete": true,
+      "completed_trades": 1,
+      "fill_delay_hours": 1,
+      "incident_associated_entries": 0,
+      "initial_notional_fraction": 0.1,
+      "mark_cost_convention": "Reserve the full 4% round-trip cost against initial notional; deduct once on settlement.",
+      "maximum_drawdown": 0.007399507711914111,
+      "maximum_drawdown_observed": 0.007399507711914111,
+      "mean_daily_log_return": 6.87986793893816e-06,
+      "missing_hourly_marks": 0,
+      "net_return": 0.00491739674593239,
+      "return_clock": "Fill at next completed hourly close; exit 120 hours after fill (buy-and-hold: block end). Forecast labels retain decision-close clock.",
+      "risk_complete": true,
+      "round_trip_cost": 0.04,
+      "time_invested": 0.0070126227208976155,
+      "unfilled_order_ledger": [],
+      "unfilled_orders": 0,
+      "unresolved_trades": 0
+    },
+    "presence": {
+      "complete": true,
+      "completed_trades": 1,
+      "fill_delay_hours": 1,
+      "incident_associated_entries": 0,
+      "initial_notional_fraction": 0.1,
+      "mark_cost_convention": "Reserve the full 4% round-trip cost against initial notional; deduct once on settlement.",
+      "maximum_drawdown": 0.007399507711914111,
+      "maximum_drawdown_observed": 0.007399507711914111,
+      "mean_daily_log_return": 6.87986793893816e-06,
+      "missing_hourly_marks": 0,
+      "net_return": 0.00491739674593239,
+      "return_clock": "Fill at next completed hourly close; exit 120 hours after fill (buy-and-hold: block end). Forecast labels retain decision-close clock.",
+      "risk_complete": true,
+      "round_trip_cost": 0.04,
+      "time_invested": 0.0070126227208976155,
+      "unfilled_order_ledger": [],
+      "unfilled_orders": 0,
+      "unresolved_trades": 0
+    }
+  },
+  "eligibility": {
+    "calendar_oos_hours": 17112,
+    "common_classification_rows": 9716,
+    "common_feature_eligible_hours": 9973,
+    "earlier_prices_used_only_for_backward_features": true,
+    "exclusion_counts": {
+      "btc_feature_missing_boundary_price": 27,
+      "btc_feature_stale_boundary_price": 24,
+      "missing_or_stale_btc_feature_price": 51,
+      "missing_or_stale_target_endpoint": 898,
+      "missing_or_stale_xmr_feature_price": 7139,
+      "target_crosses_oos_boundary": 119,
+      "xmr_feature_missing_boundary_price": 92,
+      "xmr_feature_stale_boundary_price": 7123,
+      "xmr_target_missing_boundary_price": 20,
+      "xmr_target_stale_boundary_price": 878
+    },
+    "incident_mapping_changed": false,
+    "label_return_values_calculated": false,
+    "lookback_calendar_hours": 169,
+    "price_quality_rules_changed": false
+  },
+  "end_exclusive": "2026-10-03T00:00:00Z",
+  "feature_eligible_policy_signals": 9973,
+  "fitting_performed": false,
+  "identical_classification_row_membership": true,
+  "model_final_l2": {
+    "full_incident": 0.01,
+    "market": 0.01,
+    "presence": 0.01
+  },
+  "paper_policy": {
+    "buy_and_hold": {
+      "complete": true,
+      "completed_trades": 1,
+      "exposure_disclosure": "100% initial XMR versus 10% per model trade; same next-hour entry and 2% additive cost.",
+      "fill_delay_hours": 1,
+      "incident_associated_entries": 0,
+      "initial_notional_fraction": 1.0,
+      "mark_cost_convention": "Reserve the full 2% round-trip cost against initial notional at entry; deduct it once on settlement.",
+      "maximum_drawdown": null,
+      "maximum_drawdown_observed": 0.6429848306989249,
+      "mean_daily_log_return": 0.001692808691586572,
+      "missing_hourly_marks": 472,
+      "net_return": 2.343347655520269,
+      "return_clock": "Fill at next completed hourly close; exit 120 hours after fill (buy-and-hold: block end). Forecast labels retain decision-close clock.",
+      "risk_complete": false,
+      "round_trip_cost": 0.02,
+      "time_invested": 0.9999415614773258,
+      "unfilled_order_ledger": [],
+      "unfilled_orders": 0,
+      "unresolved_trades": 0
+    },
+    "cash": {
+      "complete": true,
+      "completed_trades": 0,
+      "maximum_drawdown": 0.0,
+      "net_return": 0.0,
+      "risk_complete": true,
+      "time_invested": 0.0,
+      "unfilled_orders": 0,
+      "unresolved_trades": 0
+    },
+    "full_incident": {
+      "complete": true,
+      "completed_trades": 1,
+      "fill_delay_hours": 1,
+      "incident_associated_entries": 0,
+      "initial_notional_fraction": 0.1,
+      "mark_cost_convention": "Reserve the full 2% round-trip cost against initial notional; deduct once on settlement.",
+      "maximum_drawdown": 0.0073848778734521,
+      "maximum_drawdown_observed": 0.0073848778734521,
+      "mean_daily_log_return": 9.668417000204833e-06,
+      "missing_hourly_marks": 0,
+      "net_return": 0.0069173967459323915,
+      "return_clock": "Fill at next completed hourly close; exit 120 hours after fill (buy-and-hold: block end). Forecast labels retain decision-close clock.",
+      "risk_complete": true,
+      "round_trip_cost": 0.02,
+      "time_invested": 0.0070126227208976155,
+      "unfilled_order_ledger": [],
+      "unfilled_orders": 0,
+      "unresolved_trades": 0
+    },
+    "market": {
+      "complete": true,
+      "completed_trades": 1,
+      "fill_delay_hours": 1,
+      "incident_associated_entries": 0,
+      "initial_notional_fraction": 0.1,
+      "mark_cost_convention": "Reserve the full 2% round-trip cost against initial notional; deduct once on settlement.",
+      "maximum_drawdown": 0.0073848778734521,
+      "maximum_drawdown_observed": 0.0073848778734521,
+      "mean_daily_log_return": 9.668417000204833e-06,
+      "missing_hourly_marks": 0,
+      "net_return": 0.0069173967459323915,
+      "return_clock": "Fill at next completed hourly close; exit 120 hours after fill (buy-and-hold: block end). Forecast labels retain decision-close clock.",
+      "risk_complete": true,
+      "round_trip_cost": 0.02,
+      "time_invested": 0.0070126227208976155,
+      "unfilled_order_ledger": [],
+      "unfilled_orders": 0,
+      "unresolved_trades": 0
+    },
+    "presence": {
+      "complete": true,
+      "completed_trades": 1,
+      "fill_delay_hours": 1,
+      "incident_associated_entries": 0,
+      "initial_notional_fraction": 0.1,
+      "mark_cost_convention": "Reserve the full 2% round-trip cost against initial notional; deduct once on settlement.",
+      "maximum_drawdown": 0.0073848778734521,
+      "maximum_drawdown_observed": 0.0073848778734521,
+      "mean_daily_log_return": 9.668417000204833e-06,
+      "missing_hourly_marks": 0,
+      "net_return": 0.0069173967459323915,
+      "return_clock": "Fill at next completed hourly close; exit 120 hours after fill (buy-and-hold: block end). Forecast labels retain decision-close clock.",
+      "risk_complete": true,
+      "round_trip_cost": 0.02,
+      "time_invested": 0.0070126227208976155,
+      "unfilled_order_ledger": [],
+      "unfilled_orders": 0,
+      "unresolved_trades": 0
+    }
+  },
+  "prior_inspection_disclosure": "Reserved historical outcomes were inspected earlier in the project; this is not an untouched historical holdout. Stronger confirmation requires future observations after a full policy freeze.",
+  "reserved_outcomes_scored": true,
+  "scaler_estimation_performed": false,
+  "selected_hurdle": 0.03,
+  "start": "2024-10-20T00:00:00Z",
+  "study_id": "xmr_hourly_incident_catalog_v2_oos_v1",
+  "tuning_performed": false,
+  "uncertainty": {
+    "full_incident_minus_market": {
+      "available": true,
+      "block_hours": 168,
+      "brier_difference_95pct": [
+        -0.0005368538090504219,
+        0.0001842503116294607
+      ],
+      "calendar_blocks": 100,
+      "interpretation": "Paired model-minus-reference calendar-block intervals; negative favors model. Approximate serial-dependence uncertainty, not independent hourly confidence intervals.",
+      "log_loss_difference_95pct": [
+        -0.0011507818044475585,
+        0.000402482163902928
+      ],
+      "replicates": 300,
+      "terminal_fragment_merged": true
+    },
+    "market_minus_prevalence": {
+      "available": true,
+      "block_hours": 168,
+      "brier_difference_95pct": [
+        -0.00547003759518523,
+        0.0041190036967374425
+      ],
+      "calendar_blocks": 100,
+      "interpretation": "Paired model-minus-reference calendar-block intervals; negative favors model. Approximate serial-dependence uncertainty, not independent hourly confidence intervals.",
+      "log_loss_difference_95pct": [
+        -0.011775625029270927,
+        0.008792573439225852
+      ],
+      "replicates": 300,
+      "terminal_fragment_merged": true
+    },
+    "presence_minus_market": {
+      "available": true,
+      "block_hours": 168,
+      "brier_difference_95pct": [
+        -0.0005150186063541333,
+        0.00011611092324869453
+      ],
+      "calendar_blocks": 100,
+      "interpretation": "Paired model-minus-reference calendar-block intervals; negative favors model. Approximate serial-dependence uncertainty, not independent hourly confidence intervals.",
+      "log_loss_difference_95pct": [
+        -0.0010888020312187312,
+        0.0002594173304961747
+      ],
+      "replicates": 300,
+      "terminal_fragment_merged": true
+    }
+  }
+}

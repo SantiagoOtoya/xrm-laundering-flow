@@ -1,0 +1,83 @@
+{
+  "config": {
+    "bootstrap_replicates": 300,
+    "btc_coverage_path": "data/analysis/btc_usd_1h.coverage.json",
+    "btc_path": "data/analysis/btc_usd_1h.csv",
+    "btc_validation_path": "docs/btc_hourly_validation.json",
+    "classification_threshold": 0.5,
+    "development_end_exclusive": "2024-10-20T00:00:00Z",
+    "fallback_hurdle": 0.03,
+    "history_end_exclusive": "2026-10-03T00:00:00Z",
+    "history_start": "2017-01-02T00:00:00Z",
+    "horizon_hours": 120,
+    "hurdle_candidates": [
+      0.03,
+      0.04,
+      0.05
+    ],
+    "initial_development_end": "2020-11-26T00:00:00Z",
+    "l2_candidates": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "maximum_close_age_seconds": 300,
+    "maximum_selection_drawdown": 0.1,
+    "minimum_selection_trades": 10,
+    "optimizer_gradient_tolerance": 1e-08,
+    "optimizer_max_iterations": 100,
+    "outer_ends": [
+      "2022-03-15T16:00:00Z",
+      "2023-07-03T08:00:00Z",
+      "2024-10-20T00:00:00Z"
+    ],
+    "paper_entry_probability": 0.6,
+    "paper_fill_delay_hours": 1,
+    "paper_notional_fraction": 0.1,
+    "price_review_path": "docs/models/xmr_hourly_price_baseline_v1/PRICE_REVIEW.json",
+    "prior_holdout_inspection_disclosed": true,
+    "random_seed": 17,
+    "reserved_period_evaluation_allowed": false,
+    "round_trip_cost": 0.02,
+    "study_id": "xmr_hourly_price_baseline_v1",
+    "uncertainty_block_hours": 168,
+    "xmr_coverage_path": "data/analysis/xmr_usd_btc_combined_1h.coverage.json",
+    "xmr_path": "data/analysis/xmr_usd_btc_combined_1h.csv",
+    "xmr_validation_path": "docs/xmr_combined_hourly_validation.json"
+  },
+  "features": [
+    "xmr_return_24h",
+    "xmr_return_preceding_6d",
+    "btc_return_24h",
+    "btc_return_preceding_6d",
+    "xmr_realized_volatility_24h"
+  ],
+  "frozen_at_utc": "2026-10-04T10:02:44.841908+00:00",
+  "implementation_choices": [
+    "Price-only features 1-5; standalone baseline has no incident-coverage gate.",
+    "Combined converted XMR/USD prices; five-minute freshness unchanged.",
+    "Unresolved flagged closes withheld according to pre-run source review.",
+    "Float64 Newton optimization of the specified L2 objective.",
+    "Paper fills delayed one hour; holding period starts at fill. Forecast labels keep the specified close clock.",
+    "Missing intermediate portfolio marks make economic hurdle selection ineligible."
+  ],
+  "incident_data_read": false,
+  "input_sha256": {
+    "NEWMODELS.MD": "0b179ca82361c0027555c583144e612849dbb31f60bd234da4a4fbe63a12814e",
+    "config/models/xmr_hourly_price_baseline_v1.json": "af4539764c8fd57370a350e3e0b98bfa5a6b25113f3f47b18fabefea21d13ae8",
+    "data/analysis/btc_usd_1h.coverage.json": "c493f26a06618d24ff4691c5a44c3fc385e86e426da0a4785e44db57e9834324",
+    "data/analysis/btc_usd_1h.csv": "fdbbfb377438eff77c3d98e56b66094b0782506d997be5a679a73533bf16deaf",
+    "data/analysis/xmr_usd_btc_combined_1h.coverage.json": "2b2dcb079decd8873b5ee60eaaf2c744dc714e81d936f62ede9d01d7ac6298a4",
+    "data/analysis/xmr_usd_btc_combined_1h.csv": "daec6f4c098c7c8267a705973afbd0f51e4ba5f18338f0524242420a4d1e4c45",
+    "docs/HOURLY_PRICE_BASELINE.md": "1835554696e7016d3c9264fff31f9341690886af6bb674e6fcd80f16ea98b196",
+    "docs/btc_hourly_validation.json": "1c10cc35bdb7c572f1bf717d814887d9bbb3d7acbf8ce2518e2931ab200dfb6d",
+    "docs/models/xmr_hourly_price_baseline_v1/PRICE_REVIEW.json": "87491a002c4e712074fa8f59ba6af4a05ff3b788bdf55f468c4b5a3bb66b4392",
+    "docs/xmr_combined_hourly_validation.json": "01fe029c946f5a0f60a539d17cb1c2745f12aa84ba8fe0fcaaf7d2dd0809c049",
+    "requirements-analysis.txt": "331f9d599aa57dda4ac10dca5fdeb3f5442fab9645dbc61d829a10f5a5e5c857",
+    "scripts/train_xmr_hourly_baseline.py": "dfe20a6326e3ca30e55e9f84ebc695ff3cfaa34715202ef470c803d241a93ce9",
+    "tests/test_xmr_hourly_baseline.py": "cc91f9e3d8bb175c21ef9de62ae739de4154daa00bc384c57c4c2ad091d80dbd"
+  },
+  "prior_inspection_disclosure": "Reserved historical outcomes were inspected previously; this is not a pristine holdout.",
+  "reserved_period_evaluation_allowed": false,
+  "study_id": "xmr_hourly_price_baseline_v1"
+}

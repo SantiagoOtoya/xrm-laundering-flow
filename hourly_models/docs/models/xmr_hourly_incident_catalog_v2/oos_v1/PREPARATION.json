@@ -1,0 +1,9 @@
+{
+  "evaluation_freeze_sha256": "7d2e8328dbd351901bd6b88ed1034e4e8e6c6d009b882e81dea1a59b0426d0df",
+  "output_sha256": {
+    "eligibility.json": "b0bc5d50bf5a66468261fbf03184ea134a08f973ee7c041ac773fcc2de9685c7",
+    "exclusions.csv": "c432ae99fc8f45ef92970715d457e9eed9215a9eca7abbc819f57a0d9984b1d0",
+    "hourly_inputs.csv": "a6ddfcdfa8a20d1148fc7eed8dbc90335ad790d7b9c08d592b2ca6ed86ad78a6",
+    "price_quality.csv": "f340969ffe1e0b588effe75ea8ef2bdeb1a99bba8e61377f4a81f40650bf1504"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "amendment_timing_disclosure": "The price-only outer development scores were inspected before this catalog-date amendment. These paired chronological results are exploratory retrospective evidence, not prospectively specified independent tests. Catalog dates and eventual losses can introduce look-ahead and reporting-selection bias; next-day activation does not eliminate either. No live incident-alert edge is established.",
+  "calendar_development_hours": 68352,
+  "catalog_structural_rows": 588,
+  "common_feature_eligible_hours": 52086,
+  "common_label_eligible_hours": 51685,
+  "development_proxy_closes": 35371,
+  "development_source_switches": 20843,
+  "exclusion_counts": {
+    "btc_feature_missing_boundary_price": 193,
+    "btc_feature_stale_boundary_price": 1076,
+    "incomplete_7day_feature_history": 168,
+    "missing_or_stale_btc_feature_price": 1264,
+    "missing_or_stale_target_endpoint": 7060,
+    "missing_or_stale_xmr_feature_price": 16070,
+    "target_crosses_development_boundary": 119,
+    "xmr_feature_missing_boundary_price": 4041,
+    "xmr_feature_stale_boundary_price": 15205,
+    "xmr_feature_unresolved_price_review": 978,
+    "xmr_target_missing_boundary_price": 1690,
+    "xmr_target_stale_boundary_price": 5997,
+    "xmr_target_unresolved_price_review": 268
+  },
+  "explanation": "Catalog fields must be structurally valid; historical reporting availability/coverage do not gate this retrospective mode. The inherited 3% fallback remains fixed. Every fit must have both target classes; calendar boundaries and price eligibility are unchanged.",
+  "incident_eligible_hours": 68352,
+  "incident_mode": "retrospective_catalog_date",
+  "information_ledger_audit_context_only": {
+    "catalog_incident_groups": 588,
+    "historical_availability_verified": 0,
+    "hourly_ready_incidents": 0,
+    "original_loss_known_at_detection_verified": 0
+  },
+  "initial_selection_folds": [
+    {
+      "training_end": "2018-12-15T00:00:00Z",
+      "training_rows": 6902,
+      "validation_end": "2019-08-09T08:00:00Z",
+      "validation_rows": 4988
+    },
+    {
+      "training_end": "2019-08-09T08:00:00Z",
+      "training_rows": 11984,
+      "validation_end": "2020-04-02T16:00:00Z",
+      "validation_rows": 5218
+    },
+    {
+      "training_end": "2020-04-02T16:00:00Z",
+      "training_rows": 17321,
+      "validation_end": "2020-11-26T00:00:00Z",
+      "validation_rows": 5350
+    }
+  ],
+  "initial_selection_ready": true,
+  "outcomes_calculated": false,
+  "prior_inspection_disclosure": "Reserved historical outcomes were inspected earlier in the project; this is not an untouched historical holdout. Stronger confirmation requires future observations after a full policy freeze.",
+  "qualifying_catalog_groups": 302,
+  "reserved_calendar_hours": 17112,
+  "reserved_numeric_prices_parsed": false,
+  "reserved_start": "2024-10-20T00:00:00Z",
+  "status": "ready_for_pre_fit_freeze",
+  "unresolved_price_review_hours": 134
+}

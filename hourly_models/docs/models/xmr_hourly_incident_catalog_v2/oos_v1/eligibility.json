@@ -1,0 +1,22 @@
+{
+  "calendar_oos_hours": 17112,
+  "common_classification_rows": 9716,
+  "common_feature_eligible_hours": 9973,
+  "earlier_prices_used_only_for_backward_features": true,
+  "exclusion_counts": {
+    "btc_feature_missing_boundary_price": 27,
+    "btc_feature_stale_boundary_price": 24,
+    "missing_or_stale_btc_feature_price": 51,
+    "missing_or_stale_target_endpoint": 898,
+    "missing_or_stale_xmr_feature_price": 7139,
+    "target_crosses_oos_boundary": 119,
+    "xmr_feature_missing_boundary_price": 92,
+    "xmr_feature_stale_boundary_price": 7123,
+    "xmr_target_missing_boundary_price": 20,
+    "xmr_target_stale_boundary_price": 878
+  },
+  "incident_mapping_changed": false,
+  "label_return_values_calculated": false,
+  "lookback_calendar_hours": 169,
+  "price_quality_rules_changed": false
+}

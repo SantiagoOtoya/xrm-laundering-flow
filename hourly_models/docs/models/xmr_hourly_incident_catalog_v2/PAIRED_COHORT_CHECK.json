@@ -1,0 +1,38 @@
+{
+  "archived_baseline_membership_checks": [
+    {
+      "archived_test_rows": 10668,
+      "archived_training_rows": 22790,
+      "exact_test_timestamp_membership_matches": true,
+      "fold": 1,
+      "new_test_rows": 10668,
+      "new_training_rows": 22790,
+      "training_counts_match": true,
+      "training_cutoff_matches": true
+    },
+    {
+      "archived_test_rows": 10767,
+      "archived_training_rows": 33576,
+      "exact_test_timestamp_membership_matches": true,
+      "fold": 2,
+      "new_test_rows": 10767,
+      "new_training_rows": 33576,
+      "training_counts_match": true,
+      "training_cutoff_matches": true
+    },
+    {
+      "archived_test_rows": 7104,
+      "archived_training_rows": 44462,
+      "exact_test_timestamp_membership_matches": true,
+      "fold": 3,
+      "new_test_rows": 7104,
+      "new_training_rows": 44462,
+      "training_counts_match": true,
+      "training_cutoff_matches": true
+    }
+  ],
+  "comparators_refitted": true,
+  "note": "Refitting on the common frame avoids assuming archived training-population identity from counts alone.",
+  "saved_predictions_reused": false,
+  "within_run_training_test_rows_identical_for_all_comparisons": true
+}

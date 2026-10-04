@@ -1,0 +1,11 @@
+{
+  "baseline_original_specification_sha256": "0b179ca82361c0027555c583144e612849dbb31f60bd234da4a4fbe63a12814e",
+  "economically_supported_hurdle": false,
+  "fallback_used": true,
+  "inherited_from": "docs/models/xmr_hourly_price_baseline_v1/SELECTED.json",
+  "inherited_sha256": "1b481f3fb61ef23a7350e1b5758a7588e65f635c74160da5b8a7f60727d00e41",
+  "selected_hurdle": 0.03,
+  "selection_end": "2020-11-26T00:00:00Z",
+  "selection_repeated": false,
+  "warning": "Inherited descriptive fallback, not an optimum or a tradable edge. The price-only outer development scores were inspected before this catalog-date amendment. These paired chronological results are exploratory retrospective evidence, not prospectively specified independent tests. Catalog dates and eventual losses can introduce look-ahead and reporting-selection bias; next-day activation does not eliminate either. No live incident-alert edge is established."
+}

@@ -1,0 +1,14 @@
+{
+  "model_fitted": false,
+  "outcomes_calculated": false,
+  "output_sha256": {
+    "READINESS.json": "8932fd06129dee24f41bc864119e926bcd2ff720c81ed25e97863ab9ff3ae5d0",
+    "READINESS.md": "e05571c582bca59b85493a8770101072daa06434abbe93348ff96a961abdfa93",
+    "boundary_exclusions.csv": "83fb124ffaedf35418d4b0e564e3a4649f0fc8243227539c9142d9f1d44f7fc9",
+    "exclusions.csv": "9591a6f11b8e990cb5d7f0b8dd8cf0d9a7c13e79a6b2f5066da653758330e5e7",
+    "joined_features.csv": "fe0cd2ba67ca763926ce5547af6c6b38e97f37d24ad16869caad79db143580c7",
+    "price_review.csv": "ba6a0baa20ae4d90c58dd8c615a26db9f3e8f563254efe2db068cab5fe97d7a6",
+    "reserved_exclusion.json": "14de2422f8af7528be28c146d742887821b5dc8195f968705230009ef414edbb"
+  },
+  "pre_run_sha256": "b277094d0bf3c750bcabe0ffc24442d0c16a09541fb88c5b792d21b81f4778ba"
+}

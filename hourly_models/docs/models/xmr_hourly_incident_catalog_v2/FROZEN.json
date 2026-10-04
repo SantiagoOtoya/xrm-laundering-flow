@@ -1,0 +1,6 @@
+{
+  "initial_selection_ready": true,
+  "pre_run_sha256": "9638a9c64cb52d44f8f0dfcf0008abce698755e72272368be82142e878d57ae3",
+  "preparation_sha256": "32f95b46296f213365bee38522722d4b935da18dfe7831b88fe6339d9c4d3100",
+  "prior_inspection_disclosure": "Reserved historical outcomes were inspected earlier in the project; this is not an untouched historical holdout. Stronger confirmation requires future observations after a full policy freeze."
+}

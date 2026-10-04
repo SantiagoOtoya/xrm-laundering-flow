@@ -1,0 +1,1567 @@
+{
+  "copied_source_files": 139,
+  "created_at_utc": "2026-10-04T13:09:29.897787+00:00",
+  "data_collection_documentation_included": false,
+  "data_collection_scripts_included": false,
+  "external_provenance_dependencies": {
+    "data/analysis/btc_usd_1h.coverage.json": [
+      {
+        "expected_sha256": "c493f26a06618d24ff4691c5a44c3fc385e86e426da0a4785e44db57e9834324",
+        "manifest": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json"
+      },
+      {
+        "expected_sha256": "c493f26a06618d24ff4691c5a44c3fc385e86e426da0a4785e44db57e9834324",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "c493f26a06618d24ff4691c5a44c3fc385e86e426da0a4785e44db57e9834324",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "c493f26a06618d24ff4691c5a44c3fc385e86e426da0a4785e44db57e9834324",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/analysis/btc_usd_1h.csv": [
+      {
+        "expected_sha256": "fdbbfb377438eff77c3d98e56b66094b0782506d997be5a679a73533bf16deaf",
+        "manifest": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json"
+      },
+      {
+        "expected_sha256": "fdbbfb377438eff77c3d98e56b66094b0782506d997be5a679a73533bf16deaf",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "fdbbfb377438eff77c3d98e56b66094b0782506d997be5a679a73533bf16deaf",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "fdbbfb377438eff77c3d98e56b66094b0782506d997be5a679a73533bf16deaf",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/analysis/xmr_usd_btc_combined_1h.coverage.json": [
+      {
+        "expected_sha256": "2b2dcb079decd8873b5ee60eaaf2c744dc714e81d936f62ede9d01d7ac6298a4",
+        "manifest": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json"
+      },
+      {
+        "expected_sha256": "2b2dcb079decd8873b5ee60eaaf2c744dc714e81d936f62ede9d01d7ac6298a4",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "2b2dcb079decd8873b5ee60eaaf2c744dc714e81d936f62ede9d01d7ac6298a4",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "2b2dcb079decd8873b5ee60eaaf2c744dc714e81d936f62ede9d01d7ac6298a4",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/analysis/xmr_usd_btc_combined_1h.csv": [
+      {
+        "expected_sha256": "daec6f4c098c7c8267a705973afbd0f51e4ba5f18338f0524242420a4d1e4c45",
+        "manifest": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json"
+      },
+      {
+        "expected_sha256": "daec6f4c098c7c8267a705973afbd0f51e4ba5f18338f0524242420a4d1e4c45",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "daec6f4c098c7c8267a705973afbd0f51e4ba5f18338f0524242420a4d1e4c45",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "daec6f4c098c7c8267a705973afbd0f51e4ba5f18338f0524242420a4d1e4c45",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/curated/incident_information_v1/archive_checks.json": [
+      {
+        "expected_sha256": "c081a49c3b42ed307b04f2de3368a495eadbc318b4cdc6705f8525102b511231",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "c081a49c3b42ed307b04f2de3368a495eadbc318b4cdc6705f8525102b511231",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "c081a49c3b42ed307b04f2de3368a495eadbc318b4cdc6705f8525102b511231",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/curated/incident_information_v1/duplicate_pair_reviews.json": [
+      {
+        "expected_sha256": "73bcc9e193ff43813ce2911dd78cc0c19370bd47ce3d3b90f0ade30bd11119b7",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "73bcc9e193ff43813ce2911dd78cc0c19370bd47ce3d3b90f0ade30bd11119b7",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "73bcc9e193ff43813ce2911dd78cc0c19370bd47ce3d3b90f0ade30bd11119b7",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/curated/incident_information_v1/readiness.json": [
+      {
+        "expected_sha256": "4df9c84145a889d52d64a27185864a5345f04819dd5013aaab43f8f62d880313",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "4df9c84145a889d52d64a27185864a5345f04819dd5013aaab43f8f62d880313",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "4df9c84145a889d52d64a27185864a5345f04819dd5013aaab43f8f62d880313",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/curated/incident_information_v1/reports.jsonl": [
+      {
+        "expected_sha256": "c97ded4db1ab6f6f78336bc0784dc33cdee7a4fc1898f06609279d68c174a515",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "c97ded4db1ab6f6f78336bc0784dc33cdee7a4fc1898f06609279d68c174a515",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "c97ded4db1ab6f6f78336bc0784dc33cdee7a4fc1898f06609279d68c174a515",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/curated/incident_information_v1/source_coverage.json": [
+      {
+        "expected_sha256": "c08ce829be2ce8b774bd1f4f14e4be518f6bdd78fbe99e11498f796285fa4a04",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "c08ce829be2ce8b774bd1f4f14e4be518f6bdd78fbe99e11498f796285fa4a04",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "c08ce829be2ce8b774bd1f4f14e4be518f6bdd78fbe99e11498f796285fa4a04",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/curated/incident_information_v1/summary.json": [
+      {
+        "expected_sha256": "9eca42980b8bc812e1f930c5a1743a9307b815092c0bd2c3a147310bdd7d40d9",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "9eca42980b8bc812e1f930c5a1743a9307b815092c0bd2c3a147310bdd7d40d9",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "9eca42980b8bc812e1f930c5a1743a9307b815092c0bd2c3a147310bdd7d40d9",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/prices/btc_usd_1m.csv.gz": [
+      {
+        "expected_sha256": "af2130d776262732718623e5b6bd38f0e6c548e60d78e903e15a53c9f2aa2466",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "af2130d776262732718623e5b6bd38f0e6c548e60d78e903e15a53c9f2aa2466",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "af2130d776262732718623e5b6bd38f0e6c548e60d78e903e15a53c9f2aa2466",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/prices/price_coverage.json": [
+      {
+        "expected_sha256": "58b2642d009c4a6b43e779d1ff38003d4432b9a31609af0f0706cc3fa9e3ad95",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "58b2642d009c4a6b43e779d1ff38003d4432b9a31609af0f0706cc3fa9e3ad95",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "58b2642d009c4a6b43e779d1ff38003d4432b9a31609af0f0706cc3fa9e3ad95",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/prices/xmr_usd_1m.csv.gz": [
+      {
+        "expected_sha256": "fc59f062a11123e4b98e1aa760feacea2c8a1c3b9a3d21b07dbbcb1af1ef20e0",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "fc59f062a11123e4b98e1aa760feacea2c8a1c3b9a3d21b07dbbcb1af1ef20e0",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "fc59f062a11123e4b98e1aa760feacea2c8a1c3b9a3d21b07dbbcb1af1ef20e0",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/raw/binance/Binance_XMRBTC_1m_2017-11_to_2024-02.zip": [
+      {
+        "expected_sha256": "98ff40eb67261b5bd33fa92a964b8e8af3fbc8b5d1039afd44010d31f4dd3e67",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "98ff40eb67261b5bd33fa92a964b8e8af3fbc8b5d1039afd44010d31f4dd3e67",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "98ff40eb67261b5bd33fa92a964b8e8af3fbc8b5d1039afd44010d31f4dd3e67",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "data/raw/binance/official_verification.json": [
+      {
+        "expected_sha256": "1076b789d6e99b7c76d379c4e8f754447d02a38140384d6fa3bf0fcc1d6b3317",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "1076b789d6e99b7c76d379c4e8f754447d02a38140384d6fa3bf0fcc1d6b3317",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "1076b789d6e99b7c76d379c4e8f754447d02a38140384d6fa3bf0fcc1d6b3317",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "docs/btc_hourly_validation.json": [
+      {
+        "expected_sha256": "1c10cc35bdb7c572f1bf717d814887d9bbb3d7acbf8ce2518e2931ab200dfb6d",
+        "manifest": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json"
+      }
+    ],
+    "docs/dedup/baseline_crosswalk.csv": [
+      {
+        "expected_sha256": "0727379777cca77d6d9d9461c8236aab2d1b7ac53a4e5f3db4fa712c82eb9c2a",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "0727379777cca77d6d9d9461c8236aab2d1b7ac53a4e5f3db4fa712c82eb9c2a",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "0727379777cca77d6d9d9461c8236aab2d1b7ac53a4e5f3db4fa712c82eb9c2a",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "docs/models/xmr_hourly_price_baseline_v1/PRICE_REVIEW.json": [
+      {
+        "expected_sha256": "87491a002c4e712074fa8f59ba6af4a05ff3b788bdf55f468c4b5a3bb66b4392",
+        "manifest": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json"
+      },
+      {
+        "expected_sha256": "87491a002c4e712074fa8f59ba6af4a05ff3b788bdf55f468c4b5a3bb66b4392",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "87491a002c4e712074fa8f59ba6af4a05ff3b788bdf55f468c4b5a3bb66b4392",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "87491a002c4e712074fa8f59ba6af4a05ff3b788bdf55f468c4b5a3bb66b4392",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "docs/xmr_combined_hourly_validation.json": [
+      {
+        "expected_sha256": "01fe029c946f5a0f60a539d17cb1c2745f12aa84ba8fe0fcaaf7d2dd0809c049",
+        "manifest": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json"
+      },
+      {
+        "expected_sha256": "01fe029c946f5a0f60a539d17cb1c2745f12aa84ba8fe0fcaaf7d2dd0809c049",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "01fe029c946f5a0f60a539d17cb1c2745f12aa84ba8fe0fcaaf7d2dd0809c049",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "01fe029c946f5a0f60a539d17cb1c2745f12aa84ba8fe0fcaaf7d2dd0809c049",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "scripts/build_combined_xmr_hourly.py": [
+      {
+        "expected_sha256": "7648a445f66e31be779b12c3826a84e859a91a7c7ed444254ab52230e2857040",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "7648a445f66e31be779b12c3826a84e859a91a7c7ed444254ab52230e2857040",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "7648a445f66e31be779b12c3826a84e859a91a7c7ed444254ab52230e2857040",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "scripts/build_hourly_prices.py": [
+      {
+        "expected_sha256": "abd03fbcd017bebf2f5eaf603df759a5068d029a4f34717da5f4ee9567f309fe",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "abd03fbcd017bebf2f5eaf603df759a5068d029a4f34717da5f4ee9567f309fe",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "abd03fbcd017bebf2f5eaf603df759a5068d029a4f34717da5f4ee9567f309fe",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ],
+    "scripts/verify_binance_xmr_archive.py": [
+      {
+        "expected_sha256": "baba118778ebf94b1b663898ef22784509c0663c8ef47fe5cd19fff7a50fd922",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+      },
+      {
+        "expected_sha256": "baba118778ebf94b1b663898ef22784509c0663c8ef47fe5cd19fff7a50fd922",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+      },
+      {
+        "expected_sha256": "baba118778ebf94b1b663898ef22784509c0663c8ef47fe5cd19fff7a50fd922",
+        "manifest": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+      }
+    ]
+  },
+  "files": [
+    {
+      "bytes": 41251,
+      "category": "specification_or_environment",
+      "destination": "NEWMODELS.MD",
+      "sha256": "da9d6402584d3c67efd11ae6a50c7be685b2ff5b863652b93b66f777ce5f5876",
+      "source": "NEWMODELS.MD"
+    },
+    {
+      "bytes": 1456,
+      "category": "model_configuration",
+      "destination": "config/models/xmr_hourly_price_baseline_v1.json",
+      "sha256": "af4539764c8fd57370a350e3e0b98bfa5a6b25113f3f47b18fabefea21d13ae8",
+      "source": "config/models/xmr_hourly_price_baseline_v1.json"
+    },
+    {
+      "bytes": 707999,
+      "category": "model_incident_input",
+      "destination": "data/curated/incidents_over_1m.csv",
+      "sha256": "cb310a86b88dda64e2ee52d43b471a21ea8bfc057b194d18d05a17d59ecb5f58",
+      "source": "data/curated/incidents_over_1m.csv"
+    },
+    {
+      "bytes": 8901,
+      "category": "documentation_or_validation",
+      "destination": "docs/HOURLY_INCIDENT_MODEL_DESIGN.md",
+      "sha256": "a0b3e51fd0eb4855c9fda05f0b5f9e6e5ab50e1102b4744ddc47c726f1c6d454",
+      "source": "docs/HOURLY_INCIDENT_MODEL_DESIGN.md"
+    },
+    {
+      "bytes": 3257,
+      "category": "documentation_or_validation",
+      "destination": "docs/HOURLY_OOS_EVALUATION.md",
+      "sha256": "fceecb6ee70d0e0fda8e89288d6be45fbc841e8c8aa20132aaf22dea90c83724",
+      "source": "docs/HOURLY_OOS_EVALUATION.md"
+    },
+    {
+      "bytes": 6488,
+      "category": "documentation_or_validation",
+      "destination": "docs/HOURLY_PRICE_BASELINE.md",
+      "sha256": "1835554696e7016d3c9264fff31f9341690886af6bb674e6fcd80f16ea98b196",
+      "source": "docs/HOURLY_PRICE_BASELINE.md"
+    },
+    {
+      "bytes": 645,
+      "category": "rule_provenance",
+      "destination": "docs/RULE_SOURCE.json",
+      "sha256": "6374ceaa23c04cdaa4d5c86480080fd8d09a8bba6705db2442f731d38e062007",
+      "source": "docs/models/xmr_outright_nested_v2/RULE_SOURCE.json"
+    },
+    {
+      "bytes": 446,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/FROZEN.json",
+      "sha256": "0e653035facec96e99fc2f551764ea6e6986700007230fef5f71c9c5d311b07f",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/FROZEN.json"
+    },
+    {
+      "bytes": 1198,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/PAIRED_COHORT_CHECK.json",
+      "sha256": "f1c78426bf98e016b17e67c34889c5ff06331c0b3b90395b5138905875e6a4bc",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/PAIRED_COHORT_CHECK.json"
+    },
+    {
+      "bytes": 1021,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/PREPARATION.json",
+      "sha256": "32f95b46296f213365bee38522722d4b935da18dfe7831b88fe6339d9c4d3100",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/PREPARATION.json"
+    },
+    {
+      "bytes": 12129,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json",
+      "sha256": "9638a9c64cb52d44f8f0dfcf0008abce698755e72272368be82142e878d57ae3",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/PRE_RUN.json"
+    },
+    {
+      "bytes": 2951,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/READINESS.json",
+      "sha256": "311c50818a96eef1a6f4ad11f631bb8a0b4e29ffb9a8335c32912fa8923888c5",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/READINESS.json"
+    },
+    {
+      "bytes": 1235,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/READINESS.md",
+      "sha256": "44c38a45facb30193291db125cd277b573cf7220d7cf683799001e3f8f45d16c",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/READINESS.md"
+    },
+    {
+      "bytes": 4375,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/SELECTED.json",
+      "sha256": "073652981e93ffb23ea8332f793c28932a5825ba42233d5a87fba8a3eb73f456",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/SELECTED.json"
+    },
+    {
+      "bytes": 551019,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/boundary_exclusions.csv",
+      "sha256": "83fb124ffaedf35418d4b0e564e3a4649f0fc8243227539c9142d9f1d44f7fc9",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/boundary_exclusions.csv"
+    },
+    {
+      "bytes": 877753,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/catalog_mapping.csv",
+      "sha256": "54ff26def759274b82d25449ee12e2383a673922f94cd8a95a4c629df1c3a3c9",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/catalog_mapping.csv"
+    },
+    {
+      "bytes": 3388028,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/exclusions.csv",
+      "sha256": "1467b0cc080a264f555df24a58b34a4b9a1bb253e10b93308c459faac01aaaaa",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/exclusions.csv"
+    },
+    {
+      "bytes": 6683,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json",
+      "sha256": "7d2e8328dbd351901bd6b88ed1034e4e8e6c6d009b882e81dea1a59b0426d0df",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/EVALUATION_FROZEN.json"
+    },
+    {
+      "bytes": 494,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/PREPARATION.json",
+      "sha256": "b194a2c4249368eaadf0de51958ffdb85a4ca5c2cc71967373ccee3b2a063333",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/PREPARATION.json"
+    },
+    {
+      "bytes": 803,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/eligibility.json",
+      "sha256": "b0bc5d50bf5a66468261fbf03184ea134a08f973ee7c041ac773fcc2de9685c7",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/eligibility.json"
+    },
+    {
+      "bytes": 1046447,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/exclusions.csv",
+      "sha256": "c432ae99fc8f45ef92970715d457e9eed9215a9eca7abbc819f57a0d9984b1d0",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/exclusions.csv"
+    },
+    {
+      "bytes": 3472,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/RESULTS.md",
+      "sha256": "68f8eceb3f28ec9020f6fa35171d0b33a1b9243f260a114bb6471d93e53605db",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/RESULTS.md"
+    },
+    {
+      "bytes": 1574,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/RUN.json",
+      "sha256": "b4d0370cba315e55bcec589ca0622e6a12d102e733232c934c94a36ec4b508f7",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/RUN.json"
+    },
+    {
+      "bytes": 3494,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/calibration.svg",
+      "sha256": "185ca7e8b09eaaded149884a38ce943f54c2b327245331603e0988a0ee885da4",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/calibration.svg"
+    },
+    {
+      "bytes": 65860,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/buy_and_hold.json",
+      "sha256": "55035cbca3ce3c14c6e5d02bc53f980fd1ff7ac0dbe2bd32e37f0c5d7175d9ca",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/buy_and_hold.json"
+    },
+    {
+      "bytes": 63320,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/full_incident.json",
+      "sha256": "215427e2e2bcbe0ca8a06f4e1f2c6abb202f7fc029dcb74a5ea103122cfb6b0a",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/full_incident.json"
+    },
+    {
+      "bytes": 63322,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/full_incident_double_cost.json",
+      "sha256": "46dbcbc1a9f9195385a81838cfe31a521bfdc2f80b3155ce00ebf6d2ee514bba",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/full_incident_double_cost.json"
+    },
+    {
+      "bytes": 63320,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/market.json",
+      "sha256": "215427e2e2bcbe0ca8a06f4e1f2c6abb202f7fc029dcb74a5ea103122cfb6b0a",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/market.json"
+    },
+    {
+      "bytes": 63322,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/market_double_cost.json",
+      "sha256": "46dbcbc1a9f9195385a81838cfe31a521bfdc2f80b3155ce00ebf6d2ee514bba",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/market_double_cost.json"
+    },
+    {
+      "bytes": 63320,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/presence.json",
+      "sha256": "215427e2e2bcbe0ca8a06f4e1f2c6abb202f7fc029dcb74a5ea103122cfb6b0a",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/presence.json"
+    },
+    {
+      "bytes": 63322,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/presence_double_cost.json",
+      "sha256": "46dbcbc1a9f9195385a81838cfe31a521bfdc2f80b3155ce00ebf6d2ee514bba",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/paper/presence_double_cost.json"
+    },
+    {
+      "bytes": 859193,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/policy_signals.csv",
+      "sha256": "e428a842ec7791905255a6d9326e2b536f11d9659147e123f7ba567ade892a17",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/policy_signals.csv"
+    },
+    {
+      "bytes": 1401121,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/predictions.csv",
+      "sha256": "af1406d0b8334ccf8f8d006e96adad3d74a04ef62a29005f3e94fa9ccf0a7f39",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/predictions.csv"
+    },
+    {
+      "bytes": 62802,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/summary.json",
+      "sha256": "a196782fd92728c02e259dc8027fc4847b1cd1883eaaf9d3a06ff010dea09835",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/results/summary.json"
+    },
+    {
+      "bytes": 170,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/reserved_exclusion.json",
+      "sha256": "14de2422f8af7528be28c146d742887821b5dc8195f968705230009ef414edbb",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/reserved_exclusion.json"
+    },
+    {
+      "bytes": 12733,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json",
+      "sha256": "5294dc1f4a122dc9beb35eeeabd3e071d6ee3d1ad2e657c7f62cd0d187adb56a",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/FINAL_FROZEN.json"
+    },
+    {
+      "bytes": 2658,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/RESULTS.md",
+      "sha256": "5bcdfc5966ae714f4bde7441d8032504e72bd2c353f1ba9f069584665a70d8c3",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/RESULTS.md"
+    },
+    {
+      "bytes": 6003,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/RUN.json",
+      "sha256": "70a80b440d42ce38d458696361adeead59de15c05eda563d3664dc8e4abe15b6",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/RUN.json"
+    },
+    {
+      "bytes": 2405,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/calibration/fold_1.svg",
+      "sha256": "a34142b59e0ccbcd4ada85c7643363c26000cd30386658827f3fdc15aa0a9c7b",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/calibration/fold_1.svg"
+    },
+    {
+      "bytes": 2624,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/calibration/fold_2.svg",
+      "sha256": "fc86c1bed3e153b77fcb183aa9087d7ded07901ca769d51a3cb673417908451a",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/calibration/fold_2.svg"
+    },
+    {
+      "bytes": 2624,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/calibration/fold_3.svg",
+      "sha256": "dc3f0325b2ce0ca554572d2ba6db080c202b36e201ec420b614741328620e8a7",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/calibration/fold_3.svg"
+    },
+    {
+      "bytes": 2624,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/calibration/pooled.svg",
+      "sha256": "ab758bbc0a58c1c3e0107526efecec5b81142bff34959dc865ff2a38f28fe627",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/calibration/pooled.svg"
+    },
+    {
+      "bytes": 927,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/hurdle_selection.json",
+      "sha256": "b36374d339bbb52c5caa73e5c062a5ca39a1dc4357c83573f23aa6474464ad4d",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/hurdle_selection.json"
+    },
+    {
+      "bytes": 32780,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/final_full_incident.json",
+      "sha256": "02be683d0327986db6574ee455e03d072d5c569cd70b31dfe950e700e177b6b1",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/final_full_incident.json"
+    },
+    {
+      "bytes": 31279,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/final_market.json",
+      "sha256": "285479ec3d960f551fc9567a6a1d0d1f09ba0b1cd51b1c951c943f848d923ee4",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/final_market.json"
+    },
+    {
+      "bytes": 31285,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/final_presence.json",
+      "sha256": "9035efc5ae55e9245f56c1bc64162b6c334a661858bbf891c5df913768b82c68",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/final_presence.json"
+    },
+    {
+      "bytes": 34520,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_1_full_incident.json",
+      "sha256": "e829f9f8ef8f25ae6f3228854a2905ae58763fb0b5ec0ae1abc2b0ca47194d68",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_1_full_incident.json"
+    },
+    {
+      "bytes": 33408,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_1_market.json",
+      "sha256": "7e1566a5b1ecda507f8617ed6db92fa776e5bf2c08d8a8370ffdc0140bff1081",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_1_market.json"
+    },
+    {
+      "bytes": 34064,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_1_presence.json",
+      "sha256": "4d6b66cb0963ed74600b27b5fbe3e6bbe318a71b3695676aa361b166716aaf74",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_1_presence.json"
+    },
+    {
+      "bytes": 32585,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_2_full_incident.json",
+      "sha256": "31dd31d3a3835b7f3c7352049cd81c6ffb38e7ab6825bd691d78ff6d0a0c6518",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_2_full_incident.json"
+    },
+    {
+      "bytes": 31545,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_2_market.json",
+      "sha256": "afc13e09ce73965aaca28de326f7eec6bfa66e53079a03dd521c959c08ab1731",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_2_market.json"
+    },
+    {
+      "bytes": 32183,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_2_presence.json",
+      "sha256": "ed1cc45552dc14b28dbadfcf85b1afd70398c1904c56d12446b6389ed64ab3a4",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_2_presence.json"
+    },
+    {
+      "bytes": 32474,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_3_full_incident.json",
+      "sha256": "1ae510b9895b3ed44ad0cd41d065f45136162d612d75c70ba72c4ef4ddeb9b17",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_3_full_incident.json"
+    },
+    {
+      "bytes": 31953,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_3_market.json",
+      "sha256": "a488a5452f509407929d0261557bcb97dc48667ce46253be4087b7f17600b6c1",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_3_market.json"
+    },
+    {
+      "bytes": 32426,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_3_presence.json",
+      "sha256": "7bbb43907230ce0cf3a796617e6c5db94748398c984c8726c790c1ee2d8d0343",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/inner/fold_3_presence.json"
+    },
+    {
+      "bytes": 1534,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/final_full_incident.json",
+      "sha256": "83e5971df2fe00811f605ab6b8d03c2aef12e1e9c5a9411f25210918491c2521",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/final_full_incident.json"
+    },
+    {
+      "bytes": 1215,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/final_market.json",
+      "sha256": "d3c80fc5c0f031b03b998a02c4c6f3ba9e3803ba3c6735c3ea031581e469f340",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/final_market.json"
+    },
+    {
+      "bytes": 1320,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/final_presence.json",
+      "sha256": "1fea660099720086de547eb81b600b76dcc4529e32ba6621e95359779913af32",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/final_presence.json"
+    },
+    {
+      "bytes": 1543,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_1_full_incident.json",
+      "sha256": "083bdef00b040a53d084450996e1b504711b782d363ab61bcb8007b1575d5582",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_1_full_incident.json"
+    },
+    {
+      "bytes": 1224,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_1_market.json",
+      "sha256": "6791abcd04ec9f7d58650af4313380dff0dcb04f3619db07641ad3e2fa7573f1",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_1_market.json"
+    },
+    {
+      "bytes": 1332,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_1_presence.json",
+      "sha256": "414430ad4133ad957d2f65cc21f1299e7fdf89a9603c169eaf15522fc6e1f5a7",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_1_presence.json"
+    },
+    {
+      "bytes": 1538,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_2_full_incident.json",
+      "sha256": "e2f4ac77800491d4677b3424bab943fe68ed53685b607c1ef00526661bb7fecc",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_2_full_incident.json"
+    },
+    {
+      "bytes": 1221,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_2_market.json",
+      "sha256": "c6d40dcc6a210bd7fcd499961fdf02024faaf4283feed2fa23fd51269f7aba09",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_2_market.json"
+    },
+    {
+      "bytes": 1328,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_2_presence.json",
+      "sha256": "9722c28dc2bf56e296776488020f22b0a0b5a09eb0dfaa8e4081f69c6d97a34c",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_2_presence.json"
+    },
+    {
+      "bytes": 1545,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_3_full_incident.json",
+      "sha256": "6c3d6c1f3f628002c5225657b37ed9317676c89d244727a518102b63fc41b901",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_3_full_incident.json"
+    },
+    {
+      "bytes": 1222,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_3_market.json",
+      "sha256": "56e859ffe099962e29826c9e2f11bf744807107f4c582b66e57e656aa54e6f92",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_3_market.json"
+    },
+    {
+      "bytes": 1330,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_3_presence.json",
+      "sha256": "6892f3e62642a257c8f354c40091ce3993afcfa50918582f95813a3af124f491",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/models/fold_3_presence.json"
+    },
+    {
+      "bytes": 4259824,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/outer_predictions.csv",
+      "sha256": "243378eddb2e9f7105e7ef78af86e496576c8eb621c18315f4319a8ab8d52692",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/outer_predictions.csv"
+    },
+    {
+      "bytes": 44511,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_buy_hold.json",
+      "sha256": "c98fe6fcb3bd2ac0c99f52661f1c4e9ca35c902aafabededd967b2cfb27f58b5",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_buy_hold.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_full_incident.json",
+      "sha256": "613a97d6d93c579b2857de5acaeaf542f8b77458d68d9f8cbbd8564540a2b896",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_full_incident.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_full_incident_double_cost.json",
+      "sha256": "2ed2597fad2982776381914864511fb25008149e7fcce6949dcd171b82a189a7",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_full_incident_double_cost.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_market.json",
+      "sha256": "613a97d6d93c579b2857de5acaeaf542f8b77458d68d9f8cbbd8564540a2b896",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_market.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_market_double_cost.json",
+      "sha256": "2ed2597fad2982776381914864511fb25008149e7fcce6949dcd171b82a189a7",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_market_double_cost.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_presence.json",
+      "sha256": "613a97d6d93c579b2857de5acaeaf542f8b77458d68d9f8cbbd8564540a2b896",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_presence.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_presence_double_cost.json",
+      "sha256": "2ed2597fad2982776381914864511fb25008149e7fcce6949dcd171b82a189a7",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_1_presence_double_cost.json"
+    },
+    {
+      "bytes": 44379,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_buy_hold.json",
+      "sha256": "13068b2c605882b22615f9d6af249d2190d5ae96416e21b4f8dcea12fd8c7826",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_buy_hold.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_full_incident.json",
+      "sha256": "edc160c676fd3746083c4345708a55cb628cc91fc95e2e7f241358d6a86305fc",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_full_incident.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_full_incident_double_cost.json",
+      "sha256": "61ae3a09580a9dd34b5dbf3e900ec4a7860e1252b1150f21a9e45a27045726e3",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_full_incident_double_cost.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_market.json",
+      "sha256": "edc160c676fd3746083c4345708a55cb628cc91fc95e2e7f241358d6a86305fc",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_market.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_market_double_cost.json",
+      "sha256": "61ae3a09580a9dd34b5dbf3e900ec4a7860e1252b1150f21a9e45a27045726e3",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_market_double_cost.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_presence.json",
+      "sha256": "edc160c676fd3746083c4345708a55cb628cc91fc95e2e7f241358d6a86305fc",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_presence.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_presence_double_cost.json",
+      "sha256": "61ae3a09580a9dd34b5dbf3e900ec4a7860e1252b1150f21a9e45a27045726e3",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_2_presence_double_cost.json"
+    },
+    {
+      "bytes": 44263,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_buy_hold.json",
+      "sha256": "a5dc19f4cd3ffe50632e869aad47859da831fb11d1e2ae91be06f8c4cbf7de73",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_buy_hold.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_full_incident.json",
+      "sha256": "0212f0f9ed8dd37d94bb0858adc6eb7b9b0c07861c7c099a3a7b45592acc5574",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_full_incident.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_full_incident_double_cost.json",
+      "sha256": "bff95fbd1a3867c33609b10a1de19e56436cbd6ab6954bc6ff58f9c0da3c08ca",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_full_incident_double_cost.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_market.json",
+      "sha256": "0212f0f9ed8dd37d94bb0858adc6eb7b9b0c07861c7c099a3a7b45592acc5574",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_market.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_market_double_cost.json",
+      "sha256": "bff95fbd1a3867c33609b10a1de19e56436cbd6ab6954bc6ff58f9c0da3c08ca",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_market_double_cost.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_presence.json",
+      "sha256": "0212f0f9ed8dd37d94bb0858adc6eb7b9b0c07861c7c099a3a7b45592acc5574",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_presence.json"
+    },
+    {
+      "bytes": 37023,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_presence_double_cost.json",
+      "sha256": "bff95fbd1a3867c33609b10a1de19e56436cbd6ab6954bc6ff58f9c0da3c08ca",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/paper/fold_3_presence_double_cost.json"
+    },
+    {
+      "bytes": 248947,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/results/summary.json",
+      "sha256": "2e4b127f2863f8875e74e55a9a2b50a4846eef0014a58ddb87c1ace03a353256",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/results/summary.json"
+    },
+    {
+      "bytes": 4095,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json",
+      "sha256": "82e02109722f7083559e748573a3d5bd1e060d4edbd32b9ddbceab6aa498a112",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/FROZEN.json"
+    },
+    {
+      "bytes": 108927,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/SELECTED.json",
+      "sha256": "1b481f3fb61ef23a7350e1b5758a7588e65f635c74160da5b8a7f60727d00e41",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/SELECTED.json"
+    },
+    {
+      "bytes": 6710,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/TRAINING_REPORT.md",
+      "sha256": "d249cdca7444233455d843fd7ecb34bca76b96b63fb248360c27dc1e3a456da6",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/TRAINING_REPORT.md"
+    },
+    {
+      "bytes": 6912,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/figures/calibration.svg",
+      "sha256": "95ca416d62f1ff5f14bc9cacfac7811791cb47101b09925095ab292ff3636132",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/figures/calibration.svg"
+    },
+    {
+      "bytes": 7977,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/figures/probability_distribution.svg",
+      "sha256": "239d1a3d62488b1a78ac60da78f04af0ebdb5df35acbc0176945b518ca389d61",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/figures/probability_distribution.svg"
+    },
+    {
+      "bytes": 818,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/FINAL_FROZEN.json",
+      "sha256": "7c2f3a8debcd539b7abfe8fd9a61d03586740c76cab7456b1c9192988d2fd7cc",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/FINAL_FROZEN.json"
+    },
+    {
+      "bytes": 928,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/RESULTS.md",
+      "sha256": "5e159a1917fdf335ccca9ec64a65781a8d0a3c408b669cbb8365bbfc103b79e0",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/RESULTS.md"
+    },
+    {
+      "bytes": 2832,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/RUN.json",
+      "sha256": "c2add442fd2528a4154d319ac826098066d89645481638eaa62959bfd7452916",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/RUN.json"
+    },
+    {
+      "bytes": 443,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/calibration_curve.csv",
+      "sha256": "0e9097c4be3374cf3b1b78db1b41a8efaf9cc59f1a5ce4477e216efa7c0be660",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/calibration_curve.csv"
+    },
+    {
+      "bytes": 940331,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/exclusions.csv",
+      "sha256": "34a219bb48ead459f341cb6b7e62c6910f897d03ffbe53b89af6e19007d97d29",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/exclusions.csv"
+    },
+    {
+      "bytes": 101258,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/hurdle_selection.json",
+      "sha256": "ca61f86654cb3244d22e88554eaaafa9c8455f71a4e29059d1318d994ee13c10",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/hurdle_selection.json"
+    },
+    {
+      "bytes": 23322,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/inner/final.json",
+      "sha256": "02c4bf8c911ecebcee5369cc25b4e75cec285ae5b07d69e14f382da62b870252",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/inner/final.json"
+    },
+    {
+      "bytes": 25454,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/inner/fold_1.json",
+      "sha256": "e5384fe71be63488c8b614fcead52d82ce97560f3f89a285f3e3e400d3804c09",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/inner/fold_1.json"
+    },
+    {
+      "bytes": 23588,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/inner/fold_2.json",
+      "sha256": "c97ab440e4d41d89019879d4fb4a8dfddbdd40039433e34ff3ab4b91287b0a63",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/inner/fold_2.json"
+    },
+    {
+      "bytes": 23996,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/inner/fold_3.json",
+      "sha256": "7cecbc85fb9f11a5299417a81e29825202ea4cecaea0ed3d26b960e6dd5d78ee",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/inner/fold_3.json"
+    },
+    {
+      "bytes": 1194,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/models/final_development.json",
+      "sha256": "c8bcd10f24d0661957a66b1786c47f947da974cc177902fdb8a7d20656c039f2",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/models/final_development.json"
+    },
+    {
+      "bytes": 1203,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/models/fold_1.json",
+      "sha256": "767f8bce09ae42039d6107b35b062bf494d682e87da617508ffe82b012c5805d",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/models/fold_1.json"
+    },
+    {
+      "bytes": 1200,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/models/fold_2.json",
+      "sha256": "4a29dfaee8c4af9a61c75ee70f82577583714d81e8be23660575170f3228601e",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/models/fold_2.json"
+    },
+    {
+      "bytes": 1201,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/models/fold_3.json",
+      "sha256": "76d431e3b3465c221931172647ad9dbdcc0f3e087d3d5d58d613a3d20066d785",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/models/fold_3.json"
+    },
+    {
+      "bytes": 3001967,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/outer_predictions.csv",
+      "sha256": "6f38c942c0d2b361a31ccad9a70fd593e138e5be000c485add9082a9f0786cef",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/outer_predictions.csv"
+    },
+    {
+      "bytes": 39322,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_1_buy_hold_equity.json",
+      "sha256": "d53bd387e168a646ef05093c99d71f1e60cd5a56dce94f9f92ab74251b6a303d",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_1_buy_hold_equity.json"
+    },
+    {
+      "bytes": 32371,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_1_equity.json",
+      "sha256": "63cc73ec808159aed6a80d27f38e4cc6489cf1c59f9f8120ad67715d305ad9cc",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_1_equity.json"
+    },
+    {
+      "bytes": 3,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_1_trades.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_1_trades.json"
+    },
+    {
+      "bytes": 39406,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_2_buy_hold_equity.json",
+      "sha256": "f1e957f72c67a6a131c02b651781e2a9f8ea0110d783e3aee20faa3cce3e551f",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_2_buy_hold_equity.json"
+    },
+    {
+      "bytes": 32371,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_2_equity.json",
+      "sha256": "68c1516dd6401ac2cf65aa28336bf55c76e09a4a370ddd07d452c8402d703e5b",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_2_equity.json"
+    },
+    {
+      "bytes": 3,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_2_trades.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_2_trades.json"
+    },
+    {
+      "bytes": 39100,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_3_buy_hold_equity.json",
+      "sha256": "e20ff73071d189c638590153f8a24b0e1aa403ee8a114d87ee9e7c041236611f",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_3_buy_hold_equity.json"
+    },
+    {
+      "bytes": 32371,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_3_equity.json",
+      "sha256": "e6dc77029131d2a8df6f205492d9e60ac4eb5654d788b3f20ca5563e5c28a39a",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_3_equity.json"
+    },
+    {
+      "bytes": 3,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_3_trades.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/paper/fold_3_trades.json"
+    },
+    {
+      "bytes": 215,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/probability_distribution.csv",
+      "sha256": "3e514bae0e16f3a0c99fdddc01bfa93f85940390ecb1585a6b993259ce365762",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/probability_distribution.csv"
+    },
+    {
+      "bytes": 25441,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/summary.json",
+      "sha256": "a7ae995a1be98dc6a896932150a611b9aaf27b523bb921043a61219979b7d0f6",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/summary.json"
+    },
+    {
+      "bytes": 826,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/PREPARATION.json",
+      "sha256": "b98d5e19a48aa05afbd05e7d25a46cb11ed19f03c95ed845aa76c4cbdb827069",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/PREPARATION.json"
+    },
+    {
+      "bytes": 37831,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/PRE_RUN.json",
+      "sha256": "b277094d0bf3c750bcabe0ffc24442d0c16a09541fb88c5b792d21b81f4778ba",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/PRE_RUN.json"
+    },
+    {
+      "bytes": 2328,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/READINESS.json",
+      "sha256": "8932fd06129dee24f41bc864119e926bcd2ff720c81ed25e97863ab9ff3ae5d0",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/READINESS.json"
+    },
+    {
+      "bytes": 749,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/READINESS.md",
+      "sha256": "e05571c582bca59b85493a8770101072daa06434abbe93348ff96a961abdfa93",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/READINESS.md"
+    },
+    {
+      "bytes": 170,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/reserved_exclusion.json",
+      "sha256": "14de2422f8af7528be28c146d742887821b5dc8195f968705230009ef414edbb",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/reserved_exclusion.json"
+    },
+    {
+      "bytes": 734,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/PREPARATION.json",
+      "sha256": "fcf16b5cb904b2d401adfa408e5bf5c54a3753d48d97e49d7fc85900be53b100",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/PREPARATION.json"
+    },
+    {
+      "bytes": 35131,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/PRE_RUN.json",
+      "sha256": "4ca61ab6a578799669ba1cbf2477b07d6eb677257b200852aebfaa501af2b8eb",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/PRE_RUN.json"
+    },
+    {
+      "bytes": 2119,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/READINESS.json",
+      "sha256": "68072e87771f503b4cce9d7b0dceafd7b9812ff748e00fc436f11f14e509cf92",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/READINESS.json"
+    },
+    {
+      "bytes": 749,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/READINESS.md",
+      "sha256": "e05571c582bca59b85493a8770101072daa06434abbe93348ff96a961abdfa93",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/READINESS.md"
+    },
+    {
+      "bytes": 170,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/reserved_exclusion.json",
+      "sha256": "14de2422f8af7528be28c146d742887821b5dc8195f968705230009ef414edbb",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/reserved_exclusion.json"
+    },
+    {
+      "bytes": 90,
+      "category": "specification_or_environment",
+      "destination": "requirements-analysis.txt",
+      "sha256": "331f9d599aa57dda4ac10dca5fdeb3f5442fab9645dbc61d829a10f5a5e5c857",
+      "source": "requirements-analysis.txt"
+    },
+    {
+      "bytes": 27,
+      "category": "specification_or_environment",
+      "destination": "requirements-model.txt",
+      "sha256": "d99a8a5f9cf34d17749656f0ff5df84e8e1cf981efa22c4dc39c13befa86345c",
+      "source": "requirements-model.txt"
+    },
+    {
+      "bytes": 21347,
+      "category": "model_code",
+      "destination": "scripts/evaluate_xmr_hourly_oos.py",
+      "sha256": "d251cb7aed3fbe3cd6290f68c3d037c5f37c735f1b48d09d74e57d8608a2e506",
+      "source": "scripts/evaluate_xmr_hourly_oos.py"
+    },
+    {
+      "bytes": 43049,
+      "category": "model_code",
+      "destination": "scripts/train_xmr_hourly_baseline.py",
+      "sha256": "dfe20a6326e3ca30e55e9f84ebc695ff3cfaa34715202ef470c803d241a93ce9",
+      "source": "scripts/train_xmr_hourly_baseline.py"
+    },
+    {
+      "bytes": 66807,
+      "category": "model_code",
+      "destination": "scripts/train_xmr_hourly_incident.py",
+      "sha256": "16735f6e852622d0e297c9e0d6b06e9a7afeb0add20791d10413dee04884b720",
+      "source": "scripts/train_xmr_hourly_incident.py"
+    },
+    {
+      "bytes": 15369,
+      "category": "model_tests",
+      "destination": "tests/test_xmr_hourly_baseline.py",
+      "sha256": "cc91f9e3d8bb175c21ef9de62ae739de4154daa00bc384c57c4c2ad091d80dbd",
+      "source": "tests/test_xmr_hourly_baseline.py"
+    },
+    {
+      "bytes": 9484,
+      "category": "model_tests",
+      "destination": "tests/test_xmr_hourly_incident.py",
+      "sha256": "c6d667e589bb5f2907eda8df108fd06cf5fac447dec84e95d5f8ee15315a9f06",
+      "source": "tests/test_xmr_hourly_incident.py"
+    },
+    {
+      "bytes": 9961,
+      "category": "model_tests",
+      "destination": "tests/test_xmr_hourly_oos.py",
+      "sha256": "f7b184061e6a6f0e6c874936b4d90a9777bfde3eacdf1abe74a6a2529c73eb49",
+      "source": "tests/test_xmr_hourly_oos.py"
+    }
+  ],
+  "folder": "/Users/c/Documents/Signal/hourly_models",
+  "incident_catalog_included": true,
+  "incident_catalog_rows": 588,
+  "old_incident_only_model_included": false,
+  "omitted_original_copies": [
+    {
+      "bytes": 3629,
+      "category": "model_price_input",
+      "destination": "data/analysis/btc_usd_1h.coverage.json",
+      "omission_reason": "Price input dataset or coverage manifest; supplied by the other repository",
+      "sha256": "c493f26a06618d24ff4691c5a44c3fc385e86e426da0a4785e44db57e9834324",
+      "source": "data/analysis/btc_usd_1h.coverage.json"
+    },
+    {
+      "bytes": 20929635,
+      "category": "model_price_input",
+      "destination": "data/analysis/btc_usd_1h.csv",
+      "omission_reason": "Price input dataset or coverage manifest; supplied by the other repository",
+      "sha256": "fdbbfb377438eff77c3d98e56b66094b0782506d997be5a679a73533bf16deaf",
+      "source": "data/analysis/btc_usd_1h.csv"
+    },
+    {
+      "bytes": 95236,
+      "category": "model_price_input",
+      "destination": "data/analysis/xmr_usd_btc_combined_1h.coverage.json",
+      "omission_reason": "Price input dataset or coverage manifest; supplied by the other repository",
+      "sha256": "2b2dcb079decd8873b5ee60eaaf2c744dc714e81d936f62ede9d01d7ac6298a4",
+      "source": "data/analysis/xmr_usd_btc_combined_1h.coverage.json"
+    },
+    {
+      "bytes": 37032227,
+      "category": "model_price_input",
+      "destination": "data/analysis/xmr_usd_btc_combined_1h.csv",
+      "omission_reason": "Price input dataset or coverage manifest; supplied by the other repository",
+      "sha256": "daec6f4c098c7c8267a705973afbd0f51e4ba5f18338f0524242420a4d1e4c45",
+      "source": "data/analysis/xmr_usd_btc_combined_1h.csv"
+    },
+    {
+      "bytes": 1660,
+      "category": "incident_information_audit",
+      "destination": "data/curated/incident_information_v1/archive_checks.json",
+      "omission_reason": "Separate collection/evidence ledger; retain only the requested 588-row incident input",
+      "sha256": "c081a49c3b42ed307b04f2de3368a495eadbc318b4cdc6705f8525102b511231",
+      "source": "data/curated/incident_information_v1/archive_checks.json"
+    },
+    {
+      "bytes": 13510,
+      "category": "incident_information_audit",
+      "destination": "data/curated/incident_information_v1/duplicate_pair_reviews.json",
+      "omission_reason": "Separate collection/evidence ledger; retain only the requested 588-row incident input",
+      "sha256": "73bcc9e193ff43813ce2911dd78cc0c19370bd47ce3d3b90f0ade30bd11119b7",
+      "source": "data/curated/incident_information_v1/duplicate_pair_reviews.json"
+    },
+    {
+      "bytes": 382806,
+      "category": "incident_information_audit",
+      "destination": "data/curated/incident_information_v1/readiness.json",
+      "omission_reason": "Separate collection/evidence ledger; retain only the requested 588-row incident input",
+      "sha256": "4df9c84145a889d52d64a27185864a5345f04819dd5013aaab43f8f62d880313",
+      "source": "data/curated/incident_information_v1/readiness.json"
+    },
+    {
+      "bytes": 5291803,
+      "category": "incident_information_audit",
+      "destination": "data/curated/incident_information_v1/reports.jsonl",
+      "omission_reason": "Separate collection/evidence ledger; retain only the requested 588-row incident input",
+      "sha256": "c97ded4db1ab6f6f78336bc0784dc33cdee7a4fc1898f06609279d68c174a515",
+      "source": "data/curated/incident_information_v1/reports.jsonl"
+    },
+    {
+      "bytes": 882,
+      "category": "incident_information_audit",
+      "destination": "data/curated/incident_information_v1/source_coverage.json",
+      "omission_reason": "Separate collection/evidence ledger; retain only the requested 588-row incident input",
+      "sha256": "c08ce829be2ce8b774bd1f4f14e4be518f6bdd78fbe99e11498f796285fa4a04",
+      "source": "data/curated/incident_information_v1/source_coverage.json"
+    },
+    {
+      "bytes": 30446,
+      "category": "incident_information_audit",
+      "destination": "data/curated/incident_information_v1/summary.json",
+      "omission_reason": "Separate collection/evidence ledger; retain only the requested 588-row incident input",
+      "sha256": "9eca42980b8bc812e1f930c5a1743a9307b815092c0bd2c3a147310bdd7d40d9",
+      "source": "data/curated/incident_information_v1/summary.json"
+    },
+    {
+      "bytes": 3040,
+      "category": "documentation_or_validation",
+      "destination": "docs/BTC_HOURLY_PRICES.md",
+      "omission_reason": "Collection/source-audit documentation; keep model documentation only",
+      "sha256": "fb0d9489a6e66b113ca15d4dae30db2d2905199b2df9bd6d2c424206a14303c7",
+      "source": "docs/BTC_HOURLY_PRICES.md"
+    },
+    {
+      "bytes": 8155,
+      "category": "documentation_or_validation",
+      "destination": "docs/INCIDENT_INFORMATION.md",
+      "omission_reason": "Collection/source-audit documentation; keep model documentation only",
+      "sha256": "6ca88fdb2c1127cb18c44a5d80354f37ed9e5d8da4866b61e34ccb1d6d040c8e",
+      "source": "docs/INCIDENT_INFORMATION.md"
+    },
+    {
+      "bytes": 10184,
+      "category": "documentation_or_validation",
+      "destination": "docs/INCIDENT_LOGGER.md",
+      "omission_reason": "Collection/source-audit documentation; keep model documentation only",
+      "sha256": "bfbe0b5a8d54e5a43e567b59107c677004f5f6e0924063d1d4f1a78352c5917e",
+      "source": "docs/INCIDENT_LOGGER.md"
+    },
+    {
+      "bytes": 10318,
+      "category": "documentation_or_validation",
+      "destination": "docs/XMR_COMBINED_HOURLY_PRICES.md",
+      "omission_reason": "Collection/source-audit documentation; keep model documentation only",
+      "sha256": "60d3ac5a236f17dcf0d735cfea6590c9ef4be9be19509ecce396113881ecb075",
+      "source": "docs/XMR_COMBINED_HOURLY_PRICES.md"
+    },
+    {
+      "bytes": 5188,
+      "category": "documentation_or_validation",
+      "destination": "docs/XMR_HOURLY_PRICES.md",
+      "omission_reason": "Collection/source-audit documentation; keep model documentation only",
+      "sha256": "14c84977f8a7e2509d004dfd8fffdd389b99201cfb3da678dca82971a38c3762",
+      "source": "docs/XMR_HOURLY_PRICES.md"
+    },
+    {
+      "bytes": 901,
+      "category": "documentation_or_validation",
+      "destination": "docs/btc_hourly_validation.json",
+      "omission_reason": "Collection/source-audit documentation; keep model documentation only",
+      "sha256": "1c10cc35bdb7c572f1bf717d814887d9bbb3d7acbf8ce2518e2931ab200dfb6d",
+      "source": "docs/btc_hourly_validation.json"
+    },
+    {
+      "bytes": 195729,
+      "category": "incident_identity_audit",
+      "destination": "docs/dedup/baseline_crosswalk.csv",
+      "omission_reason": "Collection/curation crosswalk; outside the requested incident input",
+      "sha256": "0727379777cca77d6d9d9461c8236aab2d1b7ac53a4e5f3db4fa712c82eb9c2a",
+      "source": "docs/dedup/baseline_crosswalk.csv"
+    },
+    {
+      "bytes": 16820733,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/joined_features.csv",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "2a8df460ed4678f50ea5ac845333c68c767c6feeefc5e63d3ef16ef44790cd5d",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/joined_features.csv"
+    },
+    {
+      "bytes": 2601043,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/hourly_inputs.csv",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "a6ddfcdfa8a20d1148fc7eed8dbc90335ad790d7b9c08d592b2ca6ed86ad78a6",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/hourly_inputs.csv"
+    },
+    {
+      "bytes": 1785985,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/price_quality.csv",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "f340969ffe1e0b588effe75ea8ef2bdeb1a99bba8e61377f4a81f40650bf1504",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/oos_v1/price_quality.csv"
+    },
+    {
+      "bytes": 7824286,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_incident_catalog_v2/price_review.csv",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "ca071ed240dedc7307e54b15e2d5c81605e6645035df6a54ad2b0b2e517a7420",
+      "source": "docs/models/xmr_hourly_incident_catalog_v2/price_review.csv"
+    },
+    {
+      "bytes": 88359,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/PRICE_REVIEW.json",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "87491a002c4e712074fa8f59ba6af4a05ff3b788bdf55f468c4b5a3bb66b4392",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/PRICE_REVIEW.json"
+    },
+    {
+      "bytes": 11767768,
+      "category": "completed_hourly_run",
+      "destination": "docs/models/xmr_hourly_price_baseline_v1/results/cohort.csv",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "9e7c508bb5713e353bb6b1253a2fc78989a3de24223ad5018b632efbb7f11e4a",
+      "source": "docs/models/xmr_hourly_price_baseline_v1/results/cohort.csv"
+    },
+    {
+      "bytes": 373,
+      "category": "documentation_or_validation",
+      "destination": "docs/xmr_combined_hourly_validation.json",
+      "omission_reason": "Collection/source-audit documentation; keep model documentation only",
+      "sha256": "01fe029c946f5a0f60a539d17cb1c2745f12aa84ba8fe0fcaaf7d2dd0809c049",
+      "source": "docs/xmr_combined_hourly_validation.json"
+    },
+    {
+      "bytes": 551019,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/boundary_exclusions.csv",
+      "omission_reason": "Historical preflight tabular data; retain its summary reports and manifests",
+      "sha256": "83fb124ffaedf35418d4b0e564e3a4649f0fc8243227539c9142d9f1d44f7fc9",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/boundary_exclusions.csv"
+    },
+    {
+      "bytes": 13230621,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/exclusions.csv",
+      "omission_reason": "Historical preflight tabular data; retain its summary reports and manifests",
+      "sha256": "9591a6f11b8e990cb5d7f0b8dd8cf0d9a7c13e79a6b2f5066da653758330e5e7",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/exclusions.csv"
+    },
+    {
+      "bytes": 18086537,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/joined_features.csv",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "fe0cd2ba67ca763926ce5547af6c6b38e97f37d24ad16869caad79db143580c7",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/joined_features.csv"
+    },
+    {
+      "bytes": 7813298,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1/price_review.csv",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "ba6a0baa20ae4d90c58dd8c615a26db9f3e8f563254efe2db068cab5fe97d7a6",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1/price_review.csv"
+    },
+    {
+      "bytes": 551019,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/boundary_exclusions.csv",
+      "omission_reason": "Historical preflight tabular data; retain its summary reports and manifests",
+      "sha256": "83fb124ffaedf35418d4b0e564e3a4649f0fc8243227539c9142d9f1d44f7fc9",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/boundary_exclusions.csv"
+    },
+    {
+      "bytes": 28729299,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/exclusions.csv",
+      "omission_reason": "Historical preflight tabular data; retain its summary reports and manifests",
+      "sha256": "07cb4f1243845167e271861908c9fa1d2b238dcc5a219f9015f36223f0f93576",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/exclusions.csv"
+    },
+    {
+      "bytes": 13365091,
+      "category": "superseded_blocked_hourly_preflight",
+      "destination": "history/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/joined_features.csv",
+      "omission_reason": "Price-feature dataset or price-review table; exclude price data from this bundle",
+      "sha256": "f646b12348d57ada76c66bcc5af7f5b17b84bfb46dffba963a4157b6c37e0871",
+      "source": "docs/models/xmr_hourly_incident_augmented_v1_superseded_original_source_preflight/joined_features.csv"
+    }
+  ],
+  "operation": "verified copies; original files preserved",
+  "original_repository_root": "/Users/c/Documents/Signal",
+  "price_data_included": false,
+  "price_feature_datasets_included": false,
+  "standalone_reproduction_package": false,
+  "total_copied_bytes": 19961884
+}

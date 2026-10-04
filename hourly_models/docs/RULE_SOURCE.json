@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.gqhacks.com/tracks/systematic-trading",
+  "public_module_url": "https://www.gqhacks.com/assets/SystematicTrackPage-yd3pcgZ5.js",
+  "retrieved_at_utc": "2026-10-04T00:57:31.161545+00:00",
+  "public_module_sha256": "779b57bcf6b1bbb0ff7a82b1c052fd1166722f8a1a62ebff8e4a3ae49900e190",
+  "holdout_rule_excerpt": "the most recent 20% of your history or the most recent 2 years, whichever is shorter",
+  "interpretation": "Retain calendar holdout starting 2024-10-20. Nested inner validation and outer testing occur only inside earlier development data. No reserved scores or claim of complete competition compliance."
+}

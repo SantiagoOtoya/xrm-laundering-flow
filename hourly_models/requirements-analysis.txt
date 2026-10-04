@@ -1,0 +1,2 @@
+# Version used for the recorded three-day measurement and exact-byte replay.
+numpy==2.3.5
