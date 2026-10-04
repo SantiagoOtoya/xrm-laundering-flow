@@ -60,7 +60,7 @@ The model is additive in log-odds: eight coefficients plus an intercept, with no
 - The 24-hour window, the $5M threshold and the max-loss rule are fixed design choices and are not tuned.
 
 ### Data
-- Kraken spot hourly bars for XMR/USD and BTC/USD (Kraken OHLCVT archive), joined by UTC hour into one observation, not stacked.
+- Kraken spot hourly bars for XMR/USD and BTC/USD (Kraken OHLCVT archive), joined by UTC hour into one observation, not stacked. *(XMR/USD source: see Amendment 1.)*
 - Snapshot: 2017-01-02 00:00 UTC to 2026-10-03 00:00 UTC (exclusive), 85,464 calendar hours.
 - Incident catalog: 588 incident groups over $1M, compiled from DefiLlama hacks, SlowMist Hacked, rekt.news and linked primary sources.
 - No forward filling. Every return endpoint needs a finite positive price, and the 24 volatility returns need 25 consecutive valid XMR prices.
@@ -153,3 +153,48 @@ The planned search is 3 hurdles × 3 λ values, plus 4 model comparisons, inside
 - Nested vs non-nested validation: https://scikit-learn.org/stable/auto_examples/model_selection/plot_nested_cross_validation_iris.html
 - Probability calibration: https://scikit-learn.org/stable/modules/calibration.html
 - López de Prado (2018), *Advances in Financial Machine Learning*: purged cross-validation.
+
+## Amendment 1 (2026-10-04 UTC): price source, incident timing, decision rule
+
+**Reason.** Two parts of the specification could not be run as written. (1) The Data section names Kraken as the only XMR/USD source, but Kraken XMR/USD trades sparsely; the data build and both training scripts use a combined Kraken/Binance hourly close. (2) The incident catalog has day-level dates only, and `detection_available_at_utc` and `loss_known_at_detection_usd` are empty in all 588 rows, so features 6–8 and the test could not be computed. This amendment records the price rule as implemented, fixes the incident rules, and resolves Open items 1–4. It does not change the target definition, features 1–5, costs, hurdles, paper policy, split or out-of-sample rule.
+
+### Price source
+- XMR features and targets use `close_usd` from `data/analysis/xmr_usd_btc_combined_1h.csv`.
+- Per minute: use the Kraken XMR/USD close when that minute has a Kraken trade. Otherwise use `Binance XMR/BTC close × Kraken BTC/USD close`, only when both have a trade in the **same UTC minute**.
+- Hourly close: the last minute in the hour with a price from either source. Binance can therefore set the hourly close even when Kraken traded earlier in that hour.
+- Binance zero-trade candles and timing-irregular (quarantined) rows are never used. No price or BTC rate is carried into another minute or hour, so the no-forward-filling rule still holds.
+- `close_age_seconds` is the end of the hour minus the selected minute's start. The 300-second staleness rule applies to it unchanged.
+- Binance XMR/BTC exists only from 2017-11-10 06:12 UTC to 2024-02-20 02:59 UTC, after which Binance delisted XMR. Outside that window the series is Kraken only.
+- BTC features use Kraken BTC/USD only (`data/analysis/btc_usd_1h.csv`).
+- Effect, reported in the note: fresh XMR/USD hours go from 83,919 (Kraken only) to 84,399, and empty hours from 1,545 to 1,065 (977 of them in 2017, before Binance coverage). 35,371 hourly closes use the Binance conversion and are labelled (`close_uses_usd_proxy`). The selected source changes between adjacent hours 20,843 times, which can add apparent returns. 134 hours are flagged `needs_price_review`. Across 1,006,922 aligned minutes, the median absolute difference between the venues is 0.10% (95th percentile 0.52%).
+
+### Incident timing and qualification
+- **Report date:** `located_report_date` if present, otherwise the latest date in `source_dates`. `incident_date` is never used.
+- **Availability time:** `a_i` = 00:00 UTC on the day after the report date. A report made at any time on day D is first usable at D+1 00:00, so there is no within-day lookahead. Up to 24 hours of the first-day reaction is lost; this reduces power, not validity.
+- **Qualification:** `reported_loss_usd` > 5,000,000, from the catalog.
+- **Coverage:** the catalog is treated as complete for incidents above $5M from 2017-01-02 to 2026-10-03, so hours with no qualifying incident have `incident_present_24h` = 0 throughout.
+- **Unresolved amounts:** an hour `t` is excluded, and logged, when an incident with a blank or non-numeric `reported_loss_usd` has `a_i` in `(t − 24h, t]`. With the current catalog this excludes no hours, because every row has an amount.
+
+### Primary and secondary models
+- **Primary test: presence model (features 1–6) vs market baseline (features 1–5).** The paper-trading policy and its economic results use the presence model.
+- **Secondary, labelled "contains lookahead": full model (features 1–8).** Feature 7 uses final catalog amounts, which were not necessarily known at `t`. Its results are reported but never used for the decision or the policy.
+
+### Decision rule
+- Statistic: the mean, over all pooled outer-test rows, of (market-baseline per-row log loss − presence-model per-row log loss). Both models use identical rows, the frozen hurdle and the same folds.
+- Inference: circular block bootstrap over contiguous hours, **block length 168 hours**, 10,000 resamples, seed 20261004. One-sided p = share of resamples whose mean difference is ≤ 0.
+- **The hypothesis is supported if p < 0.05.** This is a single test, so no multiple-testing correction applies.
+- The 168-hour block covers the 120-hour label overlap and the 168-hour lookback of feature 2.
+
+### Limitations recorded before scoring
+- Source dates mostly equal the hack date: 271 of the 302 qualifying incidents have an earliest source date on the hack date. An incident disclosed publicly days after it happened would therefore be timed too early, which is lookahead.
+- Qualification above $5M uses retrospective amounts (583 of 588 rows have `loss_basis` = retrospective reported amount), so which incidents count is itself partly chosen with hindsight. This affects the presence model as well as the full model.
+- Catalog coverage may be incomplete, especially in 2017–2018.
+- Only 41 qualifying incidents fall in period A, where the hurdle is selected.
+
+### Disclosure
+- This amendment was written after the outer-test scores of the price-only market baseline (features 1–5) had been inspected. Pooled over the three outer tests: log loss 0.637741, Brier 0.222787, AUC 0.543802. No setting in this specification was changed after that inspection.
+- No outer-test scores had been viewed for the presence model (features 1–6) or the full model (features 1–8) when this amendment was written.
+- The reserved out-of-sample period has not been scored.
+
+### Source
+Binance public spot klines, XMRBTC 1-minute monthly files 2017-11 to 2024-02 (76 files), https://data.binance.vision/?prefix=data/spot/monthly/klines/XMRBTC/1m/, each checked against Binance's published checksums.
